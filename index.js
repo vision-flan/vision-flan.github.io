@@ -36,7 +36,7 @@ readTextFile("./data.json", function(text){
     console.log(dc);
     document.getElementById("content-block").appendChild(dc);
 
-    
+    document.getElementsByClassName("data_loading")[0].style = "display:none;"
 });
 
 

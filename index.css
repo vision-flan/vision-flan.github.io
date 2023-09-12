@@ -32,7 +32,11 @@ body {
     height: 500px;
 }
 
-
+.data_loading {
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+}
 
 
 /* ----- slideshow ----- */
