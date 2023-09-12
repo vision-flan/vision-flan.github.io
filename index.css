@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: darkred;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70px;
+    min-width: 1400px;
+}
+
+.navbarmenu {
+    margin-left: 40px;
+    margin-right: 0px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.visionFlan {
+    width: fit-content;
+    display: grid;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.imageTest {
+    height: 500px;
+}
+
+
+
+
+/* ----- slideshow ----- */
+.content-block {
+    width: 100%;
+    /* background-color: red; */
+    /* margin-left: 20%; */
+    background-color: #dddddd;
+    max-width: 80%;
+    min-width: 1800px;
+    margin: auto;
+}
+
+.slideshow {
+    grid-template-columns: auto auto auto auto auto;
+    display: grid;
+    height: 750px;
+    
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.537);
+  width: 400px;
+  height: 700px;
+  margin: auto;
+  padding:20px;
+  border-radius: 15px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  /* color: #f2f2f2; */
+  color: black;
+  font-size: 35px;
+  /* padding: 8px 12px; */
+  /* position: absolute; */
+  /* bottom: 8px; */
+  /* width: 100%; */
+  text-align: center;
+  font-style: italic;
+}
+
+.author {
+    text-align: center;
+    /* margin-right: 80px; */
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.dataset_description {
+    width: 50%;
+}
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

@@ -1,0 +1,36 @@
+{
+    "data": [
+        [
+            {"output": "The provided image contains a red fox",
+                "img_path":"./imgs/wp1880337.jpg",
+                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"},
+            {"output":"The object cannot be used for shipping",
+                "img_path":"./imgs/utahValley.jpeg",
+                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."}
+        ],
+        [
+            {"output":"The object cannot be used for shipping",
+                "img_path":"./imgs/utahValley.jpeg",
+                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."},
+            {"output": "The provided image contains a red fox",
+                "img_path":"./imgs/wp1880337.jpg",
+                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"}
+        ],
+        [
+            {"output": "The provided image contains a red fox",
+                "img_path":"./imgs/wp1880337.jpg",
+                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"},
+            {"output":"The object cannot be used for shipping",
+                "img_path":"./imgs/utahValley.jpeg",
+                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."}
+        ],
+        [
+            {"output":"The object cannot be used for shipping",
+                "img_path":"./imgs/utahValley.jpeg",
+                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."},
+            {"output": "The provided image contains a red fox",
+                "img_path":"./imgs/wp1880337.jpg",
+                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"}
+        ]
+    ]
+}
