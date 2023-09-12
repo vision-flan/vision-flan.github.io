@@ -1,3 +1,5 @@
+changeSlideInterval = setInterval(()=>plusSlides(1), 5000);
+
 readTextFile("./data.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
@@ -15,7 +17,13 @@ readTextFile("./data.json", function(text){
             console.log(y);
             var grandchild = document.createElement('div');
             grandchild.className = "mySlides fade";
-            grandchild.style = "display:none;";
+            if (y == data.data[x].length-1) {
+                grandchild.style = "display:block;";
+            }
+            else {
+                grandchild.style = "display:none;";
+            }
+            
             
             grandchild.innerHTML = "<br><img src=\"" + data.data[x][y].img_path + "\" width=\"250\" height=\"250\"><br><h3>Output:</h3><div class=\"output\">" + data.data[x][y].output + "</div><br><h3>Instruction:</h3><div class=\"instruction\">" + data.data[x][y].instruction + "</div>";
             child.appendChild(grandchild);
@@ -27,7 +35,10 @@ readTextFile("./data.json", function(text){
     //div.innerHTML = "<img src=\"" + data.data["0"]["0"].img_path + "\" width=\"350\" height=\"350\">"
     console.log(dc);
     document.getElementById("content-block").appendChild(dc);
+
+    
 });
+
 
 
 function show_tab(id) {
@@ -67,14 +78,13 @@ function showSlides(n) {
   console.log(slideIndex % slideNumber);
   slides[slideIndex % slideNumber].style.display = "block";
   slides[(slideIndex % slideNumber)+slideNumber].style.display = "block";
-
   slides[(slideIndex % slideNumber)+(2*slideNumber)].style.display = "block";
   slides[(slideIndex % slideNumber)+(3*slideNumber)].style.display = "block";
   slides[(slideIndex % slideNumber)+(4*slideNumber)].style.display = "block";
   // dots[slideIndex-1].className += " active";
 }
 
-changeSlideInterval = setInterval(()=>plusSlides(1), 5000);
+
 
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
