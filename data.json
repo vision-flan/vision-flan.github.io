@@ -1,36 +1,427 @@
 {
     "data": [
         [
-            {"output": "The provided image contains a red fox",
-                "img_path":"./imgs/wp1880337.jpg",
-                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"},
-            {"output":"The object cannot be used for shipping",
-                "img_path":"./imgs/utahValley.jpeg",
-                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."}
+            {
+                "instance_id": "recipe-qa+visual_coherence+3584",
+                "img_path": "./imgs/recipe-qa+visual_coherence_974_recipe-qa+visual_coherence+3584.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "The least similar image is B",
+                "instruction": "The given image contains 4 image choices numbered A through D. Select the least similar image among the gorup",
+                "output": "The least similar image is B",
+                "dataset_name": "recipe-qa",
+                "task_name": "recipe-qa+visual_coherence"
+            },
+            {
+                "instance_id": "infographicvqa+question_answer+14123",
+                "img_path": "./imgs/infographicvqa+question_answer_4_11269.jpeg",
+                "options": null,
+                "input_text": "What is the total number of employees in St Charles county?",
+                "raw_output": "138,032",
+                "instruction": "Here is an infographic representing some data in a visual form. Please answer my question using the data in the image\n\nWhat is the total number of employees in St Charles county?",
+                "output": "138,032",
+                "dataset_name": "infographicvqa",
+                "task_name": "infographicvqa+question_answer"
+            },
+            {
+                "instance_id": "semart+image_timeframe+5705",
+                "img_path": "./imgs/semart+image_timeframe_5_06383-01death.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "Roughly within the time 1501-1550",
+                "instruction": "Here is a picture of some fine art created in the past, I would like to know roughly what period in time it could have been made in",
+                "output": "Roughly within the time 1501-1550",
+                "dataset_name": "semart",
+                "task_name": "semart+image_timeframe"
+            },
+            {
+                "instance_id": "textcaps+caption_generation+109073",
+                "img_path": "./imgs/textcaps+caption_generation_1_bc3143733b83dec3.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "Here is a caption for this image: 'A meter with broken meter in sharpie written on it.'",
+                "instruction": "Write a caption for the image. When you write the caption, also consider the text on the image and decide the best way to fit them into your caption.",
+                "output": "Here is a caption for this image: 'A meter with broken meter in sharpie written on it.'",
+                "dataset_name": "textcaps",
+                "task_name": "textcaps+caption_generation"
+            },
+            {
+                "instance_id": "iconqa+fill_in_blank+4617",
+                "img_path": "./imgs/iconqa+fill_in_blank_1_image.png",
+                "options": null,
+                "input_text": "How many shapes are purple?",
+                "raw_output": "5",
+                "instruction": "Hey, here is a picture and a question I had about it, can you help me complete my answer?\n\nHow many shapes are purple?",
+                "output": "5",
+                "dataset_name": "iconqa",
+                "task_name": "iconqa+fill_in_blank"
+            },
+            {
+                "instance_id": "STANFORD_DOGS+dog_classification+n02100735_8736.jpg",
+                "img_path": "./imgs/STANFORD_DOGS+dog_classification_15_n02100735_8736.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "The dog breed is an English setter",
+                "instruction": "Identify the breed of the dog in the image.",
+                "output": "The dog breed is an English setter",
+                "dataset_name": "STANFORD_DOGS",
+                "task_name": "STANFORD_DOGS+dog_classification"
+            },
+            {
+                "instance_id": "WIT+detailed_description+Hplc.JPG",
+                "img_path": "./imgs/WIT+detailed_description_188_Hplc.JPG",
+                "options": null,
+                "input_text": null,
+                "raw_output": "High-performance liquid chromatography is a technique in analytical chemistry used to separate, identify, and quantify each component in a mixture. It relies on pumps to pass a pressurized liquid solvent containing the sample mixture through a column filled with a solid adsorbent material. Each component in the sample interacts slightly differently with the adsorbent material, causing different flow rates for the different components and leading to the separation of the components as they flow out of the column.",
+                "instruction": "Give me some background knowledge about this image.",
+                "output": "High-performance liquid chromatography is a technique in analytical chemistry used to separate, identify, and quantify each component in a mixture. It relies on pumps to pass a pressurized liquid solvent containing the sample mixture through a column filled with a solid adsorbent material. Each component in the sample interacts slightly differently with the adsorbent material, causing different flow rates for the different components and leading to the separation of the components as they flow out of the column.",
+                "dataset_name": "WIT",
+                "task_name": "WIT+detailed_description"
+            },
+            {
+                "instance_id": "WIKIART+art_classification+vincent-van-gogh_irises-1889.jpg",
+                "img_path": "./imgs/WIKIART+art_classification_4_vincent-van-gogh_irises-1889.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "This artwork was created by Vincent van Gogh. It falls under the genre of landscape and showcases Post Impressionism style of painting.",
+                "instruction": "For the given painting, give me the artist name. Also provide the genre and style, if possible.",
+                "output": "This artwork was created by Vincent van Gogh. It falls under the genre of landscape and showcases Post Impressionism style of painting.",
+                "dataset_name": "WIKIART",
+                "task_name": "WIKIART+art_classification"
+            },
+            {
+                "instance_id": "VIQUAE+question_answer+512px-Penelope_Painter_ARV_1300_1_Odysseus_killing_the_suitors_(05).jpg+900441",
+                "img_path": "./imgs/VIQUAE+question_answer_27_512px-Penelope_Painter_ARV_1300_1_Odysseus_killing_the_suitors_(05).jpg",
+                "options": null,
+                "input_text": "Who was the sorceress who turned him into swine?",
+                "raw_output": "Circean poison",
+                "instruction": "With the help of this image, can you answer the question given in the input text?\n\nWho was the sorceress who turned him into swine?",
+                "output": "Circean poison",
+                "dataset_name": "VIQUAE",
+                "task_name": "VIQUAE+question_answer"
+            }
+
         ],
         [
-            {"output":"The object cannot be used for shipping",
-                "img_path":"./imgs/utahValley.jpeg",
-                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."},
-            {"output": "The provided image contains a red fox",
-                "img_path":"./imgs/wp1880337.jpg",
-                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"}
+            {
+                "instance_id": "FGVC_Aircraft+Aircraft_Classification+0069770",
+                "img_path": "./imgs/FGVC_Aircraft+Aircraft_Classification_4_0069770.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "de Havilland; Dash 8; DHC-8-100",
+                "instruction": "Your objective is to analyze an aircraft image and provide the manufacturer, family, and variant of the aircraft in the specified order: manufacturer; family; variant (e.g., Airbus; A300; A300B4).\nManufacturer: The manufacturer refers to the company that designs, builds, and assembles the aircraft, possessing the expertise and experience in the aviation industry necessary for production and delivery.\nFamily: A family represents a collection of aircraft models produced by the same manufacturer, sharing common characteristics, design principles, or technological platforms.\nVariant: A variant indicates a variation of a particular aircraft model, often incorporating specific modifications, improvements, or customizations compared to the base model.",
+                "output": "de Havilland; Dash 8; DHC-8-100",
+                "dataset_name": "FGVC_Aircraft",
+                "task_name": "FGVC_Aircraft+Aircraft_Classification"
+            },
+            {
+                "instance_id": "DeepFashion_highres_Attribute_and_Category+Cloth_Classification+img_highres_subset_Tribal_Pattern_Cardigan-img_00000039.jpg",
+                "img_path": "./imgs/DeepFashion_highres_Attribute_and_Category+Cloth_Classification_5_img_00000039.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "The cloth is a Tribal Pattern Cardigan.",
+                "instruction": "Can you write a very short description of the cloth?",
+                "output": "The cloth is a Tribal Pattern Cardigan.",
+                "dataset_name": "DeepFashion_highres_Attribute_and_Category",
+                "task_name": "DeepFashion_highres_Attribute_and_Category+Cloth_Classification"
+            },
+            {
+                "instance_id": "Clevr+Question_Answering+CLEVR_train_017782.png",
+                "img_path": "./imgs/Clevr+Question_Answering_3_CLEVR_train_017782.png",
+                "options": null,
+                "input_text": "The metallic cylinder has what color?",
+                "raw_output": "green",
+                "instruction": "The input for this task is an image of 3D-rendered objects and a question that fall into different categories. The questions fall into five classes of tasks: Exist, Count, Compare Integer, Query Attribute, and Compare Attribute. The task here is to answer the question.\n\nThe metallic cylinder has what color?",
+                "output": "green",
+                "dataset_name": "Clevr",
+                "task_name": "Clevr+Question_Answering"
+            },
+            {
+                "instance_id": "CUB-200-2011+Bird_Classification+American_Three_Toed_Woodpecker_0050_796186.jpg",
+                "img_path": "./imgs/CUB-200-2011+Bird_Classification_3_American_Three_Toed_Woodpecker_0050_796186.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "American Three toed Woodpecker",
+                "instruction": "Your objective is to identify the species of the bird depicted in the provided image.",
+                "output": "American Three toed Woodpecker",
+                "dataset_name": "CUB-200-2011",
+                "task_name": "CUB-200-2011+Bird_Classification"
+            },
+            {
+                "instance_id": "places365+Image_Classification+pharmacy_00000103.jpg",
+                "img_path": "./imgs/places365+Image_Classification_14_00000103.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "pharmacy",
+                "instruction": "Your task involves analyzing an image of a scene and identifying the appropriate name for that particular scene. Examples of scene names could include airfield, airplane cabin, airport terminal, alcove, alley, amphitheater, amusement arcade, etc. ",
+                "output": "pharmacy",
+                "dataset_name": "places365",
+                "task_name": "places365+Image_Classification"
+            },
+            {
+                "instance_id": "INATURALIST+class_classification+17ed9789-cf98-4ef6-be70-1258d1af6eae.jpg",
+                "img_path": "./imgs/INATURALIST+class_classification_969_17ed9789-cf98-4ef6-be70-1258d1af6eae.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "The class of the organism in the image is Magnoliopsida.",
+                "instruction": "Taxonomic category is a rank or group of organisms developed on the basis of their fundamental characteristics, similarities and dissimilarities. A class is a taxonomic rank above the order and below the phylum. Identify the class of the organism in the image.",
+                "output": "The class of the organism in the image is Magnoliopsida.",
+                "dataset_name": "INATURALIST",
+                "task_name": "INATURALIST+class_classification"
+            },
+            {
+                "instance_id": "LOC_NARRATIVES+coco_images_caption+000000073996",
+                "img_path": "./imgs/LOC_NARRATIVES+coco_images_caption_47_000000073996.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "In the image there are two person standing on snow with skies on their feet, the right side person wore yellow jacket with brown pants and the left side person wore blue jacket with yellow pants and yellow helmet over his head, in the background the land is covered with snow and above its sky with clouds.",
+                "instruction": "I want to know more about this image. Can you please describe it?",
+                "output": "In the image there are two person standing on snow with skies on their feet, the right side person wore yellow jacket with brown pants and the left side person wore blue jacket with yellow pants and yellow helmet over his head, in the background the land is covered with snow and above its sky with clouds.",
+                "dataset_name": "LOC_NARRATIVES",
+                "task_name": "LOC_NARRATIVES+coco_images_caption"
+            },
+            {
+                "instance_id": "RAVEN+next_pattern+image_distribute_four_1427.png",
+                "img_path": "./imgs/RAVEN+next_pattern_12_image_distribute_four_1427.png",
+                "options": null,
+                "input_text": null,
+                "raw_output": "Option 6",
+                "instruction": "Each image has 8 images labeled as Image 1 to Image 8. These 8 images follow a specific pattern. Detect the pattern and select the next image in the sequence from the 8 available options.",
+                "output": "Option 6",
+                "dataset_name": "RAVEN",
+                "task_name": "RAVEN+next_pattern"
+            },
+            {
+                "instance_id": "REDCAPS+reddit_caption_2+o5g592p69kb51.jpg",
+                "img_path": "./imgs/REDCAPS+reddit_caption_2_12_o5g592p69kb51.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "it's my dog's 4th adoption day today and here she is eating her ice cream cone so daintily.",
+                "instruction": "Imagine I am posting this image on a casual community based social media platform. What could be a possible caption for this image? I could describe the image, write something fun, give context or describe my emotions about the image.",
+                "output": "it's my dog's 4th adoption day today and here she is eating her ice cream cone so daintily.",
+                "dataset_name": "REDCAPS",
+                "task_name": "REDCAPS+reddit_caption_2"
+            }
         ],
         [
-            {"output": "The provided image contains a red fox",
-                "img_path":"./imgs/wp1880337.jpg",
-                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"},
-            {"output":"The object cannot be used for shipping",
-                "img_path":"./imgs/utahValley.jpeg",
-                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."}
+            {
+                "instance_id": "A-OKVQA+answer_rationales_matching+000000137576",
+                "img_path": "./imgs/A-OKVQA+answer_rationales_matching_17_000000137576.jpg",
+                "options": null,
+                "input_text": "The question is: Why do the cattle have their heads down to the ground?",
+                "raw_output": "The answer is to eat because The cows are awake. there is food, not water, on the ground.",
+                "human_preferred_output": "The answer is to eat because The cows are awake. there is food, not water, on the ground.",
+                "instruction": "Answer the question and provide an explanation.\n\nThe question is: Why do the cattle have their heads down to the ground?",
+                "output": "The answer is to eat because The cows are awake. there is food, not water, on the ground.",
+                "dataset_name": "A-OKVQA",
+                "task_name": "A-OKVQA+answer_rationales_matching"
+            },
+            {
+                "instance_id": "AI2D+visual_question_answering+2462.png-3",
+                "img_path": "./imgs/AI2D+visual_question_answering_7_2462.png",
+                "options": null,
+                "input_text": "The question is: In the diagram, what is the result of a larva?\nThe choices are: (A) A pupa; (B) An egg; (C) An adult; (D) Many larva.",
+                "raw_output": "(A)",
+                "human_preferred_output": "The answer is: (A).",
+                "instruction": "Answer the multiple choice question based on the image. The answer should be one of the choices.\n\nThe question is: In the diagram, what is the result of a larva?\nThe choices are: (A) A pupa; (B) An egg; (C) An adult; (D) Many larva.",
+                "output": "The answer is: (A).",
+                "dataset_name": "AI2D",
+                "task_name": "AI2D+visual_question_answering"
+            },
+            {
+                "instance_id": "CoVA+webpage_recognition+2282",
+                "img_path": "./imgs/CoVA+webpage_recognition_4_2282.png",
+                "options": null,
+                "input_text": null,
+                "raw_output": "www.ebay.com",
+                "human_preferred_output": "The name of the website is www.ebay.com.",
+                "instruction": "What is the name of the website based on the given image?",
+                "output": "The name of the website is www.ebay.com.",
+                "dataset_name": "CoVA",
+                "task_name": "CoVA+webpage_recognition"
+            },
+            {
+                "instance_id": "CrisisMMD+humanitarian_categories_classification+901792427916361728_0",
+                "img_path": "./imgs/CrisisMMD+humanitarian_categories_classification_4_901792427916361728_0.jpg",
+                "options": null,
+                "input_text": "The tweet text is: Housing industry gears up to face Hurricane Harvey https://t.co/9ABXBScUyA https://t.co/5wZWrjtfwu.",
+                "raw_output": "The tweet text is other relevant information and the image is infrastructure and utility damage.",
+                "human_preferred_output": "The tweet text is other relevant information and the image is infrastructure and utility damage.",
+                "instruction": "Determine the humanitarian categories of the tweet text and the image. The categoies are: 'affected individuals', 'infrastructure and utility damage', 'injured or dead people', 'missing or found people', 'not humanitarian', 'other relevant information', 'rescue volunteering or donation effort', 'vehicle damage'. Output the categories of the tweet text and the image in the format: 'The tweet text is <category> and the image is <category>.'\n\nThe tweet text is: Housing industry gears up to face Hurricane Harvey https://t.co/9ABXBScUyA https://t.co/5wZWrjtfwu.",
+                "output": "The tweet text is other relevant information and the image is infrastructure and utility damage.",
+                "dataset_name": "CrisisMMD",
+                "task_name": "CrisisMMD+humanitarian_categories_classification"
+            },
+            {
+                "instance_id": "FoodLogoDet-1500+food_logo_recognition+008582",
+                "img_path": "./imgs/FoodLogoDet-1500+food_logo_recognition_1_008582.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "Hortex",
+                "human_preferred_output": "The logo in the image is Hortex.",
+                "instruction": "What is the logo in the image?",
+                "output": "The logo in the image is Hortex.",
+                "dataset_name": "FoodLogoDet-1500",
+                "task_name": "FoodLogoDet-1500+food_logo_recognition"
+            },
+            {
+                "instance_id": "CONCADIA+image_caption_context_1+15624.jpg",
+                "img_path": "./imgs/CONCADIA+image_caption_context_1_12_15624.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "18th-century painting of the Yongzheng Emperor in costume.  The nature of his succession remained a subject of controversy and overshadowed the Yongzheng Emperor's reign. As many of his surviving brothers did not see his succession as legitimate, the Yongzheng Emperor became increasingly paranoid that they would plot to overthrow him. The earlier players in the battle for succession, Yinzhi, the eldest, and Yinreng, the former crown prince, continued to live under house arrest. Yinreng died two years after the Yongzheng Emperor's reign began.",
+                "instruction": "Can you give me a caption and some background knowledge about this image?",
+                "output": "18th-century painting of the Yongzheng Emperor in costume.  The nature of his succession remained a subject of controversy and overshadowed the Yongzheng Emperor's reign. As many of his surviving brothers did not see his succession as legitimate, the Yongzheng Emperor became increasingly paranoid that they would plot to overthrow him. The earlier players in the battle for succession, Yinzhi, the eldest, and Yinreng, the former crown prince, continued to live under house arrest. Yinreng died two years after the Yongzheng Emperor's reign began.",
+                "dataset_name": "CONCADIA",
+                "task_name": "CONCADIA+image_caption_context_1"
+            },
+            {
+                "instance_id": "DOMAIN_NET+quickdraw_image_classification+5532304636116992",
+                "img_path": "./imgs/DOMAIN_NET+quickdraw_image_classification_2_5532304636116992.png",
+                "options": null,
+                "input_text": null,
+                "raw_output": "headphones",
+                "instruction": "In this task, the input will be a rough sketch of something. Identify the main object depicted in the rough sketch.",
+                "output": "headphones",
+                "dataset_name": "DOMAIN_NET",
+                "task_name": "DOMAIN_NET+quickdraw_image_classification"
+            },
+            {
+                "instance_id": "DVQA+charts_question_answer_1+bar_train_00031193.png",
+                "img_path": "./imgs/DVQA+charts_question_answer_1_2_bar_train_00031193.png",
+                "options": null,
+                "input_text": "Which group has the smallest summed value?",
+                "raw_output": "ideal",
+                "instruction": "I am trying to analyse this graph. Can you answer the question given in the input text?\n\nWhich group has the smallest summed value?",
+                "output": "ideal",
+                "dataset_name": "DVQA",
+                "task_name": "DVQA+charts_question_answer_1"
+            },
+            {
+                "instance_id": "GEOMETRY3K+geometry_question_answer+386",
+                "img_path": "./imgs/GEOMETRY3K+geometry_question_answer_4_img_diagram.png",
+                "options": [
+                    "63",
+                    "7",
+                    "21\\sqrt{3}",
+                    "7\\sqrt{3}"
+                ],
+                "input_text": "If x = 7\\sqrt{3}, find y.",
+                "raw_output": "21\\sqrt{3}",
+                "instruction": "I will give you a figure with some geometrical information. Analyze the image and data in the input text and answer the question.\n\nIf x = 7\\sqrt{3}, find y.\nOptions: (a) 63 (b) 7 (c) 21\\sqrt{3} (d) 7\\sqrt{3}",
+                "output": "(c) 21\\sqrt{3}",
+                "dataset_name": "GEOMETRY3K",
+                "task_name": "GEOMETRY3K+geometry_question_answer"
+            }
+
         ],
         [
-            {"output":"The object cannot be used for shipping",
-                "img_path":"./imgs/utahValley.jpeg",
-                "instruction": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not."},
-            {"output": "The provided image contains a red fox",
-                "img_path":"./imgs/wp1880337.jpg",
-                "instruction": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects"}
+            {
+                "instance_id": "ImageNet-R+image_domain_classification+painting_20",
+                "img_path": "./imgs/ImageNet-R+image_domain_classification_4_painting_20.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "painting",
+                "instruction": "Your goal is to classify the image based on its domain, which can be 'videogame', 'painting', 'sketch', 'cartoon', 'art', 'toy', 'deviantart', 'graphic', 'sculpture', 'misc', 'embroidery', 'sticker', 'graffiti', 'origami', or 'tattoo'. Your final output should specify the identified domain of the image.",
+                "output": "painting",
+                "dataset_name": "ImageNet-R",
+                "task_name": "ImageNet-R+image_domain_classification"
+            },
+            {
+                "instance_id": "SCUT-CTW1500+text_detection+1181",
+                "img_path": "./imgs/SCUT-CTW1500+text_detection_2_1181.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA",
+                "human_preferred_output": "The texts are: CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA.",
+                "instruction": "Detect the text in the image.",
+                "output": "The texts are: CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA.",
+                "dataset_name": "SCUT-CTW1500",
+                "task_name": "SCUT-CTW1500+text_detection"
+            },
+            {
+                "instance_id": "Yoga-82+yoga_pose_recognition+3996955946_6bdcf63414_z",
+                "img_path": "./imgs/Yoga-82+yoga_pose_recognition_5_3996955946_6bdcf63414_z.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "Camel Pose or Ustrasana",
+                "human_preferred_output": "The yoga pose is Camel Pose or Ustrasana.",
+                "instruction": "What is the name of the yoga pose?",
+                "output": "The yoga pose is Camel Pose or Ustrasana.",
+                "dataset_name": "Yoga-82",
+                "task_name": "Yoga-82+yoga_pose_recognition"
+            },
+            {
+                "instance_id": "MemeCap+meme_captioning+zcbupg_1",
+                "img_path": "./imgs/MemeCap+meme_captioning_3_memes_zcbupg.png",
+                "input_text": "Title: Oh, guess it causes a nuclear meltdown",
+                "options": null,
+                "raw_output": "Though someone advises the meme poster not to touch anything that is new to her, eventually she tries to do that first.",
+                "instruction": "Generate a caption for the given meme.\n\nTitle: Oh, guess it causes a nuclear meltdown",
+                "output": "Though someone advises the meme poster not to touch anything that is new to her, eventually she tries to do that first.",
+                "dataset_name": "MemeCap",
+                "task_name": "MemeCap+meme_captioning"
+            },
+            {
+                "instance_id": "PlotQA+visual_question_answering+2387+S2",
+                "img_path": "./imgs/PlotQA+visual_question_answering_9_2387.png",
+                "input_text": "Where does the legend appear in the graph ?",
+                "options": null,
+                "raw_output": "bottom right",
+                "instruction": "You are provided with a chart image and a question related to the chart. Answer the question based on the information given in the chart.\n\nWhere does the legend appear in the graph ?",
+                "output": "bottom right",
+                "dataset_name": "PlotQA",
+                "task_name": "PlotQA+visual_question_answering"
+            },
+            {
+                "instance_id": "SentiCap+image_sentiment_captioning+COCO_val2014_000000327367.jpg_2",
+                "img_path": "./imgs/SentiCap+image_sentiment_captioning_1_COCO_val2014_000000327367.jpg",
+                "input_text": "Write a caption with a negative sentiment for the given image.",
+                "options": null,
+                "raw_output": "a white clock with red numbers on a damaged building",
+                "instruction": "You are provided with a picture, write a caption with a specific sentiment (positive or negative) related to the picture. Note that the sentiment in the caption should match the requested sentiment.\n\nWrite a caption with a negative sentiment for the given image.",
+                "output": "a white clock with red numbers on a damaged building",
+                "dataset_name": "SentiCap",
+                "task_name": "SentiCap+image_sentiment_captioning"
+            },
+            {
+                "instance_id": "spot-the-diff+image_diff_identification+984",
+                "img_path": "./imgs/spot-the-diff+image_diff_identification_1_984.png",
+                "input_text": null,
+                "options": null,
+                "raw_output": "the blue car is pulling in the parking to park",
+                "instruction": "You are provided with an image which contains two pictures side by side. Your task is to identify the differences between the two pictures. Separate the differences with a comma.",
+                "output": "the blue car is pulling in the parking to park",
+                "dataset_name": "spot-the-diff",
+                "task_name": "spot-the-diff+image_diff_identification"
+            },
+            {
+                "instance_id": "Winoground+image_captioning+289+image_1",
+                "img_path": "./imgs/Winoground+image_captioning_15_ex_289_img_1.png",
+                "input_text": null,
+                "options": [
+                    "the cross is above the circle",
+                    "the circle is above the cross"
+                ],
+                "raw_output": "the cross is above the circle",
+                "instruction": "In this task, you will be provided with an image and two captions. Your task is to identify which of the two captions correctly describes the image.\nOptions: (a) the cross is above the circle (b) the circle is above the cross",
+                "output": "(a) the cross is above the circle",
+                "dataset_name": "Winoground",
+                "task_name": "Winoground+image_captioning"
+            },
+            {
+                "instance_id": "CHART2TEXT+chart_caption+2806.png",
+                "img_path": "./imgs/CHART2TEXT+chart_caption_1_2806.png",
+                "options": null,
+                "input_text": null,
+                "raw_output": "This statistic depicts the net sales of General Mills worldwide from 2014 to 2019 . According to the report , the company 's global net sales amounted to approximately 16.86 billion U.S. dollars in 2018 .",
+                "instruction": "I will give you a chart. Analyze it and give me as many details as possible.",
+                "output": "This statistic depicts the net sales of General Mills worldwide from 2014 to 2019 . According to the report , the company 's global net sales amounted to approximately 16.86 billion U.S. dollars in 2018 .",
+                "dataset_name": "CHART2TEXT",
+                "task_name": "CHART2TEXT+chart_caption"
+            }
+            
+            
         ]
     ]
 }
