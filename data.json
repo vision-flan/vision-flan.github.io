@@ -193,7 +193,7 @@
             },
             {
                 "instance_id": "REDCAPS+reddit_caption_2+YdNDoNz.jpg",
-                "input_image_path": "./imgs/REDCAPS+reddit_caption_2/images/REDCAPS+reddit_caption_2_25_YdNDoNz.jpg",
+                "input_image_path": "./imgs/REDCAPS+reddit_caption_2_25_YdNDoNz.jpg",
                 "options": null,
                 "input_text": null,
                 "raw_output": "somebody opened their eyes!",
