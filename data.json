@@ -420,8 +420,6 @@
                 "dataset_name": "CHART2TEXT",
                 "task_name": "CHART2TEXT+chart_caption"
             }
-            
-            
         ]
     ]
 }
