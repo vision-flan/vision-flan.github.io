@@ -74,7 +74,7 @@
                 "input_text": null,
                 "raw_output": "High-performance liquid chromatography is a technique in analytical chemistry used to separate, identify, and quantify each component in a mixture. It relies on pumps to pass a pressurized liquid solvent containing the sample mixture through a column filled with a solid adsorbent material. Each component in the sample interacts slightly differently with the adsorbent material, causing different flow rates for the different components and leading to the separation of the components as they flow out of the column.",
                 "instruction": "Give me some background knowledge about this image.",
-                "output": "High-performance liquid chromatography is a technique in analytical chemistry used to separate, identify, and quantify each component in a mixture. It relies on pumps to pass a pressurized liquid solvent containing the sample mixture through a column filled with a solid adsorbent material. Each component in the sample interacts slightly differently with the adsorbent material, causing different flow rates for the different components and leading to the separation of the components as they flow out of the column.",
+                "output": "High-performance liquid chromatography is a technique in analytical chemistry used to separate, identify, and quantify each component in a mixture. It relies on pumps to pass a pressurized liquid solvent containing the sample mixture through a column filled with a solid adsorbent material. Each component in the sample interacts slightly differently with the adsorbent material ...",
                 "dataset_name": "WIT",
                 "task_name": "WIT+detailed_description"
             },
@@ -104,15 +104,15 @@
         ],
         [
             {
-                "instance_id": "FGVC_Aircraft+Aircraft_Classification+0069770",
-                "img_path": "./imgs/FGVC_Aircraft+Aircraft_Classification_4_0069770.jpg",
+                "instance_id": "DOCVQA+question_answer+jhnm0081_2.png",
+                "input_image_path": "./imgs/DOCVQA+question_answer_97_jhnm0081_2.png",
                 "options": null,
-                "input_text": null,
-                "raw_output": "de Havilland; Dash 8; DHC-8-100",
-                "instruction": "Your objective is to analyze an aircraft image and provide the manufacturer, family, and variant of the aircraft in the specified order: manufacturer; family; variant (e.g., Airbus; A300; A300B4).\nManufacturer: The manufacturer refers to the company that designs, builds, and assembles the aircraft, possessing the expertise and experience in the aviation industry necessary for production and delivery.\nFamily: A family represents a collection of aircraft models produced by the same manufacturer, sharing common characteristics, design principles, or technological platforms.\nVariant: A variant indicates a variation of a particular aircraft model, often incorporating specific modifications, improvements, or customizations compared to the base model.",
-                "output": "de Havilland; Dash 8; DHC-8-100",
-                "dataset_name": "FGVC_Aircraft",
-                "task_name": "FGVC_Aircraft+Aircraft_Classification"
+                "input_text": "What is the SURGEON GENERAL'S warning?",
+                "raw_output": "Cigarette Smoke Contains Carbon Monoxide, Cigarette Smoke Contains Carbon Monoxide.",
+                "instruction": "Check the image and answer the question given in the input text.\n\nWhat is the SURGEON GENERAL'S warning?",
+                "output": "Cigarette Smoke Contains Carbon Monoxide, Cigarette Smoke Contains Carbon Monoxide.",
+                "dataset_name": "DOCVQA",
+                "task_name": "DOCVQA+question_answer"
             },
             {
                 "instance_id": "DeepFashion_highres_Attribute_and_Category+Cloth_Classification+img_highres_subset_Tribal_Pattern_Cardigan-img_00000039.jpg",
@@ -192,13 +192,13 @@
                 "task_name": "RAVEN+next_pattern"
             },
             {
-                "instance_id": "REDCAPS+reddit_caption_2+o5g592p69kb51.jpg",
-                "img_path": "./imgs/REDCAPS+reddit_caption_2_12_o5g592p69kb51.jpg",
+                "instance_id": "REDCAPS+reddit_caption_2+YdNDoNz.jpg",
+                "input_image_path": "./imgs/REDCAPS+reddit_caption_2/images/REDCAPS+reddit_caption_2_25_YdNDoNz.jpg",
                 "options": null,
                 "input_text": null,
-                "raw_output": "it's my dog's 4th adoption day today and here she is eating her ice cream cone so daintily.",
+                "raw_output": "somebody opened their eyes!",
                 "instruction": "Imagine I am posting this image on a casual community based social media platform. What could be a possible caption for this image? I could describe the image, write something fun, give context or describe my emotions about the image.",
-                "output": "it's my dog's 4th adoption day today and here she is eating her ice cream cone so daintily.",
+                "output": "somebody opened their eyes!",
                 "dataset_name": "REDCAPS",
                 "task_name": "REDCAPS+reddit_caption_2"
             }
@@ -247,7 +247,7 @@
                 "input_text": "The tweet text is: Housing industry gears up to face Hurricane Harvey https://t.co/9ABXBScUyA https://t.co/5wZWrjtfwu.",
                 "raw_output": "The tweet text is other relevant information and the image is infrastructure and utility damage.",
                 "human_preferred_output": "The tweet text is other relevant information and the image is infrastructure and utility damage.",
-                "instruction": "Determine the humanitarian categories of the tweet text and the image. The categoies are: 'affected individuals', 'infrastructure and utility damage', 'injured or dead people', 'missing or found people', 'not humanitarian', 'other relevant information', 'rescue volunteering or donation effort', 'vehicle damage'. Output the categories of the tweet text and the image in the format: 'The tweet text is <category> and the image is <category>.'\n\nThe tweet text is: Housing industry gears up to face Hurricane Harvey https://t.co/9ABXBScUyA https://t.co/5wZWrjtfwu.",
+                "instruction": "Determine the humanitarian categories of the tweet text and the image. The categoies are: 'affected individuals', 'infrastructure and utility damage', 'injured or dead people', 'missing or found people', 'not humanitarian', 'other relevant information', 'rescue volunteering or donation effort', 'vehicle damage'. The tweet text is: Housing industry gears up to face Hurricane Harvey https://t.co/9ABXBScUyA https://t.co/5wZWrjtfwu.",
                 "output": "The tweet text is other relevant information and the image is infrastructure and utility damage.",
                 "dataset_name": "CrisisMMD",
                 "task_name": "CrisisMMD+humanitarian_categories_classification"
@@ -265,15 +265,15 @@
                 "task_name": "FoodLogoDet-1500+food_logo_recognition"
             },
             {
-                "instance_id": "CONCADIA+image_caption_context_1+15624.jpg",
-                "img_path": "./imgs/CONCADIA+image_caption_context_1_12_15624.jpg",
+                "instance_id": "CONCADIA+image_caption_context_2+82731.jpg",
+                "input_image_path": "./imgs/CONCADIA+image_caption_context_2_911_82731.jpg",
                 "options": null,
                 "input_text": null,
-                "raw_output": "18th-century painting of the Yongzheng Emperor in costume.  The nature of his succession remained a subject of controversy and overshadowed the Yongzheng Emperor's reign. As many of his surviving brothers did not see his succession as legitimate, the Yongzheng Emperor became increasingly paranoid that they would plot to overthrow him. The earlier players in the battle for succession, Yinzhi, the eldest, and Yinreng, the former crown prince, continued to live under house arrest. Yinreng died two years after the Yongzheng Emperor's reign began.",
-                "instruction": "Can you give me a caption and some background knowledge about this image?",
-                "output": "18th-century painting of the Yongzheng Emperor in costume.  The nature of his succession remained a subject of controversy and overshadowed the Yongzheng Emperor's reign. As many of his surviving brothers did not see his succession as legitimate, the Yongzheng Emperor became increasingly paranoid that they would plot to overthrow him. The earlier players in the battle for succession, Yinzhi, the eldest, and Yinreng, the former crown prince, continued to live under house arrest. Yinreng died two years after the Yongzheng Emperor's reign began.",
+                "raw_output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14), October 1882, Private Collection, United States (JH214). The model is Adrianus Jacobus Zuyderland.[Works 22][Letters 40]",
+                "instruction": "Caption this image. Along with the caption, give me some background knowledge regarding this image.",
+                "output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14), October 1882, Private Collection, United States (JH214). The model is Adrianus Jacobus Zuyderland.[Works 22][Letters 40]",
                 "dataset_name": "CONCADIA",
-                "task_name": "CONCADIA+image_caption_context_1"
+                "task_name": "CONCADIA+image_caption_context_2"
             },
             {
                 "instance_id": "DOMAIN_NET+quickdraw_image_classification+5532304636116992",

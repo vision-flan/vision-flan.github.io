@@ -1,0 +1,56 @@
+dataset name,url,bibtex,license
+Caltech101+Image_classification,https://data.caltech.edu/records/mzrjq-6wc02,"@article{FeiFei2004LearningGV,
+  title={Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories},
+  author={Li Fei-Fei and Rob Fergus and Pietro Perona},
+  journal={Computer Vision and Pattern Recognition Workshop},
+  year={2004},
+}",
+Cars+car_brand_classification,https://ai.stanford.edu/~jkrause/cars/car_dataset.html (invalid),"@inproceedings{krause20133d,
+  title={3d object representations for fine-grained categorization},
+  author={Krause, Jonathan and Stark, Michael and Deng, Jia and Fei-Fei, Li},
+  booktitle={Proceedings of the IEEE international conference on computer vision workshops},
+  pages={554--561},
+  year={2013}
+}",
+Core50+Object_detection,https://vlomonaco.github.io/core50/,"@inproceedings{lomonaco2017core50,
+  title={Core50: a new dataset and benchmark for continuous object recognition},
+  author={Lomonaco, Vincenzo and Maltoni, Davide},
+  booktitle={Conference on robot learning},
+  pages={17--26},
+  year={2017},
+  organization={PMLR}
+}
+@inproceedings{lomonaco2020rehearsal,
+  title={Rehearsal-Free Continual Learning over Small Non-IID Batches.},
+  author={Lomonaco, Vincenzo and Maltoni, Davide and Pellegrini, Lorenzo and others},
+  booktitle={CVPR Workshops},
+  volume={1},
+  number={2},
+  pages={3},
+  year={2020}
+}",This work is licensed under a Creative Commons Attribution 4.0 International License. (https://creativecommons.org/licenses/by/4.0/)
+NUS-WIDE+Animal_classification,https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html,"@inproceedings{nus-wide-civr09,
+  author={Tat-Seng Chua and Jinhui Tang and Richang Hong and Haojie Li and Zhiping Luo and Yan-Tao Zheng},
+  booktitle={Proc. of ACM Conf. on Image and Video Retrieval (CIVR'09)},
+  posted-at={July 8-10, 2009},
+  title={NUS-WIDE: A Real-World Web Image Database from National University of Singapore},
+  address={Santorini, Greece. },
+  year={July 8-10, 2009}
+}",
+ObjectNet+Object_classfication,https://mitibmwatsonailab.mit.edu/research/blog/objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models/,"@incollection{NIPS2019_9142,
+title = {ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models},
+author = {Barbu, Andrei and Mayo, David and Alverio, Julian and Luo, William and Wang, Christopher and Gutfreund, Dan and Tenenbaum, Josh and Katz, Boris},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {9448--9458},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models.pdf}
+}",
+Places205+Image_env_classification,http://places.csail.mit.edu/index.html,"@article{zhou2014learning,
+  title={Learning deep features for scene recognition using places database},
+  author={Zhou, Bolei and Lapedriza, Agata and Xiao, Jianxiong and Torralba, Antonio and Oliva, Aude},
+  journal={Advances in neural information processing systems},
+  volume={27},
+  year={2014}
+}",The annotation can be used under the Creative Common License (Attribution CC BY). The copyright of all the images belongs to the image owners.

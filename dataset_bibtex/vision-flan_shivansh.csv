@@ -1,0 +1,129 @@
+dataset name,url,bibtex,license
+Winoground,https://huggingface.co/datasets/facebook/winoground,"@inproceedings{thrush_and_ross2022winoground,
+  author = {Tristan Thrush and Ryan Jiang and Max Bartolo and Amanpreet Singh and Adina Williams and Douwe Kiela and Candace Ross},
+  title = {Winoground: Probing vision and language models for visio-linguistic compositionality},
+  booktitle = {CVPR},
+  year = 2022,
+}",
+ConceptualCaptions+image_captioning,https://github.com/google-research-datasets/conceptual-captions,"@inproceedings{sharma2018conceptual,
+  title = {Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning},
+  author = {Sharma, Piyush and Ding, Nan and Goodman, Sebastian and Soricut, Radu},
+  booktitle = {Proceedings of ACL},
+  year = {2018},
+}
+","The dataset may be freely used for any purpose, although acknowledgement of
+Google LLC (""Google"") as the data source would be appreciated. The dataset is
+provided ""AS IS"" without any warranty, express or implied. Google disclaims all
+liability for any damages, direct or indirect, resulting from the use of the
+dataset."
+GTSRB+image_classification,https://benchmark.ini.rub.de/,"@article{Stallkamp2012,
+title = ""Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition"",
+journal = ""Neural Networks"",
+volume = """",
+number = ""0"",
+pages = "" - "",
+year = ""2012"",
+note = """",
+issn = ""0893-6080"",
+doi = ""10.1016/j.neunet.2012.02.016"",
+url = ""http://www.sciencedirect.com/science/article/pii/S0893608012000457"",
+author = ""J. Stallkamp and M. Schlipsing and J. Salmen and C. Igel"",
+keywords = ""Traffic sign recognition"",
+keywords = ""Machine learning"",
+keywords = ""Convolutional neural networks"",
+keywords = ""Benchmarking""
+}
+",CC0: Public Domain (https://creativecommons.org/publicdomain/zero/1.0/)
+KVQA+image_question_answer,https://malllabiisc.github.io/resources/kvqa/,"@InProceedings{shahMYP19,
+  author    = ""Sanket Shah, Anand Mishra, Naganand Yadati and Partha Pratim Talukdar"",
+  title     = ""KVQA: Knowledge-Aware Visual Question Answering"",
+  booktitle = ""AAAI"",
+  year      = ""2019"",
+}",
+MemeCap+meme_captioning,https://arxiv.org/pdf/2305.13703.pdf,"@misc{hwang2023memecap,
+      title={MemeCap: A Dataset for Captioning and Interpreting Memes}, 
+      author={EunJeong Hwang and Vered Shwartz},
+      year={2023},
+      eprint={2305.13703},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}",
+PlotQA+visual_question_answering,https://github.com/NiteshMethani/PlotQA,"@InProceedings{Methani_2020_WACV,
+author = {Methani, Nitesh and Ganguly, Pritha and Khapra, Mitesh M. and Kumar, Pratyush},
+title = {PlotQA: Reasoning over Scientific Plots},
+booktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
+month = {March},
+year = {2020}
+} ","MIT License
+
+    Copyright (c) PlotQA.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the ""Software""), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE"
+SentiCap+image_sentiment_captioning,http://users.cecs.anu.edu.au/~u4534172/senticap.html,"@inproceedings{mathews2016senticap,
+  title={Senticap: Generating image descriptions with sentiments},
+  author={Mathews, Alexander and Xie, Lexing and He, Xuming},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={30},
+  number={1},
+  year={2016}
+}",
+spot-the-diff+image_diff_identification,https://github.com/harsh19/spot-the-diff,"@inproceedings{jhamtani2018learning,
+  title={Learning to Describe Differences Between Pairs of Similar Images},
+  author={Jhamtani, Harsh and Berg-Kirkpatrick, Taylor},
+  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2018}
+}",
+VisDA-2017+object_classification_train,http://ai.bu.edu/visda-2017/,"@misc{visda2017,
+    Author = {Xingchao Peng and Ben Usman and Neela Kaushik and Judy Hoffman and Dequan Wang and Kate Saenko},
+    Title = {VisDA: The Visual Domain Adaptation Challenge},
+    Year = {2017},
+    Eprint = {arXiv:1710.06924},
+}",
+VQA-E+visual_question_answering,https://github.com/liqing-ustc/VQA-E,"""@article{li2018vqae,
+  title={VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},
+  author={Li, Qing and Tao, Qingyi and Joty, Shafiq and Cai, Jianfei and Luo, Jiebo},
+  journal={ECCV},
+  year={2018}
+}""","""MIT License
+
+Copyright (c) 2018 Qing Li
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the """"Software""""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED """"AS IS"""", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."""
+VQG+question_generation,https://www.microsoft.com/en-us/download/details.aspx?id=53670,"@article{mostafazadeh2016generating,
+  title={Generating natural questions about an image},
+  author={Mostafazadeh, Nasrin and Misra, Ishan and Devlin, Jacob and Mitchell, Margaret and He, Xiaodong and Vanderwende, Lucy},
+  journal={arXiv preprint arXiv:1603.06059},
+  year={2016}
+}",

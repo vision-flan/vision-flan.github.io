@@ -1,0 +1,94 @@
+dataset name,url,bibtex,license
+300w+human_portrait_classification,https://ibug.doc.ic.ac.uk/resources/300-W/,"@article{sagonas2016300,
+  title={300 faces in-the-wild challenge: Database and results},
+  author={Sagonas, Christos and Antonakos, Epameinondas and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},
+  journal={Image and vision computing},
+  volume={47},
+  pages={3--18},
+  year={2016},
+  publisher={Elsevier}
+}
+@inproceedings{sagonas2013300,
+  title={300 faces in-the-wild challenge: The first facial landmark localization challenge},
+  author={Sagonas, Christos and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},
+  booktitle={Proceedings of the IEEE international conference on computer vision workshops},
+  pages={397--403},
+  year={2013}
+}
+@inproceedings{sagonas2013semi,
+  title={A semi-automatic methodology for facial landmark annotation},
+  author={Sagonas, Christos and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition workshops},
+  pages={896--903},
+  year={2013}
+}","The data are provided for research purposes only. Commercial use (i.e., use in training commercial algorithms) is not allowed."
+ayahoo_test_images+animal_object_vehicle_image_classification,https://vision.cs.uiuc.edu/attributes/,"@inproceedings{farhadi2009describing,
+  title={Describing objects by their attributes},
+  author={Farhadi, Ali and Endres, Ian and Hoiem, Derek and Forsyth, David},
+  booktitle={2009 IEEE conference on computer vision and pattern recognition},
+  pages={1778--1785},
+  year={2009},
+  organization={IEEE}
+}",
+LFW+face_recognition,http://vis-www.cs.umass.edu/lfw/,"@TechReport{LFWTech,
+  author =       {Gary B. Huang and Manu Ramesh and Tamara Berg and 
+                  Erik Learned-Miller},
+  title =        {Labeled Faces in the Wild: A Database for Studying 
+                  Face Recognition in Unconstrained Environments},
+  institution =  {University of Massachusetts, Amherst},
+  year =         2007,
+  number =       {07-49},
+  month =        {October}}",Research only
+model-vs-human+image_style_classification,https://github.com/rgeirhos/Stylized-ImageNet,"@inproceedings{
+geirhos2018,
+title={ImageNet-trained {CNN}s are biased towards texture; increasing shape bias improves accuracy and robustness.},
+author={Robert Geirhos and Patricia Rubisch and Claudio Michaelis and Matthias Bethge and Felix A Wichmann and Wieland Brendel},
+booktitle={International Conference on Learning Representations},
+year={2019},
+url={https://openreview.net/forum?id=Bygh9j09KX},
+}","MIT License
+
+Copyright (c) 2018 Robert Geirhos
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the ""Software""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."
+Office-Home+Image_classification,https://www.hemanthdv.org/officeHomeDataset.html,"@inproceedings{venkateswara2017deep,
+  title={Deep hashing network for unsupervised domain adaptation},
+  author={Venkateswara, Hemanth and Eusebio, Jose and Chakraborty, Shayok and Panchanathan, Sethuraman},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={5018--5027},
+  year={2017}
+}","This dataset contains some copyrighted material whose use has not been specifically authorized by the copyright owners. In an effort to advance scientific research, we make this material available for academic research. We believe this constitutes a fair use of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit for non-commercial research and educational purposes. For more information on fair use please click here. If you wish to use copyrighted material on this site or in our dataset for purposes of your own that go beyond non-commercial research and academic purposes, you must obtain permission directly from the copyright owner. (adapted from Christopher Thomas)"
+CAT2000+image_classification,http://saliency.mit.edu/results_cat2000.html,"@misc{mit-saliency-benchmark,
+   author       = {Zoya Bylinskii and Tilke Judd and Ali Borji and Laurent Itti and Fr{\'e}do Durand and Aude Oliva and Antonio Torralba},
+   title        = {MIT Saliency Benchmark},
+   howpublished = {http://saliency.mit.edu/}
+}
+@article{CAT2000,
+   title     = {CAT2000: A Large Scale Fixation Dataset for Boosting Saliency Research},
+   author    = {Borji, Ali and Itti, Laurent},
+   journal   = {CVPR 2015 workshop on ""Future of Datasets""},
+   year      = {2015},
+   note      = {arXiv preprint arXiv:1505.03581}
+}
+@article{salMetrics_Bylinskii,
+    title    = {What do different evaluation metrics tell us about saliency models?},
+    author   = {Zoya Bylinskii and Tilke Judd and Aude Oliva and Antonio Torralba and Fr{\'e}do Durand},
+    journal  = {arXiv preprint arXiv:1604.03605},
+    year     = {2016}
+}",
