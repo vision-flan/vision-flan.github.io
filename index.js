@@ -1,4 +1,5 @@
-changeSlideInterval = setInterval(()=>plusSlides(1), 5000);
+changeSlideInterval = setInterval(()=>plusSlides(1), 10000);
+changeSlideInterval2 = setTimeout(()=>setInterval(()=>plusSlides(1, false), 10000), 5000);
 
 readTextFile("./data.json", function(text){
     var data = JSON.parse(text);
@@ -17,7 +18,7 @@ readTextFile("./data.json", function(text){
             console.log(y);
             var grandchild = document.createElement('div');
             grandchild.className = "mySlides fade";
-            if (y == data.data[x].length-1) {
+            if (y == 1) {
                 grandchild.style = "display:block;";
             }
             else {
@@ -25,7 +26,7 @@ readTextFile("./data.json", function(text){
             }
             
             
-            grandchild.innerHTML = "<br><img src=\"" + data.data[x][y].img_path + "\" width=\"250\" height=\"250\"><br><h3>Output:</h3><div class=\"output\">" + data.data[x][y].output + "</div><br><h3>Instruction:</h3><div class=\"instruction\">" + data.data[x][y].instruction + "</div>";
+            grandchild.innerHTML = "<br><img src=\"" + data.data[x][y].img_path + "\">" + "<br><div class=\"instruction\"><span class=\"data_label\">Instruction: </span>" + data.data[x][y].instruction + "</div>" + "<br><div class=\"output\"><span class=\"data_label\">Output: </span>" + data.data[x][y].output + "</div>";
             child.appendChild(grandchild);
         }
         dc.appendChild(child);
@@ -50,12 +51,13 @@ function hide_tab(id) {
 }
 
 let slideIndex = 1;
-let slideNumber = 2;
+let slideIndex2 = 1;
+let slideNumber = 9;
 //showSlides(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides(n, si1=true) {
+  showSlides(n, si1);
 }
 
 // Thumbnail image controls
@@ -63,28 +65,35 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
+function showSlides(n, si1=true) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (si1) {
+        slideIndex += n;
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+    }
+    else {
+        slideIndex2 += n;
+        if (n > slides.length) {slideIndex2 = 1}
+        if (n < 1) {slideIndex2 = slides.length}
+    }
+    
+    for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
+    }
+    for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
-  }
-  console.log(slideIndex % slideNumber);
-  slides[slideIndex % slideNumber].style.display = "block";
-  slides[(slideIndex % slideNumber)+slideNumber].style.display = "block";
-  slides[(slideIndex % slideNumber)+(2*slideNumber)].style.display = "block";
-  slides[(slideIndex % slideNumber)+(3*slideNumber)].style.display = "block";
-  slides[(slideIndex % slideNumber)+(4*slideNumber)].style.display = "block";
-  // dots[slideIndex-1].className += " active";
+    }
+    console.log(slideIndex % slideNumber);
+    slides[slideIndex2 % slideNumber].style.display = "block";
+    slides[(slideIndex % slideNumber)+slideNumber].style.display = "block";
+    slides[(slideIndex2 % slideNumber)+(2*slideNumber)].style.display = "block";
+    slides[(slideIndex % slideNumber)+(3*slideNumber)].style.display = "block";
+    //slides[(slideIndex2 % slideNumber)+(4*slideNumber)].style.display = "block";
+    // dots[slideIndex-1].className += " active";
 }
-
-
 
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();

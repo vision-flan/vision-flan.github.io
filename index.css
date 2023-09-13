@@ -12,7 +12,7 @@ body {
 }
 
 .navbarmenu {
-    margin-left: 40px;
+    margin-left: 2%;
     margin-right: 0px;
     display: grid;
     grid-template-columns: 90% 10%;
@@ -32,29 +32,32 @@ body {
     height: 500px;
 }
 
+.section_title {
+    padding-left: 2%;
+    width: 98%;
+}
+
 .data_loading {
     font-size: 70px;
     margin: auto;
     text-align: center;
 }
 
-
 /* ----- slideshow ----- */
 .content-block {
     width: 100%;
     /* background-color: red; */
     /* margin-left: 20%; */
-    background-color: #dddddd;
+    /* background-color: #dddddd; */
     max-width: 80%;
     min-width: 1800px;
     margin: auto;
+    padding-bottom: 60px;
 }
 
 .slideshow {
     grid-template-columns: auto auto auto auto auto;
     display: grid;
-    height: 750px;
-    
 }
 
 * {box-sizing:border-box}
@@ -70,10 +73,27 @@ body {
   display: none;
   background-color: rgba(255, 255, 255, 0.537);
   width: 400px;
-  height: 700px;
+  /* height: 800px; */
+  min-height: 650px;
   margin: auto;
   padding:20px;
   border-radius: 15px;
+  background-color: #efefef;
+  box-shadow: 0 0 5px #646464;
+  font-size: 20px;
+}
+
+.mySlides img {
+    display:block;
+    margin: auto;
+    width: 300px;
+    /* height: 300px; */
+}
+
+.data_label {
+    color: darkred;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* Next & previous buttons */
@@ -161,6 +181,7 @@ body {
 
 .dataset_description {
     width: 50%;
+    font-size: 30px;
 }
 
 
@@ -170,14 +191,19 @@ table {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
-  }
-  
-  td, th {
+}
+
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
+}
+
+th {
     background-color: #dddddd;
-  }
+    border: 1px solid #8d8d8d;
+}
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
