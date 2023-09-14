@@ -1,0 +1,13 @@
+[
+    {
+        "instance_id": "recipe-qa+visual_coherence+3584",
+        "img_path": "./imgs/recipe-qa+visual_coherence_974_recipe-qa+visual_coherence+3584.jpg",
+        "options": null,
+        "input_text": null,
+        "raw_output": "The least similar image is B",
+        "instruction": "The given image contains 4 image choices numbered A through D. Select the least similar image among the gorup",
+        "output": "The least similar image is B",
+        "dataset_name": "recipe-qa",
+        "task_name": "recipe-qa+visual_coherence"
+    }
+]
