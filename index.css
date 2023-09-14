@@ -64,6 +64,23 @@ hr {
     text-align: center;
 }
 
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 22px;
+    margin: 20px;
+    background-color:#444;
+    color: white;
+}
+
+button:hover {
+    background-color:#666;
+    cursor: pointer;
+}
+
 /* ----- slideshow ----- */
 .content-block {
     width: 100%;
