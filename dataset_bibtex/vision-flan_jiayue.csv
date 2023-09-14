@@ -1,0 +1,310 @@
+dataset name,url,bibtex,license,
+A-OKVQA,https://allenai.org/project/a-okvqa/home,"@article{AOKVQA,
+  title={A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge},
+  author={Dustin Schwenk and Apoorv Khandelwal and Christopher Clark and Kenneth Marino and Roozbeh Mottaghi},
+  journal={arXiv},
+  year={2022},
+}","                                Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+https://github.com/allenai/aokvqa/blob/main/LICENSE",
+AI2D,https://github.com/allenai/dqa-net,"@inproceedings{kembhavi2016diagram,
+  title={A diagram is worth a dozen images},
+  author={Kembhavi, Aniruddha and Salvato, Mike and Kolve, Eric and Seo, Minjoon and Hajishirzi, Hannaneh and Farhadi, Ali},
+  booktitle={Computer Vision--ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11--14, 2016, Proceedings, Part IV 14},
+  pages={235--251},
+  year={2016},
+  organization={Springer}
+}","  Apache License
+ Version 2.0, January 2004
+http://www.apache.org/licenses/
+https://github.com/allenai/aokvqa/blob/main/LICENSE",
+AID,https://captain-whu.github.io/AID/,"@article{xia2017aid,
+  title={AID: A benchmark data set for performance evaluation of aerial scene classification},
+  author={Xia, Gui-Song and Hu, Jingwen and Hu, Fan and Shi, Baoguang and Bai, Xiang and Zhong, Yanfei and Zhang, Liangpei and Lu, Xiaoqiang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={55},
+  number={7},
+  pages={3965--3981},
+  year={2017},
+  publisher={IEEE}
+}",,
+Caltech-256,,"@article{griffin2007caltech,
+  title={Caltech-256 object category dataset},
+  author={Griffin, Gregory and Holub, Alex and Perona, Pietro},
+  year={2007},
+  publisher={California Institute of Technology}
+}",,
+CoVA,https://github.com/kevalmorabia97/CoVA-Web-Object-Detection/blob/master/README.md,"@inproceedings{kumar-etal-2022-cova,
+    title = ""{C}o{VA}: Context-aware Visual Attention for Webpage Information Extraction"",
+    author = ""Kumar, Anurendra  and
+      Morabia, Keval  and
+      Wang, William  and
+      Chang, Kevin  and
+      Schwing, Alex"",
+    booktitle = ""Proceedings of The Fifth Workshop on e-Commerce and NLP (ECNLP 5)"",
+    month = may,
+    year = ""2022"",
+    address = ""Dublin, Ireland"",
+    publisher = ""Association for Computational Linguistics"",
+    url = ""https://aclanthology.org/2022.ecnlp-1.11"",
+    pages = ""80--90"",
+    abstract = ""Webpage information extraction (WIE) is an important step to create knowledge bases. For this, classical WIE methods leverage the Document Object Model (DOM) tree of a website. However, use of the DOM tree poses significant challenges as context and appearance are encoded in an abstract manner. To address this challenge we propose to reformulate WIE as a context-aware Webpage Object Detection task. Specifically, we develop a Context-aware Visual Attention-based (CoVA) detection pipeline which combines appearance features with syntactical structure from the DOM tree. To study the approach we collect a new large-scale datase of e-commerce websites for which we manually annotate every web element with four labels: product price, product title, product image and others. On this dataset we show that the proposed CoVA approach is a new challenging baseline which improves upon prior state-of-the-art methods."",
+}",," Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+https://github.com/kevalmorabia97/CoVA-Web-Object-Detection/blob/master/LICENSE"
+CrisisMMD,https://crisisnlp.qcri.org/crisismmd.html,,"@inproceedings{multimodalbaseline2020,
+Author = {Ferda Ofli and Firoj Alam and Muhammad Imran},
+Booktitle = {17th International Conference on Information Systems for Crisis Response and Management},
+Keywords = {Multimodal deep learning, Multimedia content, Natural disasters, Crisis Computing, Social media},
+Month = {May},
+Organization = {ISCRAM},
+Publisher = {ISCRAM},
+Title = {Analysis of Social Media Data using Multimodal Deep Learning for Disaster Response},
+Year = {2020}
+
+}
+
+@InProceedings{crisismmd2018icwsm,
+  author = {Alam, Firoj and Ofli, Ferda and Imran, Muhammad},
+  title = { CrisisMMD: Multimodal Twitter Datasets from Natural Disasters},
+  booktitle = {Proceedings of the 12th International AAAI Conference on Web and Social Media (ICWSM)},
+  year = {2018},
+  month = {June},
+  date = {23-28},
+  location = {USA}}",
+Dark-Zurich,https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/,,"@inproceedings{SDV19,
+  author = {Sakaridis, Christos and Dai, Dengxin and Van Gool, Luc},
+  title = {Guided Curriculum Model Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmentation},
+  booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+  year = {2019}
+}","Attribution-NonCommercial 4.0 International
+https://github.com/sakaridis/MGCDA/blob/master/LICENSE.txt"
+DeepWeeds,https://github.com/AlexOlsen/DeepWeeds,"@article{DeepWeeds2019,
+  author = {Alex Olsen and
+    Dmitry A. Konovalov and
+    Bronson Philippa and
+    Peter Ridd and
+    Jake C. Wood and
+    Jamie Johns and
+    Wesley Banks and
+    Benjamin Girgenti and
+    Owen Kenny and 
+    James Whinney and
+    Brendan Calvert and
+    Mostafa {Rahimi Azghadi} and
+    Ronald D. White},
+  title = {{DeepWeeds: A Multiclass Weed Species Image Dataset for Deep Learning}},
+  journal = {Scientific Reports},
+  year = 2019,
+  number = 2058,
+  month = 2,
+  volume = 9,
+  issue = 1,
+  day = 14,
+  url = ""https://doi.org/10.1038/s41598-018-38343-3"",
+  doi = ""10.1038/s41598-018-38343-3""
+}","   Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+https://github.com/AlexOlsen/DeepWeeds/blob/master/LICENSE",
+ExDark,https://github.com/cs-chan/Exclusively-Dark-Image-Dataset,"@article{Exdark,
+  title = {Getting to Know Low-light Images with The Exclusively Dark Dataset},
+  author = {Loh, Yuen Peng and Chan, Chee Seng},
+  journal = {Computer Vision and Image Understanding},
+  volume = {178},
+  pages = {30-42},
+  year = {2019},
+  doi = {https://doi.org/10.1016/j.cviu.2018.10.010}
+}",https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/blob/master/LICENSE,
+FFHQ-Text,https://github.com/Yutong-Zhou-cv/FFHQ-Text_Dataset,"@inproceedings{zhou2021generative,
+  title={Generative Adversarial Network for Text-to-Face Synthesis and Manipulation with Pretrained BERT Model},
+  author={Zhou, Yutong and Shimada, Nobutaka},
+  booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)},
+  pages={01--08},
+  year={2021}
+}
+
+@inproceedings{zhou2021generative,
+  title={Generative Adversarial Network for Text-to-Face Synthesis and Manipulation},
+  author={Zhou, Yutong},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={2940--2944},
+  year={2021}
+}
+
+@inproceedings{karras2019style,
+  title={A style-based generator architecture for generative adversarial networks},
+  author={Karras, Tero and Laine, Samuli and Aila, Timo},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4401--4410},
+  year={2019}
+}",https://creativecommons.org/licenses/by-nc-sa/4.0/,
+FlickrLogos-32,https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/mmc/research/datensatze/flickrlogos/,"@inproceedings{romberg2011scalable,
+  title={Scalable logo recognition in real-world images},
+  author={Romberg, Stefan and Pueyo, Lluis Garcia and Lienhart, Rainer and Van Zwol, Roelof},
+  booktitle={Proceedings of the 1st ACM international conference on multimedia retrieval},
+  pages={1--8},
+  year={2011}
+}",,
+Flickr Logos 27,http://image.ntua.gr/iva/datasets/flickr_logos/,"@inproceedings{kalantidis2011scalable,
+  title={Scalable triangulation-based logo recognition},
+  author={Kalantidis, Yannis and Pueyo, Lluis Garcia and Trevisiol, Michele and van Zwol, Roelof and Avrithis, Yannis},
+  booktitle={Proceedings of the 1st ACM international conference on multimedia retrieval},
+  pages={1--7},
+  year={2011}
+}",,
+ImageNet-R,https://github.com/hendrycks/imagenet-r,"@article{hendrycks2021many,
+  title={The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization},
+  author={Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and Dawn Song and Jacob Steinhardt and Justin Gilmer},
+  journal={ICCV},
+  year={2021}
+}","MIT License
+
+Copyright (c) 2020 Dan Hendrycks
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the ""Software""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.",
+ImageNet-Sketch,https://github.com/HaohanWang/ImageNet-Sketch,"@inproceedings{wang2019learning,
+        title={Learning Robust Global Representations by Penalizing Local Predictive Power},
+        author={Wang, Haohan and Ge, Songwei and Lipton, Zachary and Xing, Eric P},
+        booktitle={Advances in Neural Information Processing Systems},
+        pages={10506--10518},
+        year={2019}
+}","MIT License
+
+Copyright (c) 2021 Haohan Wang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the ""Software""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.",
+JHU-CROWD++,http://www.crowd-counting.com/,"@inproceedings{sindagi2019pushing,
+title={Pushing the frontiers of unconstrained crowd counting: New dataset and benchmark method},
+author={Sindagi, Vishwanath A and Yasarla, Rajeev and Patel, Vishal M},
+booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+pages={1221--1231},
+year={2019}
+}
+@article{sindagi2020jhu-crowd++,
+title={JHU-CROWD++: Large-Scale Crowd Counting Dataset and A Benchmark Method},
+author={Sindagi, Vishwanath A and Yasarla, Rajeev and Patel, Vishal M},
+journal={Technical Report},
+year={2020}
+}",,
+MNIST-M,https://www.kaggle.com/datasets/aquibiqbal/mnistm,"@article{ganin2016domain,
+  title={Domain-adversarial training of neural networks},
+  author={Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, Fran{\c{c}}ois and Marchand, Mario and Lempitsky, Victor},
+  journal={The journal of machine learning research},
+  volume={17},
+  number={1},
+  pages={2096--2030},
+  year={2016},
+  publisher={JMLR. org}
+}",,
+MVTecAD,https://www.mvtec.com/company/research/datasets/mvtec-ad/,"@inproceedings{bergmann2019mvtec,
+  title={MVTec AD--A comprehensive real-world dataset for unsupervised anomaly detection},
+  author={Bergmann, Paul and Fauser, Michael and Sattlegger, David and Steger, Carsten},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={9592--9600},
+  year={2019}
+}", Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License,
+NABirds,https://dl.allaboutbirds.org/nabirds,"@inproceedings{van2015building,
+  title={Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine-grained dataset collection},
+  author={Van Horn, Grant and Branson, Steve and Farrell, Ryan and Haber, Scott and Barry, Jessie and Ipeirotis, Panos and Perona, Pietro and Belongie, Serge},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={595--604},
+  year={2015}
+}",,
+Road Anomaly,https://www.epfl.ch/labs/cvlab/data/road-anomaly/,"@inproceedings{lis2019detecting,
+  title={Detecting the unexpected via image resynthesis},
+  author={Lis, Krzysztof and Nakka, Krishna and Fua, Pascal and Salzmann, Mathieu},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2152--2161},
+  year={2019}
+}",https://github.com/cvlab-epfl/detecting-the-unexpected/blob/master/LICENSE.md,
+SCUT-CTW1500,https://github.com/Yuliang-Liu/Curve-Text-Detector,"@article{yuliang2017detecting,
+  title={Detecting curve text in the wild: New dataset and new solution},
+  author={Yuliang, Liu and Lianwen, Jin and Shuaitao, Zhang and Sheng, Zhang},
+  journal={arXiv preprint arXiv:1712.02170},
+  year={2017}
+}",,
+Total-Text,https://github.com/cs-chan/Total-Text-Dataset,"@article{CK2019,
+  author    = {Chee Kheng Ch’ng and
+               Chee Seng Chan and
+               Chenglin Liu},
+  title     = {Total-Text: Towards Orientation Robustness in Scene Text Detection},
+  journal   = {International Journal on Document Analysis and Recognition (IJDAR)},
+  volume    = {23},
+  pages     = {31-52},
+  year      = {2020},
+  doi       = {10.1007/s10032-019-00334-z},
+}","Copyright (c) 2018, Chee Seng Chan
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of Total-Text nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ""AS IS""
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+VisDA-2017,http://ai.bu.edu/visda-2017/,"@article{peng2017visda,
+  title={Visda: The visual domain adaptation challenge},
+  author={Peng, Xingchao and Usman, Ben and Kaushik, Neela and Hoffman, Judy and Wang, Dequan and Saenko, Kate},
+  journal={arXiv preprint arXiv:1710.06924},
+  year={2017}
+}",,
+Yoga-82,https://sites.google.com/view/yoga-82/home,"@inproceedings{verma2020yoga,
+  title={Yoga-82: A New Dataset for Fine-grained Classification of Human Poses},
+  author={Verma, Manisha and Kumawat, Sudhakar and Nakashima, Yuta and Raman, Shanmuganathan},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  pages={4472-4479},
+  year={2020}
+}",See licenses in https://sites.google.com/view/yoga-82/home,

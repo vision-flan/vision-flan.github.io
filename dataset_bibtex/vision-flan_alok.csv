@@ -1,0 +1,193 @@
+dataset name,url,bibtex,license
+CINIC-10,https://github.com/BayesWatch/cinic-10,"@article{darlow2018cinic,
+  title={Cinic-10 is not imagenet or cifar-10},
+  author={Darlow, Luke N and Crowley, Elliot J and Antoniou, Antreas and Storkey, Amos J},
+  journal={arXiv preprint arXiv:1810.03505},
+  year={2018}
+}","MIT License
+
+Copyright (c) 2018 BayesWatch
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the ""Software""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."
+COCO,https://cocodataset.org/#home,"@inproceedings{lin2014microsoft,
+  title={Microsoft coco: Common objects in context},
+  author={Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\'a}r, Piotr and Zitnick, C Lawrence},
+  booktitle={Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13},
+  pages={740--755},
+  year={2014},
+  organization={Springer}
+}",
+CrowdHuman,http://www.crowdhuman.org/,"  @article{shao2018crowdhuman,
+    title={CrowdHuman: A Benchmark for Detecting Human in a Crowd},
+    author={Shao, Shuai and Zhao, Zijian and Li, Boxun and Xiao, Tete and Yu, Gang and Zhang, Xiangyu and Sun, Jian},
+    journal={arXiv preprint arXiv:1805.00123},
+    year={2018}
+  }
+          ",
+EuroSAT,https://github.com/phelber/eurosat,"@inproceedings{helber2018introducing,
+  title={Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification},
+  author={Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian},
+  booktitle={IGARSS 2018-2018 IEEE International Geoscience and Remote Sensing Symposium},
+  pages={204--207},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{helber2019eurosat,
+  title={Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification},
+  author={Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year={2019},
+  publisher={IEEE}
+}","MIT License
+
+Copyright (c) 2023 Patrick Helber
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the ""Software""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."
+ExpW,http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html,"@inproceedings{SOCIALRELATION_ICCV2015,
+ author = {Zhanpeng Zhang, Ping Luo, Chen Change Loy, and Xiaoou Tang},
+ title = {Learning Social Relation Traits from Face Images},
+ booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
+ month = December,
+ year = {2015}
+} 
+
+@inproceedings{SOCIALRELATION_2017,
+ author = {Zhanpeng Zhang, Ping Luo, Chen Change Loy, and Xiaoou Tang},
+ title = {From Facial Expression Recognition to Interpersonal Relation Prediction},
+ booktitle = {arXiv:1609.06426v2},
+ month = September,
+ year = {2016}
+} 
+	
+",
+FairFace,https://github.com/joojs/fairface,"    @inproceedings{karkkainenfairface,
+      title={FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation},
+      author={Karkkainen, Kimmo and Joo, Jungseock},
+      booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+      year={2021},
+      pages={1548--1558}
+    }",CC BY 4.0
+IconQA,https://iconqa.github.io/,"@inproceedings{lu2021iconqa,
+    title = {IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning},
+    author = {Lu, Pan and Qiu, Liang and Chen, Jiaqi and Xia, Tony and Zhao, Yizhou and Zhang, Wei and Yu, Zhou and Liang, Xiaodan and Zhu, Song-Chun},
+    booktitle = {The 35th Conference on Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks},
+    year = {2021}
+}","CC BY-NC-SA (Attribution-NonCommercial-ShareAlike)
+https://creativecommons.org/licenses/by-nc-sa/4.0/"
+ImageNet-A,https://github.com/hendrycks/natural-adv-examples,"@article{hendrycks2021nae,
+  title={Natural Adversarial Examples},
+  author={Dan Hendrycks and Kevin Zhao and Steven Basart and Jacob Steinhardt and Dawn Song},
+  journal={CVPR},
+  year={2021}
+}","MIT License
+
+Copyright (c) 2019 Dan Hendrycks
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the ""Software""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."
+ImageNet-C,https://zenodo.org/record/2235448,"@article{hendrycks2019benchmarking,
+  title={Benchmarking neural network robustness to common corruptions and perturbations},
+  author={Hendrycks, Dan and Dietterich, Thomas},
+  journal={arXiv preprint arXiv:1903.12261},
+  year={2019}
+}"," Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/legalcode"
+InfographicVQA,https://rrc.cvc.uab.es/?ch=17&com=tasks,"@inproceedings{mathew2022infographicvqa,
+  title={Infographicvqa},
+  author={Mathew, Minesh and Bagal, Viraj and Tito, Rub{\`e}n and Karatzas, Dimosthenis and Valveny, Ernest and Jawahar, CV},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={1697--1706},
+  year={2022}
+}",
+RecipeQA,https://hucvl.github.io/recipeqa/,"@article{yagcioglu2018recipeqa,
+  title={Recipeqa: A challenge dataset for multimodal comprehension of cooking recipes},
+  author={Yagcioglu, Semih and Erdem, Aykut and Erdem, Erkut and Ikizler-Cinbis, Nazli},
+  journal={arXiv preprint arXiv:1809.00812},
+  year={2018}
+}","Licence
+RecipeQA contains question answer pairs generated from copyright free recipes found online under a variety of licences. The corresponding licence for each recipe is also provided in the dataset, see recipes.json"
+SemArt,https://github.com/noagarcia/SemArt,"@inproceedings{garcia2018read,
+  title={How to read paintings: semantic art understanding with multi-modal retrieval},
+  author={Garcia, Noa and Vogiatzis, George},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV) Workshops},
+  pages={0--0},
+  year={2018}
+}",
+"Set5
+",Low-Complexity Single-Image Super-Resolution based on Nonnegative Neighbor Embedding,"@article{bevilacqua2012low,
+  title={Low-complexity single-image super-resolution based on nonnegative neighbor embedding},
+  author={Bevilacqua, Marco and Roumy, Aline and Guillemot, Christine and Alberi-Morel, Marie Line},
+  year={2012},
+  publisher={BMVA press}
+}",https://opendatacommons.org/licenses/dbcl/1-0/
+TextCaps,https://textvqa.org/textcaps/,"@inproceedings{sidorov2019textcaps,
+    title={TextCaps: a Dataset for Image Captioningwith Reading Comprehension},
+    author={Sidorov, Oleksii and Hu, Ronghang and Rohrbach, Marcus and Singh, Amanpreet},
+    journal={European Conference on Computer Vision},
+    year={2020}
+}","CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/)"
+VisDial,https://visualdialog.org/,"@inproceedings{das2017visual,
+  title={Visual dialog},
+  author={Das, Abhishek and Kottur, Satwik and Gupta, Khushi and Singh, Avi and Yadav, Deshraj and Moura, Jos{\'e} MF and Parikh, Devi and Batra, Dhruv},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={326--335},
+  year={2017}
+}","Creative Commons Attribution 4.0 International License.
+https://creativecommons.org/licenses/by/4.0/"
+VizWiz,https://vizwiz.org/tasks-and-datasets/vqa/,"@inproceedings{gurari2018vizwiz,
+  title={Vizwiz grand challenge: Answering visual questions from blind people},
+  author={Gurari, Danna and Li, Qing and Stangl, Abigale J and Guo, Anhong and Lin, Chi and Grauman, Kristen and Luo, Jiebo and Bigham, Jeffrey P},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={3608--3617},
+  year={2018}
+}","Creative Commons Attribution 4.0 International License
+https://creativecommons.org/licenses/by/4.0/"
