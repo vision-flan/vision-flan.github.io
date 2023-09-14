@@ -5,8 +5,8 @@
         "options": null,
         "input_text": null,
         "raw_output": "The least similar image is B",
-        "instruction": "The given image contains 4 image choices numbered A through D. Select the least similar image among the gorup",
-        "output": "The least similar image is B",
+        "prompt": "The given image contains 4 image choices numbered A through D. Select the least similar image among the gorup",
+        "target": "The least similar image is B",
         "dataset_name": "recipe-qa",
         "task_name": "recipe-qa+visual_coherence"
     }
