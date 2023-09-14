@@ -8,12 +8,11 @@ body {
     padding: 0;
     width: 100%;
     height: 70px;
-    min-width: 1400px;
 }
 
 .navbarmenu {
-    margin-left: 2%;
-    margin-right: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: grid;
     grid-template-columns: 90% 10%;
 }
