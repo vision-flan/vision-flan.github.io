@@ -1,4 +1,5 @@
-[
+{
+    "data": [
     {
         "instance_id": "recipe-qa+visual_coherence+3584",
         "img_path": "./imgs/recipe-qa+visual_coherence_974_recipe-qa+visual_coherence+3584.jpg",
@@ -11,3 +12,4 @@
         "task_name": "recipe-qa+visual_coherence"
     }
 ]
+}
