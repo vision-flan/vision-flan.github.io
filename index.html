@@ -4,6 +4,7 @@
 		<title>VISION-FLAN</title>
         <link rel="stylesheet" href="./index.css">
         <script src="./index.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 	<body>
         <!-- NAVBAR -->
@@ -13,46 +14,103 @@
                 <a href="/bibtex.html" class="visionFlan">BibTeX</a>
             </div>
         </nav>
+        
+        <div class="major_section">
+            <h1>Vision-Flan: An Open-Source Multi-Modal dataset</h1>
+            <p>Created by Virginia Tech's NLP Lab. Sep 13, 2023</p>
+            <hr>
+            <p class="dataset_description">The "Vision-Flan" dataset is a versatile and multi-modal 
+                collection that combines both images and text, designed to facilitate advanced 
+                research and applications in the fields of computer vision, natural language 
+                processing, and their intersection. Comprising a diverse array of images and 
+                corresponding textual descriptions, Vision-Flan is a valuable resource for 
+                exploring the synergy between visual and textual data. The dataset encompasses 
+                a wide range of subjects, contexts, and scenarios, making it ideal for tasks 
+                such as image captioning, visual question-answering, and cross-modal information 
+                retrieval. Vision-Flan's richness lies in its potential to support various 
+                machine learning and AI applications that require the fusion of visual and 
+                textual information, pushing the boundaries of understanding and interaction 
+                between these two critical modes of data. Researchers and practitioners can 
+                leverage this dataset to advance the state of the art in multi-modal learning 
+                and develop innovative solutions in a wide range of domains.
+            </p>
+            <br><br><br>
+            <center><img src="./imgs/vision_flan_logo.jpg" width="400px"></center>
+            <br><br><br><br>
+            <center>
+                <div>
+                    <a href=""><button><i class="fa fa-book"></i> Paper</button></a>
+                    <a href=""><button><i class="fa fa-github"></i> GitHub</button></a>
+                    <a href=""><button><i class="fa fa-database"></i> Dataset</button></a>
+                    <a href=""><button><i class="fa fa-arrow-circle-o-right"></i> Model</button></a>
+                </div>
+            </center>
+            <br><br><br><br>
+        </div>
 
-        <br><br><br>
+        <div class="section_title">
+            <h1>Data Collection and Annotation<hr></h1>
+            <p class="dataset_description">In the data gathering phase of this research endeavor, a systematic 
+                and meticulous seven-step process was followed. It commenced with an exhaustive search for 
+                pertinent datasets, leveraging advanced search algorithms to pinpoint the most relevant 
+                sources. Subsequently, these datasets were downloaded and subjected to rigorous preprocessing 
+                procedures, including data cleaning and normalization, to ensure their suitability for analysis. 
+                A critical juncture was reached when potential tasks were brainstormed, offering clarity and 
+                direction to the data collection process. An iterative cycle of instruction refinement and 
+                feedback was perpetuated, where instructions and templates were revised to eliminate ambiguities. 
+                The resulting code and preprocessed data were securely uploaded to the cloud for easy access and 
+                collaboration. Rigorous quality control measures included thorough checks on input and output 
+                correctness, coupled with periodic rewrites of instructions and templates to address evolving 
+                challenges. Additionally, advanced image analysis techniques were employed to sift out 
+                low-quality images, and annotations underwent meticulous scrutiny to eliminate any 
+                inaccuracies or inconsistencies. This comprehensive data gathering process ensured 
+                the acquisition of high-quality, reliable, and precise datasets for the research at hand.
+            </p><br><br><br>
+            <center><img src="./imgs/pipeline_snip.png" width="700px"></center>
+            <br><br><br><br>
+        </div>
+        
         <div class="section_title">
             <h1>Data Samples<hr></h1>
+            <p class="dataset_description">Each data sample consists of 3 primary elements: Image, Instruction, and Ouput.</p>
+            <ul>
+                <li><p><b>Image:</b> An image that is used as reference when solving a given instruction.</p></li>
+                <li><p><b>Instruction:</b> A command representing a task that must be completed by the model/agent.</p></li>
+                <li><p><b>Output:</b> The answer to the instruction given the provided image.</p></li>
+            </ul>
+            <br><br><br>
         </div>
 		
 
         <div class="content-block" id="content-block">
             <p class="data_loading">DATA LOADING . . .</p>
         </div>
-        <center><p class="dataset_description">This dataset consists of 300k examples. Each example contains an instruction,
-            an input image, and the correlated output. Our plans for this dataset is that it can
-            be used for training multi-modal instruction models.
-        </p></center>
         
         <br><br><br><br>
         <div class="section_title">
             <h1>Available Files<hr></h1>
         </div>
         <table>
-        <tr>
-            <th>File</th>
-            <th>Size on Disk</th>
-            <th>Sample Size</th>
-        </tr>
-        <tr>
-            <td><a href="">dataset1.zip</a></td>
-            <td>100GB</td>
-            <td>35k</td>
-        </tr>
-        <tr>
-            <td><a href="">dataset2.zip</a></td>
-            <td>50GB</td>
-            <td>12k</td>
-        </tr>
-        <tr>
-            <td><a href="">dataset3.zip</a></td>
-            <td>1TB</td>
-            <td>300k</td>
-        </tr>
+            <tr>
+                <th>File</th>
+                <th>Size on Disk</th>
+                <th>Sample Size</th>
+            </tr>
+            <tr>
+                <td><a href="">dataset1.zip</a></td>
+                <td>100GB</td>
+                <td>35k</td>
+            </tr>
+            <tr>
+                <td><a href="">dataset2.zip</a></td>
+                <td>50GB</td>
+                <td>12k</td>
+            </tr>
+            <tr>
+                <td><a href="">dataset3.zip</a></td>
+                <td>1TB</td>
+                <td>300k</td>
+            </tr>
         </table>
 
         <br><br><br><br>
