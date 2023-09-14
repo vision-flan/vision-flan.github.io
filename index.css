@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: darkred;
+    background-color: rgb(78, 184, 184);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -39,8 +39,19 @@ body {
 
 .dataset_description {
     width: 100%;
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 33px;
+    color: #555;
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #b6b5b5;
+    margin: 1em 0;
+    padding: 0;
+  }
 
 .section_title {
     /* padding-left: 2%; */
@@ -85,24 +96,24 @@ body {
   background-color: rgba(255, 255, 255, 0.537);
   width: 400px;
   /* height: 800px; */
-  min-height: 650px;
+  min-height: 700px;
   margin: auto;
   padding:20px;
   border-radius: 15px;
   background-color: #efefef;
-  box-shadow: 0 0 5px #646464;
+  box-shadow: 0 0 10px #646464;
   font-size: 20px;
 }
 
 .mySlides img {
     display:block;
     margin: auto;
-    width: 300px;
+    width: 360px;
     /* height: 300px; */
 }
 
 .data_label {
-    color: darkred;
+    color: rgb(78, 184, 184);
     font-weight: bold;
     font-style: italic;
 }
@@ -214,6 +225,13 @@ th {
   /* tr:nth-child(even) {
     background-color: #dddddd;
   } */
+
+li p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: #555;
+    line-height: 18px;
+}
 
 /* STYLING COPIED FROM nerfies.github.io */
 body {
