@@ -140,7 +140,7 @@
         [
             {
                 "instance_id": "DOCVQA+question_answer+jhnm0081_2.png",
-                "input_image_path": "./imgs/DOCVQA+question_answer_97_jhnm0081_2.png",
+                "img_path": "./imgs/DOCVQA+question_answer_97_jhnm0081_2.png",
                 "options": null,
                 "input_text": "What is the SURGEON GENERAL'S warning?",
                 "raw_output": "Cigarette Smoke Contains Carbon Monoxide, Cigarette Smoke Contains Carbon Monoxide.",
@@ -228,7 +228,7 @@
             },
             {
                 "instance_id": "REDCAPS+reddit_caption_2+YdNDoNz.jpg",
-                "input_image_path": "./imgs/REDCAPS+reddit_caption_2_25_YdNDoNz.jpg",
+                "img_path": "./imgs/REDCAPS+reddit_caption_2_25_YdNDoNz.jpg",
                 "options": null,
                 "input_text": null,
                 "raw_output": "somebody opened their eyes!",
@@ -334,7 +334,7 @@
             },
             {
                 "instance_id": "CONCADIA+image_caption_context_2+82731.jpg",
-                "input_image_path": "./imgs/CONCADIA+image_caption_context_2_911_82731.jpg",
+                "img_path": "./imgs/CONCADIA+image_caption_context_2_911_82731.jpg",
                 "options": null,
                 "input_text": null,
                 "raw_output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14), October 1882, Private Collection, United States (JH214). The model is Adrianus Jacobus Zuyderland.[Works 22][Letters 40]",
