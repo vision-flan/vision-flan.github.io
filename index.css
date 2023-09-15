@@ -20,11 +20,18 @@ body {
 .visionFlan {
     width: fit-content;
     display: grid;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
     font-size: 25px;
+    text-decoration: none;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+
+.email_text {
+    text-decoration: underline;
+    color: royalblue ;
 }
 
 .imageTest {
@@ -41,6 +48,13 @@ body {
     font-size: 22px;
     line-height: 33px;
     color: #555;
+}
+
+.bibtex {
+    background-color: rgb(243, 243, 243);
+    padding: 10px;
+    width: 90%;
+    text-align: left;
 }
 
 hr {
@@ -71,7 +85,7 @@ a button {
     padding-left: 15px !important;
     padding-right: 15px !important;
     font-size: 22px !important;
-    margin: 20px !important;
+    margin: 3px !important;
     background-color:#444 !important;
     color: white !important;
 }
@@ -94,15 +108,16 @@ a button:hover {
 }
 
 .slideshow {
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     display: grid;
+    margin: auto !important;
+    width: 70%;
 }
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 300px;
     margin: auto;
 }
 
@@ -209,15 +224,13 @@ a button:hover {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
 
 
 table {
