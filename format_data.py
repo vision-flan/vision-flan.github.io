@@ -31,11 +31,15 @@ inputs = json.load(open('/Users/zhiyangxu/Documents/multiinstructv2/vision-flan.
 """
 outputs = []
 for line in inputs:
-    output['instance_id'] =
-    output['img_path'] =
-    output['prompt'] =
-    output['target'] =
-    output['task_name'] =
+    output = {}
+    output['img_path'] = line['image']
+    output['prompt'] = line['conversations'][0]['value']
+    output['target'] = line['conversations'][1]['value']
+    output['task_name'] = line['task_name']
+    outputs.append(output)
+
+with open('tasks.json','w') as fout:
+    json.dump({'data':outputs}, fout)
     
     
      

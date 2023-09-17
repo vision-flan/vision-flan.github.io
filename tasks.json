@@ -1,15 +1,1234 @@
 {
     "data": [
-    {
-        "instance_id": "recipe-qa+visual_coherence+3584",
-        "img_path": "./imgs/recipe-qa+visual_coherence_974_recipe-qa+visual_coherence+3584.jpg",
-        "options": null,
-        "input_text": null,
-        "raw_output": "The least similar image is B",
-        "prompt": "The given image contains 4 image choices numbered A through D. Select the least similar image among the gorup",
-        "target": "The least similar image is B",
-        "dataset_name": "recipe-qa",
-        "task_name": "recipe-qa+visual_coherence"
-    }
-]
+        {
+            "img_path": "./imgs/COCO_train2014_000000162419.jpg",
+            "prompt": "What activity might these vehicles been used for?\n<image>",
+            "target": "transportation",
+            "task_name": "ok_vqa"
+        },
+        {
+            "img_path": "./imgs/LOC_NARRATIVES+coco_images_caption_646_000000010449.jpg",
+            "prompt": "<image>\nI want to know more about this image. Can you please describe it?",
+            "target": "In this picture there are elephants at the right and left side of the image, there is water, grass land and rocks at the right and left side of the image, there are trees and dried grass at the background area of the image.",
+            "task_name": "LOC_NARRATIVES+coco_images_caption"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000083690.jpg",
+            "prompt": "Which option in the options that is the caption of the image. \n\nOptions: (a) A couple of laptops with one sitting on a microwave. (b) Two older women are preparing for a dinner. (c) A desk with a computer monitor, printer and cd rack. (d) A girl preparing to put condiments on her dinner plate. (e) A man is taking an image on his phone of a bus. \n<image>",
+            "target": "(d) A girl preparing to put condiments on her dinner plate.",
+            "task_name": "image_text_selection"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000239706.jpg",
+            "prompt": "In this task, you need to decide if the image has enough information to answer \"What does this man have hanging from his neck?\" \n\nOptions: (a) I can answer the question based on the image (b) I can not anser the question based on the image\n<image>",
+            "target": "(b) I can not anser the question based on the image",
+            "task_name": "question_image_match"
+        },
+        {
+            "img_path": "./imgs/ImageNet-R+image_domain_classification_42_misc_34.jpg",
+            "prompt": "<image>\nYour goal is to classify the image based on its domain, which can be 'videogame', 'painting', 'sketch', 'cartoon', 'art', 'toy', 'deviantart', 'graphic', 'sculpture', 'misc', 'embroidery', 'sticker', 'graffiti', 'origami', or 'tattoo'. Your final output should specify the identified domain of the image.",
+            "target": "misc",
+            "task_name": "ImageNet-R+image_domain_classification"
+        },
+        {
+            "img_path": "./imgs/GEOMETRY3K+geometry_question_answer_391_img_diagram.png",
+            "prompt": "I will give you a figure with some geometrical information. Analyze the image and data in the input text and answer the question.\n\na = 8, b = 15, and c = 17, find \\tan B.\nOptions: (a) 2.43 (b) 1.88 (c) 1.67 (d) 1.23\n<image>",
+            "target": "(b) 1.88",
+            "task_name": "GEOMETRY3K+geometry_question_answer"
+        },
+        {
+            "img_path": "./imgs/WIT+detailed_description_48_Emperor_Alexander_I.jpg",
+            "prompt": "<image>\nGive me some background knowledge about this image.",
+            "target": "Alexandrovskaya Square is a city square of Taganrog.",
+            "task_name": "WIT+detailed_description"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000279377.jpg",
+            "prompt": "Are there any animals in the photo?\n<image>",
+            "target": "yes",
+            "task_name": "VQA_object_presence"
+        },
+        {
+            "img_path": "./imgs/model-vs-human+image_style_classification_115_1099_pow_dnn_0_keyboard_35_n03085013_20138.png",
+            "prompt": "What is the artistic style of this image?\n<image>",
+            "target": "power-equalisation",
+            "task_name": "model-vs-human+image_style_classification"
+        },
+        {
+            "img_path": "./imgs/Total-Text+text_detection_591_img1277.jpg",
+            "prompt": "Detect and tell me all the text on the image. Please provide the text orientations for each text, and separate them with semicolons.\n<image>",
+            "target": "Boots; inky; WINNER; G; TONY; AWARDSm; INCLUDING; BEST; MUSICAL; Winner; 4TONY; AWRDS; Best; Musical; An; American; Paris; Matilda",
+            "task_name": "Total-Text+text_detection"
+        },
+        {
+            "img_path": "./imgs/Places205+Image_env_classification_122_gsun_46a2c5a1726626d0952b060428729d77.jpg",
+            "prompt": "In this task, you have to identify if the place or scene pictured is indoor or outdoor. In the image is among a total of 205 classes such as Hospital, Bridge, Courtyard, Motel,.... The classes of the images are a diverse set of places or scenes. Pay attention to the details as some of the images may contain an object that relates to a specific place while some images may directly show the place or scenary. So, your answer should be the place or scene shown in the image\nOptions: (a) Outdoor (b) Indoor\n<image>",
+            "target": "(b) Indoor",
+            "task_name": "Places205+Image_env_classification"
+        },
+        {
+            "img_path": "./imgs/recipe-qa+visual_coherence_355_recipe-qa+visual_coherence+27.jpg",
+            "prompt": "The given image contains 4 image choices numbered A through D. Select the least similar image among the gorup\n<image>",
+            "target": "The least similar image is D",
+            "task_name": "recipe-qa+visual_coherence"
+        },
+        {
+            "img_path": "./imgs/CoVA+webpage_recognition_729_8841.png",
+            "prompt": "What is the name of the website based on the given image?\n<image>",
+            "target": "The name of the website is www.amazon.com.",
+            "task_name": "CoVA+webpage_recognition"
+        },
+        {
+            "img_path": "./imgs/ayahoo_test_images+animal_object_vehicle_image_classification_859_building_759.jpg",
+            "prompt": "<image>\nIn this task, you are given an image from a dataset, which contains images from different categories of animals, objects, and vehicles. These categories further divide into subcategories. Your job is to classify the given image into one of these subcategories, which could be anything from an aeroplane to a zebra. Your classification should be based on key identifiers like size, shape, color, distinctive features, and the context or environment depicted in the image. For example, if you're given an image of a zebra, your answer would simply be zebra. Remember that images could be of objects or vehicles as well. Your answer should be a single word representing the appropriate subcategory for the image, emphasizing specificity beyond the broad categories.",
+            "target": "building",
+            "task_name": "ayahoo_test_images+animal_object_vehicle_image_classification"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000285811.jpg",
+            "prompt": "Given a picture about sports, answer the following question.\nWhat sport will the man be doing?\n<image>",
+            "target": "surfing",
+            "task_name": "VQA_sport_recognition"
+        },
+        {
+            "img_path": "./imgs/DeepFashion_highres_Attribute_and_Category+Cloth_Classification_309_img_00000061.jpg",
+            "prompt": "<image>\nCan you write a very short description of the cloth?",
+            "target": "The cloth is a Abstract Mirrored Print Dress.",
+            "task_name": "DeepFashion_highres_Attribute_and_Category+Cloth_Classification"
+        },
+        {
+            "img_path": "./imgs/fairface+image_classification_gender_366_38354.jpg",
+            "prompt": "Here is a picture of a person. Based only upon this picture, what would you guess this person's gender is?\n<image>",
+            "target": "The person's gender is Female",
+            "task_name": "fairface+image_classification_gender"
+        },
+        {
+            "img_path": "./imgs/infographicvqa+question_answer_225_11533.jpeg",
+            "prompt": "<image>\nHere is an infographic representing some data in a visual form. Please answer my question using the data in the image\n\nWhich are the countries that have confirmed cases between 25000 and 50000?",
+            "target": "US, Spain",
+            "task_name": "infographicvqa+question_answer"
+        },
+        {
+            "img_path": "./imgs/fairface+image_classification_race_549_22519.jpg",
+            "prompt": "<image>\nWhat could be a good guess for this person's race in the given image?",
+            "target": "The person's race is Southeast Asian",
+            "task_name": "fairface+image_classification_race"
+        },
+        {
+            "img_path": "./imgs/INATURALIST+order_classification_686_81db1dc3-bea0-4006-bfde-4f585c764325.jpg",
+            "prompt": "Taxonomic category is a rank or group of organisms developed on the basis of their fundamental characteristics, similarities and dissimilarities. The order is a taxonomic rank above the family and below the class. Identify the order of the organism in the image.\n<image>",
+            "target": "The order of the organism in the image is Squamata.",
+            "task_name": "INATURALIST+order_classification"
+        },
+        {
+            "img_path": "./imgs/INATURALIST+latin_english_name_classification_359_b3030e64-f91c-4731-ab79-fbceb2990fbf.jpg",
+            "prompt": "<image>\nIdentify the organism in the image. Give the english name(also called common name) followed by the scientific name(also called latin name). For example : \"The organism in the image is Common Earthworm. Its scientific name is Lumbricus terrestris.\"",
+            "target": "The organism in the image is Blue-breasted Cordonbleu. Its scientific name is Uraeginthus angolensis.",
+            "task_name": "INATURALIST+latin_english_name_classification"
+        },
+        {
+            "img_path": "./imgs/CLEVR_CoGenT+Question_Answer_Matching_613_CLEVR_trainA_015561.png",
+            "prompt": "<image>\nIn this task, you will be presented with an image containing 3D-rendered objects along with a set of questions and corresponding answers. Your goal is to correctly match each question with its corresponding answer based on the visual content of the image. The output format should follow this pattern: Q1A3, Q2A5, Q3A2, Q4A1, Q5A1, indicating the question number followed by the corresponding answer number.\n\nQ1: How many other objects are there of the same color as the rubber ball?\nQ2: Is the color of the shiny object that is right of the cyan rubber cylinder the same as the big cylinder?\nQ3: What is the yellow object that is in front of the tiny cyan cylinder made of?\nQ4: Is the material of the large purple object the same as the large sphere?\nQ5: There is a yellow metal block that is behind the cyan rubber object; does it have the same size as the tiny cyan cylinder?\nQ6: There is a small object that is the same color as the large rubber cylinder; what is it made of?\nQ7: The large purple rubber thing has what shape?\nQ8: What color is the rubber object that is to the left of the tiny cyan rubber thing and in front of the big matte cylinder?\nQ9: The tiny yellow thing that is the same material as the large purple cylinder is what shape?\nA1: brown\nA2: cylinder\nA3: rubber\nA4: cube\nA5: 2\nA6: yes\nA7: no\nA8: metal\n",
+            "target": "Q1A5\nQ2A7\nQ3A8\nQ4A6\nQ5A6\nQ6A3\nQ7A2\nQ8A1\nQ9A4\n",
+            "task_name": "CLEVR_CoGenT+Question_Answer_Matching"
+        },
+        {
+            "img_path": "./imgs/visdial+answer_question_2_404_COCO_train2014_000000315827.jpg",
+            "prompt": "<image>\nHere is a short conversation between a human and an AI assistant. They are talking about a particular picture. They are discussing some questions and answers about it. Pay attention to the conversation and then answer the question at the end.\n\nHuman: any people?\nAssistant: no\nHuman: any animals?\nAssistant: no\nQuestion: is t it city?",
+            "target": "Assistant: no",
+            "task_name": "visdial+answer_question_2"
+        },
+        {
+            "img_path": "./imgs/Clevr+Question_Answer_Matching_15_CLEVR_train_069795.png",
+            "prompt": "You will be given an Image of 3D-rendered objects, a number of Questions and same number of Answers. The task here is to match the questions to the right answers according to the image you see. The format of the output shoud be something like: Q1A3,Q2A5,Q3A2,Q4A1,Q5A1\n\nQ1: There is a shiny thing right of the big ball that is in front of the matte object in front of the matte cylinder; what is its shape?\nQ2: Is there any other thing that has the same size as the cube?\nQ3: Are there more balls that are behind the green metal sphere than rubber objects right of the gray matte ball?\nQ4: Is there a metal sphere on the right side of the rubber object on the left side of the yellow rubber thing?\nQ5: What is the material of the sphere that is both in front of the large matte thing and on the left side of the small blue shiny ball?\nQ6: Are there any yellow rubber cylinders behind the red object?\nQ7: The matte cylinder has what color?\nQ8: What is the color of the other big thing that is the same shape as the big rubber object?\nQ9: There is a matte ball; does it have the same color as the metal object that is on the right side of the large metal sphere?\nA1: yellow\nA2: sphere\nA3: yes\nA4: no\nA5: green\nA6: metal\n\n<image>",
+            "target": "Q1A2\nQ2A3\nQ3A3\nQ4A3\nQ5A6\nQ6A3\nQ7A1\nQ8A5\nQ9A4\n",
+            "task_name": "Clevr+Question_Answer_Matching"
+        },
+        {
+            "img_path": "./imgs/STANFORD_DOGS+dog_classification_392_n02091032_135.jpg",
+            "prompt": "<image>\nIdentify the breed of the dog in the image.",
+            "target": "The dog breed is an Italian greyhound",
+            "task_name": "STANFORD_DOGS+dog_classification"
+        },
+        {
+            "img_path": "./imgs/PACS+elephant_image_category_classification_104_n02503517_1984-5.png",
+            "prompt": "You will be given an image of an elephant. The image could be of different categories like painting, cartoon, photograph, or sketch. Identify the image category.\nOptions: (a) Cartoon (b) Art painting (c) Photograph (d) Sketch\n<image>",
+            "target": "(d) Sketch",
+            "task_name": "PACS+elephant_image_category_classification"
+        },
+        {
+            "img_path": "./imgs/coco+image_classification_sports_639_000000000544.jpg",
+            "prompt": "Given an image of sporting goods, identify what the object is. It could be used to play a team sport or an individual activity. The objects can also be used in different kinds of sports and sometimes make it easier for the wearer to play the sport.\nOptions: (a) This image contains a ski (b) This image contains a surfboard (c) This image contains a frisbee (d) This image contains a baseball bat (e) This image contains a tennis racket (f) This image contains a baseball glove (g) This image contains a kite (h) This image contains a snowboard (i) This image contains a skateboard (j) This image contains a sports ball\n<image>",
+            "target": "(j) This image contains a sports ball",
+            "task_name": "coco+image_classification_sports"
+        },
+        {
+            "img_path": "./imgs/ImageNet-A+image_classification_472_0.002072_Rottweiler _ barn_0.7930856.jpg",
+            "prompt": "In this task, given an image, please identify what the image contains a. The image could contain, among other things, animals, birds, daily objects, insects\nOptions: (a) The provided image contains a lorikeet (b) The provided image contains a lion (c) The provided image contains an armadillo (d) The provided image contains a baseball player (e) The provided image contains a tricycle (f) The provided image contains a rugby ball (g) The provided image contains a jack-o'-lantern (h) The provided image contains a canoe\n<image>",
+            "target": "(a) The provided image contains a lorikeet",
+            "task_name": "ImageNet-A+image_classification"
+        },
+        {
+            "img_path": "./imgs/Caltech101+Living_Thing_classification_493_image_0042.jpg",
+            "prompt": "<image>\nIn this task, you have to classify if the setting contains a living thing or not. The object in the image is among a total of 102 classes such as Airplane, Ant, Butterfly, Chair,... The classes of the image are a diverse set ranging from objects to living beings. Pay attention to details as the object in the image can be in any format(sketch, painting, captured photo, etc) So, your answer should be if the object is a living thing or not.\nOptions: (a) Yes (b) No",
+            "target": "(a) Yes",
+            "task_name": "Caltech101+Living_Thing_classification"
+        },
+        {
+            "img_path": "./imgs/places365+Image_Classification_590_00000712.jpg",
+            "prompt": "<image>\nYour task involves analyzing an image of a scene and identifying the appropriate name for that particular scene. Examples of scene names could include airfield, airplane cabin, airport terminal, alcove, alley, amphitheater, amusement arcade, etc. ",
+            "target": "plaza",
+            "task_name": "places365+Image_Classification"
+        },
+        {
+            "img_path": "./imgs/INATURALIST+class_classification_479_ea917284-4fe3-462c-8b0f-97c74e11187d.jpg",
+            "prompt": "Taxonomic category is a rank or group of organisms developed on the basis of their fundamental characteristics, similarities and dissimilarities. A class is a taxonomic rank above the order and below the phylum. Identify the class of the organism in the image.\n<image>",
+            "target": "The class of the organism in the image is Magnoliopsida.",
+            "task_name": "INATURALIST+class_classification"
+        },
+        {
+            "img_path": "./imgs/ImageNet-C+image_classification_general_520_ILSVRC2012_val_00039707.JPEG",
+            "prompt": "In this task, identify the type of corruption given a corrupted image. It could be digitally altered, contain natural distortions or contain other corruptions\nOptions: (a) The corruption type is weather (b) The corruption type is blur (c) The corruption type is noise (d) The corruption type is digital\n<image>",
+            "target": "(a) The corruption type is weather",
+            "task_name": "ImageNet-C+image_classification_general"
+        },
+        {
+            "img_path": "./imgs/cinic-10+image_classification_animal_522_n02047975_2721.png",
+            "prompt": "<image>\nThe given image can contain various types of animals. Some of these animals are found in forests, drylands, or other natural areas. Some of them could also be domesticated pets. Please identify the animal in the picture.",
+            "target": "The image contains a bird",
+            "task_name": "cinic-10+image_classification_animal"
+        },
+        {
+            "img_path": "./imgs/VIQUAE+question_answer_700_512px-Korea-Jejudo-Hallasan-04.jpg",
+            "prompt": "With the help of this image, can you answer the question given in the input text?\n\nthis mountain is the highest point in which country?\n<image>",
+            "target": "Nam Chosun",
+            "task_name": "VIQUAE+question_answer"
+        },
+        {
+            "img_path": "./imgs/ConceptualCaptions+image_captioning_981_actor-damson-idris-arrives-at-the-premiere-of-fxs-snowfall-at-the-at-picture-id801541154.jpg",
+            "prompt": "<image>\nIn this task, you will generate a descriptive caption for the given image. The image could depict various scenes, objects, or people. Your goal is to provide a decriptive and accurate captions that describe the main elements and context of the image. Pay attention to the details, such as colors, objects, actions, and interactions between elements, to create meaningful and informative captions.",
+            "target": "actor arrives at the premiere .",
+            "task_name": "ConceptualCaptions+image_captioning"
+        },
+        {
+            "img_path": "./imgs/cinic-10+object_presence_shipping_931_n02951358_5649.png",
+            "prompt": "The given image can contain some vehicles used for transporting goods and materials across large distances, even around the world. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image can be used for shipping goods or not.\n<image>",
+            "target": "The object can be used for shipping",
+            "task_name": "cinic-10+object_presence_shipping"
+        },
+        {
+            "img_path": "./imgs/CLEVR_CoGenT+Question_Answering_600_CLEVR_trainA_064819.png",
+            "prompt": "The input for this task is an image of 3D-rendered objects and a question that fall into different categories. The questions fall into five classes of tasks: Exist, Count, Compare Integer, Query Attribute, and Compare Attribute. The task here is to answer the question.\n\nThe cyan cylinder is what size?\n<image>",
+            "target": "large",
+            "task_name": "CLEVR_CoGenT+Question_Answering"
+        },
+        {
+            "img_path": "./imgs/FGVC_Aircraft+Aircraft_Classification_Variant_274_1790927.jpg",
+            "prompt": "Your objective is to analyze an aircraft image and provide the variant of the aircraft. (e.g., A300B4).\n Variant: A variant indicates a variation of a particular aircraft model, often incorporating specific modifications, improvements, or customizations compared to the base model.\n<image>",
+            "target": "Yak-42",
+            "task_name": "FGVC_Aircraft+Aircraft_Classification_Variant"
+        },
+        {
+            "img_path": "./imgs/Office_31+Image_Classification_Category_351_frame_0078.jpg",
+            "prompt": "<image>\nThe input for this task is an image of commonly encountered office objects such as keyboards, file cabinets, and laptops from three different categories(AMAZON, DSLR, WEBCAM). The output of this task is to name the domains of the image(AMAZON, DSLR, or WEBCAM). AMAZON: These images were captured from a website of online merchants, they are captured against a clean background. DSLR cameras offer improved image quality when compared to standard webcams.\nOptions: (a) amazon (b) webcam (c) dslr",
+            "target": "(a) amazon",
+            "task_name": "Office_31+Image_Classification_Category"
+        },
+        {
+            "img_path": "./imgs/Clevr+Question_Answering_581_CLEVR_train_049767.png",
+            "prompt": "<image>\nThe input for this task is an image of 3D-rendered objects and a question that fall into different categories. The questions fall into five classes of tasks: Exist, Count, Compare Integer, Query Attribute, and Compare Attribute. The task here is to answer the question.\n\nHow many other metal cubes have the same color as the tiny shiny block?",
+            "target": "0",
+            "task_name": "Clevr+Question_Answering"
+        },
+        {
+            "img_path": "./imgs/INATURALIST+genus_classification_742_c40da4f7-9b4d-4fed-84fd-cf44acb147d6.jpg",
+            "prompt": "The genus is a taxonomic rank above the species and below the family. Identify the genus of the organism in the image.\n<image>",
+            "target": "The genus of the organism in the image is Esox.",
+            "task_name": "INATURALIST+genus_classification"
+        },
+        {
+            "img_path": "./imgs/semart+image_type_311_13037-cupid.jpg",
+            "prompt": "Here is an image of some art. I want to know what type of painting it is. Among others, some types could be: religious, self-portraits, or landscapes\n<image>",
+            "target": "This falls into the 'mythological' type ",
+            "task_name": "semart+image_type"
+        },
+        {
+            "img_path": "./imgs/Cars+car_brand_classification_200_06239.jpg",
+            "prompt": "In this task, you have to identify the brand of the car such as Audi, BMW, Bentley,... This means you have to identify the company which manufactured the car. For this, you need to look at the logo shown in the car image. Based on the detailing shown for the car image, the company model of the car can be identified. So, your answer should be the brand name of the car.\n<image>",
+            "target": "Aston Martin",
+            "task_name": "Cars+car_brand_classification"
+        },
+        {
+            "img_path": "./imgs/JHU-CROWD+scene_type_recognition_108_4112.jpg",
+            "prompt": "<image>\nProvide the location of the scene. It could be a water park, marathon, protest, stadium, or any other possible location.",
+            "target": "The scene is located at a stadium.",
+            "task_name": "JHU-CROWD+scene_type_recognition"
+        },
+        {
+            "img_path": "./imgs/VQA-E+image_captioning_719_COCO_train2014_000000355487.jpg",
+            "prompt": "<image>\nYou are provided with an image. Explain what is going on in the image.",
+            "target": "there are two people that are seated at the table talking ",
+            "task_name": "VQA-E+image_captioning"
+        },
+        {
+            "img_path": "./imgs/ImageNet-C+image_classification_weather_23_ILSVRC2012_val_00006727.JPEG",
+            "prompt": "Given an image, identify what kind of weather conditions might have corrupted the image. It can be different types of bad weather or outdoor conditions\nOptions: (a) The corruption type is snow (b) The corruption type is fog (c) The corruption type is frost (d) The corruption type is brightness\n<image>",
+            "target": "(d) The corruption type is brightness",
+            "task_name": "ImageNet-C+image_classification_weather"
+        },
+        {
+            "img_path": "./imgs/LAD+object_detection_details_85_ddffad6fde5a83d7348e789b8d6285b4.jpg",
+            "prompt": "I'll give you an image. What is the main object in it? Please give additional details.\n<image>",
+            "target": "The object in the image is touring car. It is white, is big (compared to cars), weighs tons, is long, moves fast, has doors, has seats, has windows, has a engine, has a horn, has a steering wheel, has a brake, has a number plate, has four wheels, has lights, can move, can be driven, can carry a small number (\u226410) of passengers, can carry a large quantity (\uff1e 1 tons) of goods, is for engineering, is for rescue, is for civil use, is for family, consumes diesel oil, can be used on urban roads, can be used on rural roads, is safe, is made of metal, is made of plastic, is expensive",
+            "task_name": "LAD+object_detection_details"
+        },
+        {
+            "img_path": "./imgs/semart+image_timeframe_127_42258-0503vela.jpg",
+            "prompt": "Here is a picture of some fine art created in the past, I would like to know roughly what period in time it could have been made in\n<image>",
+            "target": "Roughly within the time 1601-1650",
+            "task_name": "semart+image_timeframe"
+        },
+        {
+            "img_path": "./imgs/Dark-Zurich+time_classification_192_GOPR0375_frame_000495_rgb_anon.png",
+            "prompt": "Identify the time of the day when the image is captured. Options are: daytime, nighttime, twilight.\n<image>",
+            "target": "The time of the day is twilight.",
+            "task_name": "Dark-Zurich+time_classification"
+        },
+        {
+            "img_path": "./imgs/ImageNet-Sketch+image_classification_627_sketch_40.JPEG",
+            "prompt": "You are given a sketch of an object. Tell me the name of the object in the image.\n<image>",
+            "target": "The sketch is a iron.",
+            "task_name": "ImageNet-Sketch+image_classification"
+        },
+        {
+            "img_path": "./imgs/Office-Home+Image_classification_982_00015.jpg",
+            "prompt": "Your task involves classifying object images into their respective categories like Bed, Sink, Sneakers, Table, TV and so on; for instance, if the model is presented with an image of a laptop, it should correctly identify and categorize the image as 'Laptop'.\n<image>",
+            "target": "Shelf",
+            "task_name": "Office-Home+Image_classification"
+        },
+        {
+            "img_path": "./imgs/CLEVR_CoGenT+Multiple_Question_Answering_366_CLEVR_trainA_005475.png",
+            "prompt": "<image>\nThe input for this task is an image of 3D-rendered objects and a set of questions that fall into different categories. The questions fall into five classes of tasks: Exist, Count, Compare Integer, Query Attribute, and Compare Attribute. The output of this task is a set of answers to the given questions for each image. The answers should be generated based on the content of the image and the category of the question. The output should be in the form of text.\n\nQ1: Are there any other things that are the same color as the metallic cube?\nQ2: The matte thing that is in front of the small yellow metal thing has what shape?\nQ3: What is the size of the cyan thing that is left of the cyan matte cylinder behind the yellow matte thing?\nQ4: Does the yellow thing that is in front of the tiny yellow rubber block have the same shape as the tiny thing that is in front of the tiny metal block?\nQ5: Are there any cyan matte things behind the cyan matte cylinder in front of the matte object behind the tiny yellow rubber object?\nQ6: What number of other things are there of the same size as the yellow rubber object?\nQ7: There is a cyan cylinder that is behind the tiny matte cylinder; what size is it?\nQ8: Do the cyan cylinder that is behind the small cylinder and the yellow thing right of the small cyan cylinder have the same material?\nQ9: The tiny thing that is behind the small cyan rubber cylinder and on the left side of the yellow metal block is made of what material?\n",
+            "target": "A1: yes\nA2: cylinder\nA3: small\nA4: no\nA5: yes\nA6: 2\nA7: large\nA8: no\nA9: rubber\n",
+            "task_name": "CLEVR_CoGenT+Multiple_Question_Answering"
+        },
+        {
+            "img_path": "./imgs/crowdhuman+count_numbers_363_273278,98605000480ec4a4.jpg",
+            "prompt": "<image>\nYou are given a picture of a crowd of people, there could be a varying number of people in this image. Please tell me how many people are in this particular image.",
+            "target": "There are 29 people in this picture",
+            "task_name": "crowdhuman+count_numbers"
+        },
+        {
+            "img_path": "./imgs/CrisisMMD+Informativeness_classification_122_910706371158466561_0.jpg",
+            "prompt": "Determine the informativeness of the tweet text and image. Informativeness is measured by the extent to which the tweet provides information about the crisis event. For instance, a tweet such as 'I am safe' is considered non-informative, whereas a tweet like 'I am safe. The earthquake is 10 miles away from me' is considered informative. Provide an output indicating whether the tweet text and image are informative or not informative.\n\nThe tweet text is: Our special Northwest Point TCI beach is still beautiful. Hoping Hurricane Maria moves out to sea. https://t.co/VvrQNwF7Iq.\n<image>",
+            "target": "The tweet text is not informative and the image is not informative.",
+            "task_name": "CrisisMMD+Informativeness_classification"
+        },
+        {
+            "img_path": "./imgs/RAF_DB+human_emotion_detection_989_train_04443.jpg",
+            "prompt": "Give me details about the human in the image. What is their gender, race and age? What emotion are they depicting?\n<image>",
+            "target": "The gender of the person is male. Their age range is 4-19 and their race is Asian. The emotion of the person in the image is Sadness.",
+            "task_name": "RAF_DB+human_emotion_detection"
+        },
+        {
+            "img_path": "./imgs/LSUN+Image_Classification_656_81.png",
+            "prompt": "In this task you will be provided with a picture of a scene(dining room, bedroom, kitchen, outdoor church, and so on) and you have to classify images into their corresponding scene categories. Your answer should be the name of the place.\nOptions: (a) tower (b) classroom (c) dining room (d) bedroom (e) kitchen (f) church outside (g) living room (h) conference room (i) restaurant\n<image>",
+            "target": "(h) conference room",
+            "task_name": "LSUN+Image_Classification"
+        },
+        {
+            "img_path": "./imgs/2415801.jpg",
+            "prompt": "The sign is on what?\n<image>",
+            "target": "pole",
+            "task_name": "GQA"
+        },
+        {
+            "img_path": "./imgs/KVQA+image_question_answer_762_24835.jpg",
+            "prompt": "<image>\nYou are provided with a picture and a question related to the picture. Your job is to correctly answer the question. Note that any references to directions (left, right, center, etc.) in the questions are from the perspective of the person depicted in the image.\n\nIn which continent was the person in the image born?",
+            "target": "North America",
+            "task_name": "KVQA+image_question_answer"
+        },
+        {
+            "img_path": "./imgs/PACS+guitar_image_category_classification_996_n03272010_6809.jpg",
+            "prompt": "<image>\nYou will be given an image of a guitar. The image could be of different categories like painting, cartoon, photograph, or sketch. Identify the image category.\nOptions: (a) Cartoon (b) Photograph (c) Sketch (d) Art painting",
+            "target": "(b) Photograph",
+            "task_name": "PACS+guitar_image_category_classification"
+        },
+        {
+            "img_path": "./imgs/CHART2TEXT+chart_caption_707_5843.png",
+            "prompt": "I will give you a chart. Analyze it and give me as many details as possible.\n<image>",
+            "target": "In 2019 , the French region with the highest number of hotel rooms was the Ile-de-France region . This region , which includes the city of Paris as well as the suburbs around the capital such as Versailles or Marne-la-Vall\u00e9e ( home of Disneyland Paris ) , had exactly 156,880 hotel rooms out of a total of 642,779 across the country . Paris is one of the leading city destinations in Europe , with more than 16.84 million tourist arrivals in 2018 . The city of lights , the mountains , the coastal regions , and the rest Except for the Auvergne-Rh\u00f4ne Alpes region , which is placed second in this ranking , the other regions with a number of hotel rooms exceeding 50,000 are all located on the seaside . Thus , in 2019 , there were more than 73 , 000 hotels rooms in Provence-Alpes C\u00f4te d'Azur near the Mediterranean Sea , compared to 55,121 for the Nouvelle-Aquitaine region bordering the Atlantic Ocean . Thanks to their attractive landscapes ( the sea and the mountains ) these regions welcome the majority of tourists going to France . The hotel , one type of accommodation among others France is the country with the highest number of chain hotels in Europe . However , even though hotels remain a popular housing type on vacation , other types of accommodation are chosen by tourists . As of January 2018 , classified and furnished tourist accommodations represented most of travel accommodation establishments in France and guesthouses were also a very common form of lodging in the country . In 2017 , the online housing website Airbnb , was one of the most visited travel websites in France . France was the second country with the most Airbnb listings in 2017 .",
+            "task_name": "CHART2TEXT+chart_caption"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000341359.jpg",
+            "prompt": "<image>\nIn this task, you are given an image and you will need to generate some text to describe it.",
+            "target": "A very cute stuffed animal with a candy bar.",
+            "task_name": "image_caption"
+        },
+        {
+            "img_path": "./imgs/AI2D+visual_question_answering_784_689.png",
+            "prompt": "Answer the multiple choice question based on the image. The answer should be one of the choices.\n\nThe question is: What provides the earth with solar energy?\nThe choices are: (A) None of the above; (B) Sun; (C) New Moon; (D) Full Moon.\n<image>",
+            "target": "The answer is: (B).",
+            "task_name": "AI2D+visual_question_answering"
+        },
+        {
+            "img_path": "./imgs/WIKIART+art_classification_339_pyotr-konchalovsky_still-life-candlestick-and-the-tube-on-a-red-background-1947.jpg",
+            "prompt": "For the given painting, give me the artist name. Also provide the genre and style, if possible.\n<image>",
+            "target": "This artwork was created by Pyotr Konchalovsky. It falls under the genre of still life and showcases Post Impressionism style of painting.",
+            "task_name": "WIKIART+art_classification"
+        },
+        {
+            "img_path": "./imgs/INATURALIST+phylum_classification_917_ce6fdc4f-2130-4084-b0f3-d5c770d442ba.jpg",
+            "prompt": "<image>\nPhylum is defined as a principal taxonomic category that ranks above class and below kingdom. Identify the phylum of the organism in the image.",
+            "target": "The phylum of the organism in the image is Tracheophyta.",
+            "task_name": "INATURALIST+phylum_classification"
+        },
+        {
+            "img_path": "./imgs/Clevr+Multiple_Question_Answering_684_CLEVR_train_025724.png",
+            "prompt": "The input for this task is an image of 3D-rendered objects and a set of questions that fall into different categories. The questions fall into five classes of tasks: Exist, Count, Compare Integer, Query Attribute, and Compare Attribute. The output of this task is a set of answers to the given questions for each image. The answers should be generated based on the content of the image and the category of the question. The output should be in the form of text.\n\nQ1: The red rubber object in front of the matte object behind the tiny cube behind the yellow block is what shape?\nQ2: There is a big metal cube; how many rubber spheres are on the right side of it?\nQ3: Do the cube to the left of the brown cylinder and the green object have the same material?\nQ4: What number of other objects are there of the same shape as the yellow shiny thing?\nQ5: There is a tiny shiny thing that is behind the matte cylinder that is to the left of the red metal thing; how many big blue things are behind it?\nQ6: What color is the small shiny object in front of the green object?\nQ7: Does the large metallic thing that is in front of the red shiny sphere have the same color as the tiny matte cube?\nQ8: There is a red object that is the same shape as the large brown shiny object; what size is it?\nQ9: Is there anything else that is the same size as the cyan matte cylinder?\n\n<image>",
+            "target": "A1: cylinder\nA2: 0\nA3: no\nA4: 2\nA5: 0\nA6: yellow\nA7: no\nA8: small\nA9: yes\n",
+            "task_name": "Clevr+Multiple_Question_Answering"
+        },
+        {
+            "img_path": "./imgs/FGVC_Aircraft+Aircraft_Classification_Family_378_1250763.jpg",
+            "prompt": "From the image provided to you, guess the family of the aircraft.\nHint: Family:  A family represents a collection of aircraft models produced by the same manufacturer, sharing common characteristics, design principles, or technological platforms.\n<image>",
+            "target": "Spitfire",
+            "task_name": "FGVC_Aircraft+Aircraft_Classification_Family"
+        },
+        {
+            "img_path": "./imgs/HICO+object_classification_937_HICO_test2015_00007901.jpg",
+            "prompt": "What is the object in the image?\n<image>",
+            "target": "backpack",
+            "task_name": "HICO+object_classification"
+        },
+        {
+            "img_path": "./imgs/DTD+all_texture_detection_263_porous_0100.jpg",
+            "prompt": "Texture is defined as the feel, appearance or consistency of a surface or substance from a human's perspective. Detect all the textures in the image. Present it as a comma separated list\n<image>",
+            "target": "porous",
+            "task_name": "DTD+all_texture_detection"
+        },
+        {
+            "img_path": "./imgs/NOCAPS+image_caption_3_cd9ce6646a4ac45b.jpg",
+            "prompt": "Give me a list of captions for this image.\n<image>",
+            "target": "Caption 1: Group of people playing polo on bicycles on blacktop. Caption 2: A man riding a bicycle wearing a hat. Caption 3: Individuals playing a game consisting of riding on bicycles and hitting a ball with mallets. Caption 4: Three men in jackets playing croquet on bicycles. Caption 5: some people are playing hockey with their bicycle. Caption 6: Three people that are riding bicycles around on a basketball court. Caption 7: Several people ride bikes on what appears to be park asphalt.  Caption 8: A group of people are riding the bicycle and playing hockey. Caption 9: Four people riding bicycles and playing polo while on a concrete pad near many houses. Caption 10: Four people playing polo on their bicycles on pavement. ",
+            "task_name": "NOCAPS+image_caption"
+        },
+        {
+            "img_path": "./imgs/A-OKVQA+rationales_generation_472_000000172547.jpg",
+            "prompt": "Provide 3 rationales for the given question and answer.\n\nThe question is: What kind of precipitation is at the top of the mountain?\nThe answer is: snow.\n<image>",
+            "target": "The 3 rationales are: 1. The change in the atmosphere causes fog in higher elevations.\n2. The precipitation is snow.\n3. The mountain tops are white.",
+            "task_name": "A-OKVQA+rationales_generation"
+        },
+        {
+            "img_path": "./imgs/VIZWIZ+image_captioning_440_VizWiz_train_00010575.jpg",
+            "prompt": "<image>\nGive me multiple captions for this image.",
+            "target": "Caption 1: A woman's hand is resting of some kind of thick green bumpy fabric and her finger is under an orange food label Caption 2: Fingertip touching an orange juice carton that's sitting on top of dark knit fabric Caption 3: Orange juice is in the carton right at your fingertips. Caption 4: A person is touching a package of food.",
+            "task_name": "VIZWIZ+image_captioning"
+        },
+        {
+            "img_path": "./imgs/CrisisMMD+humanitarian_categories_classification_260_909833394380525569_0.jpg",
+            "prompt": "<image>\nDetermine the humanitarian categories of the tweet text and the image. The categoies are: 'affected individuals', 'infrastructure and utility damage', 'injured or dead people', 'missing or found people', 'not humanitarian', 'other relevant information', 'rescue volunteering or donation effort', 'vehicle damage'. Output the categories of the tweet text and the image in the format: 'The tweet text is <category> and the image is <category>.'\n\nThe tweet text is: County urging residents to place Irma-related yard debris curbside as soon as possible. https://t.co/JX2fZnnIdn https://t.co/hSyd5lUVqW.",
+            "target": "The tweet text is other relevant information and the image is not humanitarian.",
+            "task_name": "CrisisMMD+humanitarian_categories_classification"
+        },
+        {
+            "img_path": "./imgs/trainSet+image_classification_892_199.jpg",
+            "prompt": "<image>\nUsing one word, classify the type of distortion / style is applied to the image or what type of setting is represented in the image.",
+            "target": "Object",
+            "task_name": "trainSet+image_classification"
+        },
+        {
+            "img_path": "./imgs/cinic-10+image_classification_shipping_596_n02843029_9292.png",
+            "prompt": "<image>\nThe given image can contain different types of shipping equipment. They can carry goods across water or land, and they carry all types of materials required around the world. Please identify the type of shipping option in the picture.",
+            "target": "The image contains a ship",
+            "task_name": "cinic-10+image_classification_shipping"
+        },
+        {
+            "img_path": "./imgs/LOC_NARRATIVES+flickr30k_images_caption_193_3182161610.jpg",
+            "prompt": "<image>\nPlease give me a detailed caption about the input image.",
+            "target": "In this image, there are two children in different color t-shirts, playing on an inflatable. One of these children is holding a toy and smiling. In the background, there are other toys, wooden objects and a person.",
+            "task_name": "LOC_NARRATIVES+flickr30k_images_caption"
+        },
+        {
+            "img_path": "./imgs/FUNSD+text_detection_51_0060173256.png",
+            "prompt": "Identify all the text in the image. Any ordering of the text is acceptable. Each chunk of text should be surrounded by double quotes and separated by commas.\n<image>",
+            "target": "\"Description\", \"Displays\", \"BRANDS\", \"Adjustment\", \"Carlton\", \"Amount\", \"Displays\", \"31,000.00\", \"(31,000.00)\", \"Distribution:\", \"\", \"5/5\", \"\", \"0.00\", \"Date\", \"Date\", \"Date\", \"Date\", \"THE AMERICAN TOBACCO COMPANY\", \"APPROVED MARKETING PROJECT EXPENSE RECOMMENDATION\", \"S0002 Supp 2\", \"Private Stock\", \"Current Budget\", \"$ 7,569,000.00\", \"Revised Budget\", \"$ 7,569,000.00\", \"$ 0.00\", \"CAR- MMT- DSP\", \"PRV- MMT- DSP\", \"Prepared By:\", \"Approved By:\", \"Approved By:\", \"Prepared By:\", \"\", \"Accounting File\", \"Project No\", \"Offer Description\", \"Charge Code\"",
+            "task_name": "FUNSD+text_detection"
+        },
+        {
+            "img_path": "./imgs/GTSRB+image_classification_48_00000_00001.jpeg",
+            "prompt": "<image>\nIn this task, you will classify traffic signs in the given image. The image is in color and contains various traffic signs captured in real-world conditions. Your goal is to accurately identify the type of traffic sign present in the image. Consider factors such as the sign's shape, color, and symbols to ensure correct classification. A sample output should look like this: 'Speed limit (80km/h)'\nOptions: (a) Road narrows on the right (b) Wild animals crossing (c) Stop (d) Speed limit (50km/h) (e) No passing for vehicles over 3.5 metric tons (f) Speed limit (70km/h) (g) Speed limit (30km/h) (h) End of no passing by vehicles over 3.5 metric tons (i) Ahead only (j) No passing",
+            "target": "(i) Ahead only",
+            "task_name": "GTSRB+image_classification"
+        },
+        {
+            "img_path": "./imgs/VQG+question_generation_190_4acbd431-5b8c-47d3-a2d7-c6557fcbb373.jpg",
+            "prompt": "Given an image, generate a relevant question about the content of the image.\n<image>",
+            "target": "What was being delivered?",
+            "task_name": "VQG+question_generation"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000244589.jpg",
+            "prompt": "<image>\nIn this task, you will be asked about the attribute of some object. Question: What is the wall of the tub made of?",
+            "target": "tile",
+            "task_name": "VQA_attribute"
+        },
+        {
+            "img_path": "./imgs/VQG+caption_generation_106_4aa1abff-0c6d-4214-acaf-72ad68519c4c.jpg",
+            "prompt": "<image>\nGiven an image, you will generate a caption for the image.",
+            "target": "Exterior of a brown house",
+            "task_name": "VQG+caption_generation"
+        },
+        {
+            "img_path": "./imgs/DOMAIN_NET+quickdraw_image_classification_371_5322398205214720.png",
+            "prompt": "In this task, the input will be a rough sketch of something. Identify the main object depicted in the rough sketch.\n<image>",
+            "target": "dumbbell",
+            "task_name": "DOMAIN_NET+quickdraw_image_classification"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000486452.jpg",
+            "prompt": "<image>\nDoes \"A woman in blue and purple holds a snowboard while standing in the snow.\" describes image? \n\nOptions: (a) the description matches the image (b) the text is not a description of the image",
+            "target": "(a) the description matches the image",
+            "task_name": "ITM"
+        },
+        {
+            "img_path": "./imgs/Yoga-82+yoga_pose_recognition_53_utthita-trikonasana-pose-yoga_22.jpg",
+            "prompt": "<image>\nWhat is the name of the yoga pose?",
+            "target": "The yoga pose is Extended Revolved Triangle Pose or Utthita Trikonasana.",
+            "task_name": "Yoga-82+yoga_pose_recognition"
+        },
+        {
+            "img_path": "./imgs/ImageNet-C+image_classification_noise_344_ILSVRC2012_val_00002858.JPEG",
+            "prompt": "Given an image, identify the type of corruption in the image. The image can have digitally generated noise, blur, or other distortions\nOptions: (a) The corruption type is Saturate (b) The corruption type is Pixelate (c) The corruption type is Elastic transform (d) The corruption type is Contrast (e) The corruption type is Speckle noise (f) The corruption type is Shot noise (g) The corruption type is Gaussian blur (h) The corruption type is Spatter (i) The corruption type is Impulse noise (j) The corruption type is Gaussian noise\n<image>",
+            "target": "(a) The corruption type is Saturate",
+            "task_name": "ImageNet-C+image_classification_noise"
+        },
+        {
+            "img_path": "./imgs/v7w_2347934.jpg",
+            "prompt": "What is green on the plate?\n\nOptions: (a) Salad. (b) Garnish. (c) Broccoli. (d) Tomato.\n<image>",
+            "target": "(b) Garnish.",
+            "task_name": "VQA"
+        },
+        {
+            "img_path": "./imgs/FLICKR30K+caption_image_958_4898966335.jpg",
+            "prompt": "<image>\nEach image has something going on. Carefully analyze the image and generate 5 captions for each image.",
+            "target": "Caption 1: A young woman intently looking at something while another woman in a hat looks on.\nCaption 2: A young girl in glasses observes something in the distance.\nCaption 3: a teenager and her mom at a public place.\nCaption 4: A blond girl is fixing her sunglasses.\nCaption 5: A woman adjusts her sunglasses.\n",
+            "task_name": "FLICKR30K+caption_image"
+        },
+        {
+            "img_path": "./imgs/HICO+human_activity_detection_475_HICO_train2015_00031131.jpg",
+            "prompt": "<image>\nAnswer a simple question. What is the person in the image doing? If there is no action being performed, describe the main object in the image.",
+            "target": "A person is holding the skateboard.",
+            "task_name": "HICO+human_activity_detection"
+        },
+        {
+            "img_path": "./imgs/FGVC_Aircraft+Aircraft_Classification_279_0673508.jpg",
+            "prompt": "Your objective is to analyze an aircraft image and provide the manufacturer, family, and variant of the aircraft in the specified order: manufacturer; family; variant (e.g., Airbus; A300; A300B4).\nManufacturer: The manufacturer refers to the company that designs, builds, and assembles the aircraft, possessing the expertise and experience in the aviation industry necessary for production and delivery.\nFamily: A family represents a collection of aircraft models produced by the same manufacturer, sharing common characteristics, design principles, or technological platforms.\nVariant: A variant indicates a variation of a particular aircraft model, often incorporating specific modifications, improvements, or customizations compared to the base model.\n<image>",
+            "target": "Dornier; Dornier 328; Dornier 328",
+            "task_name": "FGVC_Aircraft+Aircraft_Classification"
+        },
+        {
+            "img_path": "./imgs/PACS+cartoon_object_classification_68_pic_024.jpg",
+            "prompt": "You will be given an image of a cartoon. Identify the main object in the image.\n<image>",
+            "target": "horse",
+            "task_name": "PACS+cartoon_object_classification"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000038256.jpg",
+            "prompt": "In this task, you will be asked a question regarding the emotion conveyed in the image. The question is Is this dog happy?\n<image>",
+            "target": "yes",
+            "task_name": "VQA_sentiment_understanding"
+        },
+        {
+            "img_path": "./imgs/SKETCH+living_organism_detection_706_4791.png",
+            "prompt": "<image>\nIn this task, you will identify whether the picture contains a living organism. The images given are black and white sketches drawn by human beings. If the picture depicts a living organism or part of a living organism, the output should be \"Living\". Otherwise, print \"Non-Living\"",
+            "target": "Living",
+            "task_name": "SKETCH+living_organism_detection"
+        },
+        {
+            "img_path": "./imgs/VisDA-2017+object_classification_validation_230_plant_20872.jpg",
+            "prompt": "<image>\nYou are given an image which contains an object. Your goal is to identify the category of the object present in the image from the given options.\nOptions: (a) truck (b) motorcycle (c) person (d) plant (e) horse (f) bus (g) knife (h) car (i) train (j) bicycle",
+            "target": "(d) plant",
+            "task_name": "VisDA-2017+object_classification_validation"
+        },
+        {
+            "img_path": "./imgs/MemeCap+image_captioning_729_memes_yy8lv2.png",
+            "prompt": "You are given a meme and your goal is to generate a caption that describes the image. Ignore the text in the meme.\n\nTitle: The Twitter diaspora continues\n<image>",
+            "target": "the yellow color cat",
+            "task_name": "MemeCap+image_captioning"
+        },
+        {
+            "img_path": "./imgs/DOMAIN_NET+real_image_classification_289_real_035_000167.jpg",
+            "prompt": "Identify the main object in the image.\n<image>",
+            "target": "blueberry",
+            "task_name": "DOMAIN_NET+real_image_classification"
+        },
+        {
+            "img_path": "./imgs/ImageNet-R+image_classification_651_tattoo_9.jpg",
+            "prompt": "<image>\nYour task is to classify the image using various categories. You need to carefully observe the details of the object in the image, including its shape, color, and texture, as these characteristics may vary across different renditions. Output the appropriate object name as the result of your classification process.",
+            "target": "great white shark",
+            "task_name": "ImageNet-R+image_classification"
+        },
+        {
+            "img_path": "./imgs/A-OKVQA+visual_question_answering_724_000000175438.jpg",
+            "prompt": "Answer the question based on the image.\n\nThe question is: What time period of the day is it?\n<image>",
+            "target": "The answer is: afternoon.",
+            "task_name": "A-OKVQA+visual_question_answering"
+        },
+        {
+            "img_path": "./imgs/MEMOTION+sentiment_detection_627_image_5624.jpg",
+            "prompt": "<image>\nCan you please read the image and extract all the text from it?",
+            "target": "THIS GIRLS HOT AND LIKES HITLER MEMES makeameme.org",
+            "task_name": "MEMOTION+sentiment_detection"
+        },
+        {
+            "img_path": "./imgs/CONCADIA+image_description_80_34442.jpg",
+            "prompt": "Can you describe the visual appearance of this image?\n<image>",
+            "target": "Red-and-white-striped lighthouse, behind a stand of palm trees",
+            "task_name": "CONCADIA+image_description"
+        },
+        {
+            "img_path": "./imgs/CrisisMMD+damage_severity_classification_450_910538720117391360_0.jpg",
+            "prompt": "<image>\nDetermine the damage severity of the scene in the image, including 'little or no damage', 'mild damage', and 'severe damage'.\n\nThe tweet text is: Pics from Facebook page St. Croix Hurricane Maria Check in. Extensive damage #Maria @cnn @weatherchannel @maddow https://t.co/c3pciH5rYH.",
+            "target": "The image damage severity is: mild damage.",
+            "task_name": "CrisisMMD+damage_severity_classification"
+        },
+        {
+            "img_path": "./imgs/PACS+house_image_category_classification_730_pic_119.jpg",
+            "prompt": "You will be given an image of a house. The image could be of different categories like painting, cartoon, photograph, or sketch. Identify the image category.\nOptions: (a) Sketch (b) Photograph (c) Art painting (d) Cartoon\n<image>",
+            "target": "(b) Photograph",
+            "task_name": "PACS+house_image_category_classification"
+        },
+        {
+            "img_path": "./imgs/2389998.jpg",
+            "prompt": "What is on the pizza?\n<image>",
+            "target": "Ham",
+            "task_name": "visualgenome_vqa"
+        },
+        {
+            "img_path": "./imgs/method_1_step_6.jpg",
+            "prompt": "<image>\nYou are doing Using an Oven to Dry Cilantro. What is the next step to step in the image?\n\nOptions: (a) Store the dried cilantro leaves in an airtight container. (b) Preheat your oven to 250 \u00b0F (121 \u00b0C). (c) Remove the tray from the oven and let it cool for 10 minutes. (d) Spread the leaves on the baking tray to form 1 layer. (e) Wash the cilantro to remove dirt and debris.",
+            "target": "(c) Remove the tray from the oven and let it cool for 10 minutes.",
+            "task_name": "wikihow_immediate_next_step_selection"
+        },
+        {
+            "img_path": "./imgs/PICKAPIC+image_short_description_534_e23c08c1-7efd-4c38-96e2-fc39004639fe.png",
+            "prompt": "Check this image. Can you give me a short description for it?\n<image>",
+            "target": "Kevin",
+            "task_name": "PICKAPIC+image_short_description"
+        },
+        {
+            "img_path": "./imgs/DTD+coarse_grained_texture_classification_115_cracked_0094.jpg",
+            "prompt": "Texture is defined as the feel, appearance or consistency of a surface or substance from a human's perspective. Detect the primary texture represented in the image.\n<image>",
+            "target": "cracked",
+            "task_name": "DTD+coarse_grained_texture_classification"
+        },
+        {
+            "img_path": "./imgs/DOMAIN_NET+painting_image_classification_279_painting_257_000159.jpg",
+            "prompt": "The input for this task is a painting. Identify the main object in the painting.\n<image>",
+            "target": "see saw",
+            "task_name": "DOMAIN_NET+painting_image_classification"
+        },
+        {
+            "img_path": "./imgs/iconqa+choose_txt_208_image.png",
+            "prompt": "I have a question about what is happening in this picture, can you please give me an answer?\n\nElla is making her bed one morning. The clock shows the time. What time is it?\n<image>",
+            "target": "The answer is 6:00 A.M.",
+            "task_name": "iconqa+choose_txt"
+        },
+        {
+            "img_path": "./imgs/STVQA+image_question_answer_334_COCO_train2014_000000430692.jpg",
+            "prompt": "The input text contains a question about the image. Please answer the question.\n\nwhat is written on the note book\n<image>",
+            "target": "tokidoki",
+            "task_name": "STVQA+image_question_answer"
+        },
+        {
+            "img_path": "./imgs/Office_31+Image_Classification_ObjectAndCategory_142_frame_0002.jpg",
+            "prompt": "<image>\nThe input for this task is an image of the commonly encountered office objects such as keyboards, file cabinets, and laptops from three different categories(AMAZON, DSLR, WEBCAM). The output of this task is to name the domain of image(AMAZON, DSLR, or WEBCAM) as well as the object in the image in the following format: 'Category ObjectName' (exp. amazon mug) AMAZON: these images were captured from a website of online merchants, they are captured against clean background. DSLR cameras offer improved image quality when compared to standard webcams.",
+            "target": "webcam paper_notebook",
+            "task_name": "Office_31+Image_Classification_ObjectAndCategory"
+        },
+        {
+            "img_path": "./imgs/SentiCap+image_sentiment_captioning_251_COCO_val2014_000000284106.jpg",
+            "prompt": "<image>\nYou are provided with a picture, write a caption with a specific sentiment (positive or negative) related to the picture. Note that the sentiment in the caption should match the requested sentiment.\n\nWrite a caption with a positive sentiment for the given image.",
+            "target": "a very nice looking tray filled with some excellent looking food",
+            "task_name": "SentiCap+image_sentiment_captioning"
+        },
+        {
+            "img_path": "./imgs/A-OKVQA+answer_rationales_matching_629_000000273132.jpg",
+            "prompt": "Answer the question and provide an explanation.\n\nThe question is: What is the age of this woman?\n<image>",
+            "target": "The answer is 60 because She is older with grey hair but not really old yet",
+            "task_name": "A-OKVQA+answer_rationales_matching"
+        },
+        {
+            "img_path": "./imgs/ImageNet-C+image_classification_blur_523_ILSVRC2012_val_00005365.JPEG",
+            "prompt": "Given a blurred picture, identify the type of blur in the image, it can be blurred in different ways\nOptions: (a) The image is corrupt, the specific corruption type is Glass blur (b) The image is corrupt, the specific corruption type is Defocus blur (c) The image is corrupt, the specific corruption type is Motion blur (d) The image is corrupt, the specific corruption type is Zoom blur\n<image>",
+            "target": "(b) The image is corrupt, the specific corruption type is Defocus blur",
+            "task_name": "ImageNet-C+image_classification_blur"
+        },
+        {
+            "img_path": "./imgs/DOMAIN_NET+infograph_image_classification_440_infograph_313_000323.jpg",
+            "prompt": "An info graph is a visual image like a poster that is used to represent information or data about any object. For this task, the input will be a info graph. Identify the main object of the info graph.\n<image>",
+            "target": "toaster",
+            "task_name": "DOMAIN_NET+infograph_image_classification"
+        },
+        {
+            "img_path": "./imgs/ExDark+object_recognition_917_2015_00252.jpg",
+            "prompt": "<image>\nIdentify the object in the image, including bicycle, boat, bottle, bus, car, and other object.",
+            "target": "The object is Bicycle.",
+            "task_name": "ExDark+object_recognition"
+        },
+        {
+            "img_path": "./imgs/NUS-WIDE+Animal_classification_158_0089_1447908783.jpg",
+            "prompt": "Identify if the given image contains any animal in it. Pay attention to each object in the image as well as the background environment while making this classification. If the image contains an animal, the answer should be 'yes'. Otherwise, 'no'.\nOptions: (a) No (b) Yes\n<image>",
+            "target": "(b) Yes",
+            "task_name": "NUS-WIDE+Animal_classification"
+        },
+        {
+            "img_path": "./imgs/MVTecAD+anomaly_detection_869_000.png",
+            "prompt": "<image>\nThe primary objective of this task is to accurately identify the type and cause of anomalies in the object present in the provided image. The image depicts a specific category of object and texture, and within this category, there are defect-free images as well as images exhibiting different types of defects. Your task is to carefully examine the image and meticulously identify the specific type and cause of any deviations from the normal appearance of the object or texture. Pay close attention to irregularities in lines, shading, color scheme, and level of detail. Additionally, analyze the unique characteristics of the category, including shape, color, and texture. Your focus should be on precisely identifying the particular type and cause of the anomaly. The potential anomalies to consider encompass a wide range, such as gray strokes, bent objects, holes, missing wires, and more.",
+            "target": "The anomaly is combined.",
+            "task_name": "MVTecAD+anomaly_detection"
+        },
+        {
+            "img_path": "./imgs/coco+image_classification_vehicle_830_000000492020.jpg",
+            "prompt": "Given an image of a vehicle, identify the kind of vehicle it is. The vehicle can be of different types; it could be something used, personal, or public transport. It could carry one or more people at the same time.\nOptions: (a) This image contains a bus (b) This image contains a bicycle (c) This image contains a boat (d) This image contains an airplane (e) This image contains a motorcycle (f) This image contains a train (g) This image contains a truck (h) This image contains a car\n<image>",
+            "target": "(b) This image contains a bicycle",
+            "task_name": "coco+image_classification_vehicle"
+        },
+        {
+            "img_path": "./imgs/REDCAPS+reddit_caption_2_403_jerf2m8vipw01.jpg",
+            "prompt": "<image>\nImagine I am posting this image on a casual community based social media platform. What could be a possible caption for this image? I could describe the image, write something fun, give context or describe my emotions about the image.",
+            "target": "pilot is ae",
+            "task_name": "REDCAPS+reddit_caption_2"
+        },
+        {
+            "img_path": "./imgs/CUB-200-2011+Bird_Classification_117_Long_Tailed_Jaeger_0054_797088.jpg",
+            "prompt": "Your objective is to identify the species of the bird depicted in the provided image.\n<image>",
+            "target": "Long tailed Jaeger",
+            "task_name": "CUB-200-2011+Bird_Classification"
+        },
+        {
+            "img_path": "./imgs/CLEVR+question_answer_184_CLEVR_train_003462.png",
+            "prompt": "<image>\nAnalyze the image provided and answer the question provided in the input text.\n\nWhat color block is farthest back?",
+            "target": "yellow",
+            "task_name": "CLEVR+question_answer"
+        },
+        {
+            "img_path": "./imgs/Core50+Object_detection_475_C_09_41_288.png",
+            "prompt": "Your task is to identify the item shown in the picture. The images contain everyday objects such as a plug adapter, mobile phone, scissors, and more. It is important to carefully consider the object's shape, size, and color characteristics in order to accurately classify the image.\n<image>",
+            "target": "cup",
+            "task_name": "Core50+Object_detection"
+        },
+        {
+            "img_path": "./imgs/DOMAIN_NET+image_category_classification_868_painting_327_000120.jpg",
+            "prompt": "<image>\nYou will be given an image. Answer 2 questions. What kind of image is this? Choose from clip art, info graph, painting, rough sketch, painting, real and sketch. Second question, what is the main object in the image? Answer it like \"This is a clip art of an apple.\"",
+            "target": "This is a painting of a trumpet.",
+            "task_name": "DOMAIN_NET+image_category_classification"
+        },
+        {
+            "img_path": "./imgs/Cars+car_classification_840_08025.jpg",
+            "prompt": "In this task, based on the given image dataset of different cars, you have to identify the model + car make + Year of Make of a car in the image among a total of 196 categories such as Audi A5 Coupe 2012, BMW 3 Series Sedan 2012, Bentley Arnage Sedan 2009,... Pay attention to details such as the size, logo, type of the car to identify the model. So by looking at a car image, Give your answer in the following format:  Model of the Car++Make of the Car++Year of Make\n<image>",
+            "target": "GMC Savana Van 2012",
+            "task_name": "Cars+car_classification"
+        },
+        {
+            "img_path": "./imgs/MNIST-M+number_recognition_153_00058887.png",
+            "prompt": "In this task, you will be presented with a grayscale image containing a handwritten digit overlaid on a natural image background. Your objective is to correctly identify the digit in the image.\n<image>",
+            "target": "1",
+            "task_name": "MNIST-M+number_recognition"
+        },
+        {
+            "img_path": "./imgs/fairface+image_classification_age_410_71295.jpg",
+            "prompt": "<image>\nYou are given an image of a person's face. This person can be of different ages, your task is to identify the person's age",
+            "target": "The person's age is 10-19",
+            "task_name": "fairface+image_classification_age"
+        },
+        {
+            "img_path": "./imgs/coco+image_classification_appliance_801_000000406298.jpg",
+            "prompt": "Given an image of a common electronic appliance from around the house, identify the type of object it is. It could be an appliance that is commonly used in the kitchen to cook or store food.\nOptions: (a) This image contains an oven (b) This image contains a microwave (c) This image contains a toaster (d) This image contains a refrigerator (e) This image contains a sink\n<image>",
+            "target": "(e) This image contains a sink",
+            "task_name": "coco+image_classification_appliance"
+        },
+        {
+            "img_path": "./imgs/CONCADIA+image_caption_context_2_378_11629.jpg",
+            "prompt": "<image>\nCaption this image. Along with the caption, give me some background knowledge regarding this image.",
+            "target": "Alexander Suvorov.  The Austro-Russian army commanded by Field Marshal Suvorov was organized into three columns on 18 June. General Rosenberg led the mostly Russian First and Second Columns while General der Kavallerie Melas directed the mostly Austrian Third Column. The Austrian forces numbered 9,851 foot and 4,586 horse while the Russians counted 16,219 infantry and 2,000 Cossacks. These numbers amounted to 32,656 and did not include artillerymen. The figures in brackets represent Austrian casualties. The First Column on the right was headed by an Advance Guard under Major General Pyotr Bagration which included the Dendrygin, Kalemin, Lomonosov and Sanaev Combined Grenadier Battalions, two battalions of the Bagration Jger Regiment, Grekov and Posdeev Cossack Regiments and six squadrons of the Austrian Karaczay Dragoon Regiment Nr. 4 . Lieutenant General Yakov Ivanovich Povalo-Schveikovsky led an infantry division consisting of two battalions of the Rosenberg Grenadier Regiment, one battalion each of the Dalheim and Schveikovsky Musketeer Regiments and six squadrons of the Austrian Lobkowitz Dragoon Regiment Nr. 10 .",
+            "task_name": "CONCADIA+image_caption_context_2"
+        },
+        {
+            "img_path": "./imgs/300w+human_portrait_classification_307_outdoor_184.png",
+            "prompt": "In this task, you will be presented with an image depicting a human portrait image. Your objective is to accurately classify the image by identifying the two categories it belongs to which are indoor and outdoor. To do so, carefully examine the visual elements present in the image, such as the background, people's clothes and any distinguishing features that can provide valuable clues for determining the category. For instance, if a person is at a baseball game outdoors, the category is outdoors. Once you have determined the category, provide your answer as the name of the category. \n<image>",
+            "target": "Outdoor",
+            "task_name": "300w+human_portrait_classification"
+        },
+        {
+            "img_path": "./imgs/FoodLogoDet-1500+food_logo_recognition_950_009808.jpg",
+            "prompt": "<image>\nWhat is the logo in the image?",
+            "target": "The logo in the image is Del Monte.",
+            "task_name": "FoodLogoDet-1500+food_logo_recognition"
+        },
+        {
+            "img_path": "./imgs/CONCADIA+image_caption_context_1_808_90742.jpg",
+            "prompt": "Can you give me a caption and some background knowledge about this image?\n<image>",
+            "target": "The beginning of the Regularis Concordia, drafted by thelwold in hermeneutic style.  David Woodman gives a translation of the start of a charter drafted by \"thelstan A\", S 416 issued on 12 November 931:",
+            "task_name": "CONCADIA+image_caption_context_1"
+        },
+        {
+            "img_path": "./imgs/DAQUAR+object_question_answer_658_image1189.png",
+            "prompt": "The input text will contain a question about the image. Answer the question.\n\nWhat is at the right side of the plant?\n<image>",
+            "target": "cabinet",
+            "task_name": "DAQUAR+object_question_answer"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000248945.jpg",
+            "prompt": "Is this indoor or outdoor?\n<image>",
+            "target": "indoor",
+            "task_name": "VQA_scene_recognition"
+        },
+        {
+            "img_path": "./imgs/Caltech101+Image_classification_561_image_0018.jpg",
+            "prompt": "<image>\nIn this task, you have to classify the object in the image among a total of 102 classes such as Airplane, Ant, Butterfly, Chair,... The classes of the image are a diverse set ranging from objects to living beings. Pay attention to details as the object in the image can be in any format(sketch, painting, captured photo, etc) So, your answer should be the class of the object in the image",
+            "target": "garfield",
+            "task_name": "Caltech101+Image_classification"
+        },
+        {
+            "img_path": "./imgs/method_0_step_2.jpg",
+            "prompt": "<image>\nThe goal is to \"Magazine Roll-Ups\". Given current step specified by the content of the image and you have finished.\n\n\\All previous steps: Zip up the sides of your boots in readiness for storing.\nRoll up an unwanted magazine and insert into one boot.\nRoll up a second unwanted magazine and insert it into the other boot.\nPut your boots in a standing up position in your shoe storage area..\nWhat is the next step?",
+            "target": "Put your boots in a standing up position in your shoe storage area.",
+            "task_name": "wikihow_next_step"
+        },
+        {
+            "img_path": "./imgs/cinic-10+object_presence_animal_320_n02414578_3327.png",
+            "prompt": "<image>\nThe given image can contain some animals; they can be animals typically found in the wild or domesticated animals. The picture could also contain something that does not fit this description. Your job is to identify if the subject of the image is an animal or not.",
+            "target": "The object is an animal",
+            "task_name": "cinic-10+object_presence_animal"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000267502.jpg",
+            "prompt": "What is the girl doing?\n<image>",
+            "target": "eating",
+            "task_name": "VQA_activity_recognition"
+        },
+        {
+            "img_path": "./imgs/spot-the-diff+image_diff_identification_36_10125.png",
+            "prompt": "You are provided with an image which contains two pictures side by side. Your task is to identify the differences between the two pictures. Separate the differences with a comma.\n<image>",
+            "target": "there are more visible people in the frame",
+            "task_name": "spot-the-diff+image_diff_identification"
+        },
+        {
+            "img_path": "./imgs/118075-proof-19-ub28hBL28qokOkBhVWXYao3jfA92fEvRg583AA5KQnjmMttESK24kst_X0VuXFNi9KRZ1z87c1y0aups.jpg",
+            "prompt": "<image>\nContext: Our Rating A widely-shared Facebook post claimed California had legalized 'pedophilia,' and that 'Now a 21 year old can have sex with an 11 year old, and not be listed on the sex registry as a sex offender.' That post and many like it are simply wrong. They grossly distort the proposals in state SB 145, which aims to eliminate a disparity in how LGBTQ young people are treated on California's sex offender registry. The legislation would eliminate automatic sex offeder registration for young adults who are convicted of having voluntary anal or oral sex with a minor and are within 10 years of age of the victim. Instead, a judge would make that decision, just as existing law allows judges to decide whether to place offenders in cases involving vaginal intercourse on the registry. The bill would not, in any fashion, make it legal for any adult to have any type of sex with a minor. The only change involves giving a judge discretion over whether to list an offender on the sex registry for certain sex acts. We rate the claims in the Facebook post Pants on Fire. PANTS ON FIRE - The statement is not accurate and makes a ridiculous claim.\n\nDoes the context support \"'PEDOPHILIA is now LEGAL in CALIFORNIA. Now a 21 year old can have sex with an 11 year old, and not be listed on the sex registry as a sex offender.\"? \n\nOptions: (a) not sure (b) no (c) yes",
+            "target": "(b) no",
+            "task_name": "multimodal_factual_checking"
+        },
+        {
+            "img_path": "./imgs/VOC2007+object_detection_895_009388.jpg",
+            "prompt": "Identify some objects that are present in the image. Give a comma separated list as the output.\n<image>",
+            "target": "bottle, chair, tvmonitor",
+            "task_name": "VOC2007+object_detection"
+        },
+        {
+            "img_path": "./imgs/method_1_step_5.jpg",
+            "prompt": "<image>\nThe goal is to \"Thawing with a Microwave\". Given the current step \"Remove the plastic wrap and inspect your dough.\", Is the picture the next or the previous step?\n\nOptions: previous next",
+            "target": "next",
+            "task_name": "wikihow_text_image_step_order"
+        },
+        {
+            "img_path": "./imgs/CLEVR_CoGenT+VQA_context_453_CLEVR_trainA_052417.png",
+            "prompt": "<image>\nYou are given some question and answer pairs as context, and you will answer the question at the end based on the image.\n\nThere is another large object that is the same shape as the yellow thing; what is its material? rubber\nIs the shape of the object to the left of the big red rubber sphere the same as  the red rubber object? no\nDoes the blue metal block have the same size as the yellow sphere? no\nWhat is the shape of the object behind the small blue sphere? cylinder\nThe big metal object that is in front of the large object that is behind the small blue shiny thing is what color? blue\nWhat material is the other ball that is the same size as the yellow ball? metal\nAre there any big blue objects made of the same material as the big sphere? no\nDo the tiny yellow metal object and the small blue metal thing have the same shape? yes\n\nWhat number of things are blue metal objects that are right of the red shiny cylinder or metallic things in front of the big sphere?",
+            "target": "3",
+            "task_name": "CLEVR_CoGenT+VQA_context"
+        },
+        {
+            "img_path": "./imgs/visdial+answer_question_9_959_COCO_train2014_000000131427.jpg",
+            "prompt": "<image>\nHere is a detailed conversation between a person and a robot. They are discussing some questions and answers about a picture. From the conversation, answer the question as the robot.\n\nHuman: what kind of uniform are the men wearing?\nRobot: they look like military\nHuman: how many men would you guess there are?\nRobot: there are 3 men and a civilian woman\nHuman: what color is the plane?\nRobot: white\nHuman: what is the woman doing?\nRobot: talking to 1 of the men and pointing at the side of the plane\nHuman: does the plane have writing on it?\nRobot: some numbers but i cannot make them out\nHuman: does it look like a military plane?\nRobot: i think so but it is a close up, so hard to tell\nHuman: are there any other planes in the image?\nRobot: yes i see parts of 2 others in the background\nHuman: can you tell if they are outside?\nRobot: yes they are\nHuman: is it sunny outside?\nRobot: yes\nQuestion: what is the woman wearing?",
+            "target": "Robot: a white and blue dress",
+            "task_name": "visdial+answer_question_9"
+        },
+        {
+            "img_path": "./imgs/PACS+horse_image_category_classification_402_pic_012.jpg",
+            "prompt": "<image>\nYou will be given an image of a horse. The image could be of different categories like painting, cartoon, photograph, or sketch. Identify the image category.\nOptions: (a) Cartoon (b) Photograph (c) Art painting (d) Sketch",
+            "target": "(a) Cartoon",
+            "task_name": "PACS+horse_image_category_classification"
+        },
+        {
+            "img_path": "./imgs/VizWiz_train_00006700.jpg",
+            "prompt": "Explain why the image quality is bad. \n\nOptions: (a) rotation (b) bad framing (c) too bright (d) no flaws (e) blur (f) too dark (g) other (h) obscured\n<image>",
+            "target": "(b) bad framing",
+            "task_name": "image_quality"
+        },
+        {
+            "img_path": "./imgs/expw+expression_detection_576_astound_wife_170.jpg",
+            "prompt": "<image>\nGiven an image of a person, look at their face and tell me what their facial expression is like",
+            "target": "The expression is of happiness",
+            "task_name": "expw+expression_detection"
+        },
+        {
+            "img_path": "./imgs/coco+image_classification_kitchen_298_000000467037.jpg",
+            "prompt": "Given an image of something from the kitchen, identify what it could be. The image could be of cooking tools or items that are used for eating. It could also be used for serving food or storing it.\nOptions: (a) This image contains a bottle (b) This image contains a cup (c) This image contains a wine glass (d) This image contains a fork (e) This image contains a knife (f) This image contains a bowl (g) This image contains a spoon\n<image>",
+            "target": "(a) This image contains a bottle",
+            "task_name": "coco+image_classification_kitchen"
+        },
+        {
+            "img_path": "./imgs/LOC_NARRATIVES+open_images_caption_868_bd94662728840ffc.jpg",
+            "prompt": "What is going in this image? Give me a detailed description.\n<image>",
+            "target": "In this picture I can see food items in the jars with lids, which are on the wooden object, and there is blur background.",
+            "task_name": "LOC_NARRATIVES+open_images_caption"
+        },
+        {
+            "img_path": "./imgs/infographicvqa+single_document_question_210_kggn0226_28.png",
+            "prompt": "<image>\nHere is a picture of a business or industry document, can you please answer my question based on the text in the document?\n\nWhat is the no of days given in the form?",
+            "target": "358",
+            "task_name": "infographicvqa+single_document_question"
+        },
+        {
+            "img_path": "./imgs/ObjectNet+Object_classfication_522_62b95cae1e80473.png",
+            "prompt": "Your task is to recognize the object depicted in the given image. The object can be any item commonly used in our everyday lives, such as kitchen tools, food items, stationery, clothing, and more. To correctly identify the object, carefully observe its color, shape, and size characteristics.\n<image>",
+            "target": "Flashlight",
+            "task_name": "ObjectNet+Object_classfication"
+        },
+        {
+            "img_path": "./imgs/PACS+person_image_category_classification_166_pic_418.jpg",
+            "prompt": "You will be given an image of a person. The image could be of different categories like painting, cartoon, photograph, or sketch. Identify the image category.\n<image>",
+            "target": "Cartoon",
+            "task_name": "PACS+person_image_category_classification"
+        },
+        {
+            "img_path": "./imgs/NABirds+body_part_detection_588_282fc194de9a41e2b952e6fb9feaa3ed.jpg",
+            "prompt": "Tell me what body parts of the bird you can see in the image. provide the output in the following format: \"The visible body parts are bill; crown; nape; left eye; belly; breast; back; tail; right wing.\"\n<image>",
+            "target": "The visible body parts are bill; crown; nape; right eye; belly; breast; back; tail; left wing.",
+            "task_name": "NABirds+body_part_detection"
+        },
+        {
+            "img_path": "./imgs/NABirds+bird_species_detection_949_931336a93d394745b20f6d44c5ff6e86.jpg",
+            "prompt": "Identify the species of the bird in the image, considering its overall appearance, including size, shape, color, and patterns.\n<image>",
+            "target": "Pied-billed Grebe",
+            "task_name": "NABirds+bird_species_detection"
+        },
+        {
+            "img_path": "./imgs/coco+image_classification_furniture_758_000000412146.jpg",
+            "prompt": "Given an image of a piece of furniture in a house, identify the type of furniture. It is usually used to make the house look better and can be made of different kinds of material.\nOptions: (a) This image contains a dining table (b) This image contains a bed (c) This image contains a toilet (d) This image contains a chair (e) This image contains a couch (f) This image contains a potted plant\n<image>",
+            "target": "(d) This image contains a chair",
+            "task_name": "coco+image_classification_furniture"
+        },
+        {
+            "img_path": "./imgs/Winoground+image_captioning_156_ex_312_img_0.png",
+            "prompt": "<image>\nIn this task, you will be provided with an image and two captions. Your task is to identify which of the two captions correctly describes the image.\nOptions: (a) the white wall will soon be painted blue (b) the blue wall will soon be painted white",
+            "target": "(a) the white wall will soon be painted blue",
+            "task_name": "Winoground+image_captioning"
+        },
+        {
+            "img_path": "./imgs/INATURALIST+supercategory_classification_572_a59b1023-3799-4fd4-9720-c5e1845368d9.jpg",
+            "prompt": "You will be given an image of an organism. Analyze the image and pick the super category for this organism from the options provided.\nOptions: (a) Animalia (b) Reptiles (c) Insects (d) Ray-finned Fishes (e) Fungi (f) Amphibians (g) Birds (h) Plants (i) Mollusks (j) Mammals (k) Arachnids\n<image>",
+            "target": "(c) Insects",
+            "task_name": "INATURALIST+supercategory_classification"
+        },
+        {
+            "img_path": "./imgs/LOC_NARRATIVES+ade20k_images_caption_583_ADE_train_00004721.jpg",
+            "prompt": "Can you give me a detailed description about this image?\n<image>",
+            "target": "In this picture we can see few people and poles on the ground and we can see fences. In the background we can see a building with windows and we can see the name board.",
+            "task_name": "LOC_NARRATIVES+ade20k_images_caption"
+        },
+        {
+            "img_path": "./imgs/Office_31+Image_Classification_Object_338_frame_0009.jpg",
+            "prompt": "The input for this task is an image of commonly encountered office objects such as keyboards, file cabinets, and laptops. from three different categories (Pictures from AMAZON, pictures taken with a DSLR camera, and pictures taken by WEBCAM). The output of this task is to name the object in the image.\n<image>",
+            "target": "letter_tray",
+            "task_name": "Office_31+Image_Classification_Object"
+        },
+        {
+            "img_path": "./imgs/PACS+art_painting_object_classification_538_pic_243.jpg",
+            "prompt": "<image>\nYou will be given an art painting image as input. Identify the main object in the image.",
+            "target": "dog",
+            "task_name": "PACS+art_painting_object_classification"
+        },
+        {
+            "img_path": "./imgs/AID+aerial_scene_classification_277_airport_78.jpg",
+            "prompt": "<image>\nYou are given an aerial image. Tell me the scene in the image.",
+            "target": "The aerial scene is Airport.",
+            "task_name": "AID+aerial_scene_classification"
+        },
+        {
+            "img_path": "./imgs/VQA-E+visual_question_answering_841_COCO_train2014_000000467799.jpg",
+            "prompt": "<image>\nYou are provided with an image and a question related to the image. Answer the question based on the information given in the image.\n\nHow many players are there?",
+            "target": "3",
+            "task_name": "VQA-E+visual_question_answering"
+        },
+        {
+            "img_path": "./imgs/semart+image_description_282_18223-0404grec.jpg",
+            "prompt": "Here is a picture of fine art, can you please give me a long description describing all of its details?\n<image>",
+            "target": "Here is a description: The earliest reference to the painting appears in Francisco de los Santos, Descripci\u00f3n . . . del Escorial, published in 1657, when it was in the sacristy of the Pantheon: ' . . . commonly called the \"Glory of El Greco\" on account of the Glory above, but there is also represented, below, Purgatory and Hell, and on the other side, the Church Militant, with an immense number of the Faithful in adoration, raising their hands and eyes to Heaven, and among them Philip II; in the middle of the Glory is the Name of Jesus adored by Angels . . . signifying the words of Saint Paul In Nomine Jesu omne genu, flectatur Caelestium, Terrestrium, &#38; Infernorum' (Saint Paul, Epistle to the Philippians, II, 10).The subject, then, is the Adoration of the Name of Jesus, a Jesuit counterpart of the Adoration of the Lamb, and incorporates the 'Church Militant', represented by the Holy League.  The Name of Jesus is represented by the trigram IHS with a cross above that appears in a burst of glory at the top of the composition. The painting has also been called An Allegory of the Holy League because of the presence of the main participants of the Holy League. The popular title, the 'Dream of Philip II', is more recent.The painting must certainly have been made for Philip II, but no documents refer to it and it is strangely not mentioned by Sig\u00fcenza in his description of the Escorial, published in 1608. The occasion of the commission may well have been the death of Juan of Austria in 1577, and the translation of his body to the Pantheon in 1578. The painting was in the Pantheon when los Santos described it. Juan of Austria was the general in charge of the forces of the Holy League at the victory of Lepanto in 1571.The three members of the Holy League, Spain, Venice and the Papal States are represented by the three kneeling figures of Philip II, Doge Mocenigo and Pope Pius V, and the one prominent figure of the foreground group, kneeling in heroic pose, and holding a sword, can represent no other than the general in charge at Lepanto. It is an ideal representation, while the King, Pope and Doge are actual portraits. Sir Anthony Blunt first suggested that this Adoration of the Name of Jesus was an allegory of the Holy League (the 'Church Militant'), and was possibly commissioned for the tomb of the Spanish General in the Pantheon. That is, it was more in the nature of a private commission for the King, and not part of the scheme of decoration of the Escorial. This could explain the absence of documents.The spirit of universal adoration is brilliantly conveyed. For the general arrangement of the painting, El Greco seems, appropriately, to have referred to his Allegory of a Christian Knight, of the Modena Triptych. The figures of the King, Pope, Doge and Juan of Austria take the place of the three Theological Virtues. The Jaws of Hell and the representation of Purgatory are very similar. The figure of Don Juan of Austria is inspired by Michelangelo. So special a commission could hardly have been the subject of a test-piece for the Escorial as has generally been suggested. The Martyrdom of Saint Maurice and His Legions was a specific commission (and the only commission) for the Escorial.There is a reduced autograph version of the painting in the National Gallery, London",
+            "task_name": "semart+image_description"
+        },
+        {
+            "img_path": "./imgs/PACS+photo_object_classification_871_064_0116.jpg",
+            "prompt": "<image>\nThe input is a photograph of an object. Identify the main object in the image.",
+            "target": "elephant",
+            "task_name": "PACS+photo_object_classification"
+        },
+        {
+            "img_path": "./imgs/DeepWeeds+weed_species_recognition_901_20170811-124834-1.jpg",
+            "prompt": "<image>\nIdentify weed species native to Australia in their natural habitat, alongside neighboring flora.",
+            "target": "The weed species is Chinee apple.",
+            "task_name": "DeepWeeds+weed_species_recognition"
+        },
+        {
+            "img_path": "./imgs/textcaps+caption_generation_440_5ac9c0ab2dd19763.jpg",
+            "prompt": "Write a caption for the image. When you write the caption, also consider the text on the image and decide the best way to fit them into your caption.\n<image>",
+            "target": "Here is a caption for this image: 'A blue Magic jersey with the number 50 sits against a grey background'",
+            "task_name": "textcaps+caption_generation"
+        },
+        {
+            "img_path": "./imgs/coco+image_classification_animal_472_000000048271.jpg",
+            "prompt": "<image>\nGiven an image of an animal, identify the kind of animal in the image. The picture could be of more popular animals that are visible around zoos or are sometimes domesticated at home. They could also sometimes be found in the wild.\nOptions: (a) This image contains a cat (b) This image contains a dog (c) This image contains a cow (d) This image contains a bear (e) This image contains a sheep (f) This image contains a bird (g) This image contains an elephant (h) This image contains a zebra (i) This image contains a giraffe (j) This image contains a horse",
+            "target": "(h) This image contains a zebra",
+            "task_name": "coco+image_classification_animal"
+        },
+        {
+            "img_path": "./imgs/cinic-10+image_classification_transport_693_n03770679_9994.png",
+            "prompt": "<image>\nThe given image can contain different types of transport vehicles. People use these vehicles to travel around in their day-to-day lives. It could be air travel or a slower means of transport on the ground. Please identify the type of transport option in the picture.",
+            "target": "The image contains an automobile",
+            "task_name": "cinic-10+image_classification_transport"
+        },
+        {
+            "img_path": "./imgs/VisDA-2017+image_classification_28_src_5_6-3-1__197_349_165.png",
+            "prompt": "Your task is to classify an image based on its corresponding object category. The image contains a variety of objects distributed among 12 categories, including aeroplane, horse, knife, person, plant, and others. To accurately classify the image, carefully analyze its visual characteristics, such as shape, color, texture, and spatial context relations, as these attributes can vary significantly across different domains. Once you have identified the object category of the image, output the appropriate label for your classification.\n<image>",
+            "target": "plant",
+            "task_name": "VisDA-2017+image_classification"
+        },
+        {
+            "img_path": "./imgs/DOMAIN_NET+clipart_image_classification_682_clipart_345_000086.jpg",
+            "prompt": "Clip art is defined as simple pictures or symbols used in documents and presentations. The input is a clip art image. Identify the main object in the image.\n<image>",
+            "target": "zigzag",
+            "task_name": "DOMAIN_NET+clipart_image_classification"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000023812.jpg",
+            "prompt": "<image>\nIn this task, you are asked the color of some object in the image. Question: What color is the umbrella primarily?",
+            "target": "orange",
+            "task_name": "VQA_color"
+        },
+        {
+            "img_path": "./imgs/FlickrLogos-27+logo_detection_496_3324939734.jpg",
+            "prompt": "<image>\nDetect and provide the logo name in the image.",
+            "target": "The logo is Ford.",
+            "task_name": "FlickrLogos-27+logo_detection"
+        },
+        {
+            "img_path": "./imgs/RAVEN+next_pattern_668_image_distribute_four_178.png",
+            "prompt": "Each image has 8 images labeled as Image 1 to Image 8. These 8 images follow a specific pattern. Detect the pattern and select the next image in the sequence from the 8 available options.\n<image>",
+            "target": "Option 4",
+            "task_name": "RAVEN+next_pattern"
+        },
+        {
+            "img_path": "./imgs/vizwiz+question_answer_291_VizWiz_train_00009403.jpg",
+            "prompt": "A blind person asks you a question about this image, answer the question in the best way possible.\n\nWhat kind of food is this?\nOptions: (a) canned beans (b) bushs reduced sodium dark red kidney beans (c) dark red kidney beans (d) kidney beans (e) reduced sodium kidney beans\n<image>",
+            "target": "(b) bushs reduced sodium dark red kidney beans",
+            "task_name": "vizwiz+question_answer"
+        },
+        {
+            "img_path": "./imgs/DVQA+charts_question_answer_1_604_bar_train_00048307.png",
+            "prompt": "<image>\nI am trying to analyse this graph. Can you answer the question given in the input text?\n\nIs each bar a single solid color without patterns?",
+            "target": "no",
+            "task_name": "DVQA+charts_question_answer_1"
+        },
+        {
+            "img_path": "./imgs/FFHQ-Text+text-to-face_generation_336_00936.png",
+            "prompt": "<image>\nGenerate text description for the given face image.",
+            "target": "This woman turns her face towards the front side. This girl is about 15 to 20 years old and has big brown eyes with double eyelids, bushy flat eyebrows and medium white to olive skin. A woman has bushy, medium flat eyebrows, brown eyes with double eyelids and a square face. This girl has a medium flat nose, a big natural mouth opened and a heart-shaped face. This woman is about 25 to 32 years old with long wavy brown hair cover up ears, square shape face and olive skin. This woman has small brown eyes with double eyelids, thick flat eyebrows, a big vegetable nose and a big natural mouth opened. A girl with a heart-shaped face, olive freckled skin and medium wavy cape blond hair cover up ears. A woman has medium wavy cape brown hair cover up ears and medium white to olive skin. The girl has a heart-shaped face with a medium flat nose, big glamour mouth opened, narrow brown eyes with long eyelashes, bushy thick soft-angled eyebrows and medium cape brown hair cover up ears.",
+            "task_name": "FFHQ-Text+text-to-face_generation"
+        },
+        {
+            "img_path": "./imgs/method_0_step_3.jpg",
+            "prompt": "<image>\nYou are doing Dipping Pine Cones in Paint. Is the step \"Twist the end of a bamboo skewer into the top of the pine cone.\" the next or previous step to the step in the image?\n\nOptions: next previous",
+            "target": "previous",
+            "task_name": "wikihow_image_text_step_order"
+        },
+        {
+            "img_path": "./imgs/LFW+face_recognition_645_Pete_Sampras_0007.jpg",
+            "prompt": "<image>\nIn this task, you will be presented with a face image of an individual. Your objective is to accurately classify the image by identifying the person's identity it represents. To accomplish this, you must meticulously examine the facial features present in the image, such as the shape and structure of the face, eyes, nose, mouth, hair, and any other distinguishing features such as moles, scars, or birthmarks that can provide valuable clues for determining the identity. For instance, certain facial proportions, distinct eye color, or unique hair style could be defining characteristics of an individual's identity. Just as one might identify a bicycle by its wheels or a sunflower by its petals in other datasets, in this case, a person can be identified by their unique set of facial features. Once you've made an informed determination based on these visual clues, provide your answer as the identity of the person.",
+            "target": "Pete Sampras",
+            "task_name": "LFW+face_recognition"
+        },
+        {
+            "img_path": "./imgs/DOCVQA+question_answer_394_qjyg0023_4.png",
+            "prompt": "<image>\nCheck the image and answer the question given in the input text.\n\nwhat is the reporting date mentioned ?",
+            "target": "5/4/98 - 7/17/98",
+            "task_name": "DOCVQA+question_answer"
+        },
+        {
+            "img_path": "./imgs/VQARAD+question_answer_346_synpic40272.jpg",
+            "prompt": "I will give you a radiology image(scan of a body part). Analyze it and answer the question given in the input text.\n\nDoes the patient have a central line placed?\n<image>",
+            "target": "Yes",
+            "task_name": "VQARAD+question_answer"
+        },
+        {
+            "img_path": "./imgs/SCUT-CTW1500+text_detection_13_1341.jpg",
+            "prompt": "Detect the text in the image.\n<image>",
+            "target": "The texts are: Christmas; Happy.",
+            "task_name": "SCUT-CTW1500+text_detection"
+        },
+        {
+            "img_path": "./imgs/semart+image_school_243_32745-wedding.jpg",
+            "prompt": "<image>\nI would like to know what school of art this painting could be from. Some possible schools of art are Italian, German, or Spanish among others",
+            "target": "This painting comes from the school of French art ",
+            "task_name": "semart+image_school"
+        },
+        {
+            "img_path": "./imgs/PACS+dog_image_category_classification_539_pic_163.jpg",
+            "prompt": "You will be given an image of a dog. The image could be of different categories like painting, cartoon, photograph, or sketch. Identify the image category.\nOptions: (a) Art painting (b) Cartoon (c) Sketch (d) Photograph\n<image>",
+            "target": "(b) Cartoon",
+            "task_name": "PACS+dog_image_category_classification"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000395424.jpg",
+            "prompt": "What animal is this?\n<image>",
+            "target": "elephant",
+            "task_name": "VQA_object_recognition"
+        },
+        {
+            "img_path": "./imgs/Caltech-256+image_classification_69_043_0068.jpg",
+            "prompt": "Your task is to identify the object category of a real-world image. The image can contain different objects like an American flag, bear, cake, and more. Analyze the shape, color, and texture of the object to determine its category. Consider the specific details of the label. Provide the name of the object based on your classification.\n<image>",
+            "target": "coin",
+            "task_name": "Caltech-256+image_classification"
+        },
+        {
+            "img_path": "./imgs/SKETCH+object_detection_647_10365.png",
+            "prompt": "Each image is a human drawn sketch of a object. Identify the main object in the image.\n<image>",
+            "target": "microphone",
+            "task_name": "SKETCH+object_detection"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000186524.jpg",
+            "prompt": "<image>\nIn this task, the goal is to understand the location of objects within the presented image and provide a answer to the question. What is to the right of cake?",
+            "target": "fork",
+            "task_name": "VQA_positional_reasoning"
+        },
+        {
+            "img_path": "./imgs/KVQA+image_captioning_341_31345.jpg",
+            "prompt": "You are provided with a picture. Write a caption for the image mentioning the people present in the image and also the occasion depicted.\n<image>",
+            "target": "Tryggve Gran in Antarctica (1911)",
+            "task_name": "KVQA+image_captioning"
+        },
+        {
+            "img_path": "./imgs/iconqa+fill_in_blank_729_image.png",
+            "prompt": "Hey, here is a picture and a question I had about it, can you help me complete my answer?\n\nWhat number is shown?\n<image>",
+            "target": "22",
+            "task_name": "iconqa+fill_in_blank"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000274074.jpg",
+            "prompt": "What color is the sign?\n<image>",
+            "target": "red and white",
+            "task_name": "VQAv2"
+        },
+        {
+            "img_path": "./imgs/MVTecAD+image_classification_945_187.png",
+            "prompt": "<image>\nYour objective is to classify an image based on its corresponding object category. The image provided encompasses a diverse range of industrial items, including a bottle, cable, carpet, and more. Focus on the overall visual appearance of the image, paying attention to details such as lines, shading, color scheme, and level of detail. It is crucial to analyze the distinctive characteristics of the object, such as its shape, color, and texture, as these features may vary significantly between different object categories. Once you have completed the classification process, output the appropriate object name based on your analysis.",
+            "target": "The object is a pill.",
+            "task_name": "MVTecAD+image_classification"
+        },
+        {
+            "img_path": "./imgs/MemeCap+meme_captioning_645_memes_z6qxau.png",
+            "prompt": "Generate a caption for the given meme.\n\nTitle: Me when the\n<image>",
+            "target": "Meme poster is trying to convey that don't like seeing their schoolmates outside school and will do anything to hide from them ",
+            "task_name": "MemeCap+meme_captioning"
+        },
+        {
+            "img_path": "./imgs/visdial+answer_question_4_499_COCO_train2014_000000303148.jpg",
+            "prompt": "This is a short conversation between two people, represented as A and B. They are talking about the given picture and are discussing some questions about it. Pay attention to the conversation and answer the question.\n\nA: what color is the counter?\nB: black tile\nA: can you see a microwave?\nB: no\nA: what color appliance?\nB: white\nA: is it a modern kitchen?\nB: i'd say so\nQuestion: is the sink stainless steel?\n<image>",
+            "target": "no",
+            "task_name": "visdial+answer_question_4"
+        },
+        {
+            "img_path": "./imgs/STL-10+Image_Classification_532_606.png",
+            "prompt": "<image>\nYou will be presented with an image and your objective is to identify and name the object depicted in the image.\nOptions: (a) airplane (b) horse (c) dog (d) bird (e) deer (f) truck (g) car (h) ship (i) monkey (j) cat",
+            "target": "(a) airplane",
+            "task_name": "STL-10+Image_Classification"
+        },
+        {
+            "img_path": "./imgs/Clevr+VQA_context_92_CLEVR_train_050179.png",
+            "prompt": "you are given some question and answer pairs as context, and you will answer the question at the end based on the image.\n\nWhat number of large blue matte things are the same shape as the big green matte object? 0\nIs the number of red shiny objects left of the small red shiny object greater than the number of small gray metallic spheres? no\nDo the green thing to the left of the red object and the large thing that is right of the tiny red object have the same shape? no\nIs there any other thing that is the same size as the red metal object? yes\nWhat number of cubes are either big rubber things or tiny yellow rubber objects? 0\nDoes the large sphere have the same material as the green cylinder? no\nHow many other objects are the same color as the metallic sphere? 0\nThere is a matte thing that is left of the tiny yellow object; what is its shape? sphere\n\nThe large thing that is behind the matte ball in front of the matte thing that is on the right side of the large green metal cylinder is what shape?\n<image>",
+            "target": "cylinder",
+            "task_name": "Clevr+VQA_context"
+        },
+        {
+            "img_path": "./imgs/REDCAPS+reddit_caption_1_475_hnppgvfv3p641.jpg",
+            "prompt": "<image>\nI am posting this image on Reddit. Can you give me a caption for this image? Something suitable for Reddit.",
+            "target": "forbidden grilled cheese sandwich",
+            "task_name": "REDCAPS+reddit_caption_1"
+        },
+        {
+            "img_path": "./imgs/INATURALIST+family_classification_601_afaca087-cfce-422c-bc4b-7dff82d550c4.jpg",
+            "prompt": "The family is a taxonomic rank above the genus and below the order. Identify the family of the organism in the image.\n<image>",
+            "target": "The family of the organism in the image is Ranunculaceae.",
+            "task_name": "INATURALIST+family_classification"
+        },
+        {
+            "img_path": "./imgs/PlotQA+visual_question_answering_974_3608.png",
+            "prompt": "<image>\nYou are provided with a chart image and a question related to the chart. Answer the question based on the information given in the chart.\n\nHow many legend labels are there ?",
+            "target": "2",
+            "task_name": "PlotQA+visual_question_answering"
+        },
+        {
+            "img_path": "./imgs/visdial+answer_question_6_313_COCO_train2014_000000285260.jpg",
+            "prompt": "<image>\nHere is a conversation between 2 people. They are talking about a picture and discussing some questions and answers about it. Read the conversation and then answer as the next person.\n\nPerson1: how many motorcycles?\nPerson2: 20\nPerson1: what color are they?\nPerson2: black and white\nPerson1: how many men?\nPerson2: 20\nPerson1: is this in a city?\nPerson2: no\nPerson1: any women?\nPerson2: no\nPerson1: is  a town?\nPerson2: no\nQuestion: are they in leather?",
+            "target": "Person2: yes",
+            "task_name": "visdial+answer_question_6"
+        },
+        {
+            "img_path": "./imgs/VisDA-2017+object_classification_train_913_src_3_2995__231_349_165.png",
+            "prompt": "You are given an image which contains a 3D rendered object. Your goal is to identify the category of the object present in the image from the given options.\nOptions: (a) knife (b) horse (c) train (d) bus (e) plant (f) skateboard (g) car (h) bicycle (i) truck (j) aeroplane\n<image>",
+            "target": "(i) truck",
+            "task_name": "VisDA-2017+object_classification_train"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000226705.jpg",
+            "prompt": "<image>\nQuestion: How many people can be seen?\n\nPlease answer the question by counting the object mentioned in the question.",
+            "target": "one",
+            "task_name": "VQA_counting"
+        },
+        {
+            "img_path": "./imgs/COCO_train2014_000000399392.jpg",
+            "prompt": "Please take a look at the picture and answer the following question by thinking about what each object in the picture can be used for. What is the man chopping?\n<image>",
+            "target": "garlic",
+            "task_name": "VQA_utility_affordance"
+        },
+        {
+            "img_path": "./imgs/semart+image_technique_794_04993-frederic.jpg",
+            "prompt": "Can you please tell me what technique is used to create the painting in this picture? Among some other techniques, it could be an oil painting\n<image>",
+            "target": "This painting uses Tempera and gold on paper, mounted on wood, 23 x 16 cm",
+            "task_name": "semart+image_technique"
+        },
+        {
+            "img_path": "./imgs/FGVC_Aircraft+Aircraft_Classification_Manufacturer_341_1820311.jpg",
+            "prompt": "Determine the manufacturer of the provided aircraft image.\nThe manufacturer refers to the company that designs, builds, and assembles the aircraft, possessing the expertise and experience in the aviation industry necessary for production and delivery.\n<image>",
+            "target": "British Aerospace",
+            "task_name": "FGVC_Aircraft+Aircraft_Classification_Manufacturer"
+        },
+        {
+            "img_path": "./imgs/PACS+giraffe_image_category_classification_965_n02439033_628-2.png",
+            "prompt": "<image>\nYou will be given an image of a guitar. The image could be of different categories like painting, cartoon, photograph, or sketch. Identify the image category.\nOptions: (a) Sketch (b) Cartoon (c) Art painting (d) Photograph",
+            "target": "(a) Sketch",
+            "task_name": "PACS+giraffe_image_category_classification"
+        },
+        {
+            "img_path": "./imgs/DVQA+charts_question_answer_2_491_bar_train_00192027.png",
+            "prompt": "Check this graph and give me a suitable answer for the question in the input text.\n\nWhich object is the least preferred?\n<image>",
+            "target": "wit",
+            "task_name": "DVQA+charts_question_answer_2"
+        },
+        {
+            "img_path": "./imgs/Road-Anomaly+anomaly_detection_37_lost_tires08.jpg",
+            "prompt": "Detect the unusual dangers which can be encountered by a vehicle on the road.\n<image>",
+            "target": "The dangers are lost tires.",
+            "task_name": "Road-Anomaly+anomaly_detection"
+        },
+        {
+            "img_path": "./imgs/Set5+image_recognition_9_bird.png",
+            "prompt": "In this task, recognize the subject in the image from among 5 subjects, namely - baby, bird, butterfly, head, woman.\n<image>",
+            "target": "The subject in the image is a bird",
+            "task_name": "Set5+image_recognition"
+        }
+    ]
 }
