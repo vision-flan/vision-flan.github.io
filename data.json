@@ -99,13 +99,48 @@
                 "output": "Circean poison",
                 "dataset_name": "VIQUAE",
                 "task_name": "VIQUAE+question_answer"
+            },
+            {
+                "instance_id": "ImageNet-R+image_domain_classification+painting_20",
+                "img_path": "./imgs/ImageNet-R+image_domain_classification_4_painting_20.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "painting",
+                "instruction": "Your goal is to classify the image based on its domain, which can be 'videogame', 'painting', 'sketch', 'cartoon', 'art', 'toy', 'deviantart', 'graphic', 'sculpture', 'misc', 'embroidery', 'sticker', 'graffiti', 'origami', or 'tattoo'. Your final output should specify the identified domain of the image.",
+                "output": "painting",
+                "dataset_name": "ImageNet-R",
+                "task_name": "ImageNet-R+image_domain_classification"
+            },
+            {
+                "instance_id": "SCUT-CTW1500+text_detection+1181",
+                "img_path": "./imgs/SCUT-CTW1500+text_detection_2_1181.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA",
+                "human_preferred_output": "The texts are: CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA.",
+                "instruction": "Detect the text in the image.",
+                "output": "The texts are: CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA.",
+                "dataset_name": "SCUT-CTW1500",
+                "task_name": "SCUT-CTW1500+text_detection"
+            },
+            {
+                "instance_id": "Yoga-82+yoga_pose_recognition+3996955946_6bdcf63414_z",
+                "img_path": "./imgs/Yoga-82+yoga_pose_recognition_5_3996955946_6bdcf63414_z.jpg",
+                "options": null,
+                "input_text": null,
+                "raw_output": "Camel Pose or Ustrasana",
+                "human_preferred_output": "The yoga pose is Camel Pose or Ustrasana.",
+                "instruction": "What is the name of the yoga pose?",
+                "output": "The yoga pose is Camel Pose or Ustrasana.",
+                "dataset_name": "Yoga-82",
+                "task_name": "Yoga-82+yoga_pose_recognition"
             }
 
         ],
         [
             {
                 "instance_id": "DOCVQA+question_answer+jhnm0081_2.png",
-                "input_image_path": "./imgs/DOCVQA+question_answer_97_jhnm0081_2.png",
+                "img_path": "./imgs/DOCVQA+question_answer_97_jhnm0081_2.png",
                 "options": null,
                 "input_text": "What is the SURGEON GENERAL'S warning?",
                 "raw_output": "Cigarette Smoke Contains Carbon Monoxide, Cigarette Smoke Contains Carbon Monoxide.",
@@ -193,7 +228,7 @@
             },
             {
                 "instance_id": "REDCAPS+reddit_caption_2+YdNDoNz.jpg",
-                "input_image_path": "./imgs/REDCAPS+reddit_caption_2_25_YdNDoNz.jpg",
+                "img_path": "./imgs/REDCAPS+reddit_caption_2_25_YdNDoNz.jpg",
                 "options": null,
                 "input_text": null,
                 "raw_output": "somebody opened their eyes!",
@@ -201,6 +236,39 @@
                 "output": "somebody opened their eyes!",
                 "dataset_name": "REDCAPS",
                 "task_name": "REDCAPS+reddit_caption_2"
+            },
+            {
+                "instance_id": "MemeCap+meme_captioning+zcbupg_1",
+                "img_path": "./imgs/MemeCap+meme_captioning_3_memes_zcbupg.png",
+                "input_text": "Title: Oh, guess it causes a nuclear meltdown",
+                "options": null,
+                "raw_output": "Though someone advises the meme poster not to touch anything that is new to her, eventually she tries to do that first.",
+                "instruction": "Generate a caption for the given meme.\n\nTitle: Oh, guess it causes a nuclear meltdown",
+                "output": "Though someone advises the meme poster not to touch anything that is new to her, eventually she tries to do that first.",
+                "dataset_name": "MemeCap",
+                "task_name": "MemeCap+meme_captioning"
+            },
+            {
+                "instance_id": "PlotQA+visual_question_answering+2387+S2",
+                "img_path": "./imgs/PlotQA+visual_question_answering_9_2387.png",
+                "input_text": "Where does the legend appear in the graph ?",
+                "options": null,
+                "raw_output": "bottom right",
+                "instruction": "You are provided with a chart image and a question related to the chart. Answer the question based on the information given in the chart.\n\nWhere does the legend appear in the graph ?",
+                "output": "bottom right",
+                "dataset_name": "PlotQA",
+                "task_name": "PlotQA+visual_question_answering"
+            },
+            {
+                "instance_id": "SentiCap+image_sentiment_captioning+COCO_val2014_000000327367.jpg_2",
+                "img_path": "./imgs/SentiCap+image_sentiment_captioning_1_COCO_val2014_000000327367.jpg",
+                "input_text": "Write a caption with a negative sentiment for the given image.",
+                "options": null,
+                "raw_output": "a white clock with red numbers on a damaged building",
+                "instruction": "You are provided with a picture, write a caption with a specific sentiment (positive or negative) related to the picture. Note that the sentiment in the caption should match the requested sentiment.\n\nWrite a caption with a negative sentiment for the given image.",
+                "output": "a white clock with red numbers on a damaged building",
+                "dataset_name": "SentiCap",
+                "task_name": "SentiCap+image_sentiment_captioning"
             }
         ],
         [
@@ -266,7 +334,7 @@
             },
             {
                 "instance_id": "CONCADIA+image_caption_context_2+82731.jpg",
-                "input_image_path": "./imgs/CONCADIA+image_caption_context_2_911_82731.jpg",
+                "img_path": "./imgs/CONCADIA+image_caption_context_2_911_82731.jpg",
                 "options": null,
                 "input_text": null,
                 "raw_output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14), October 1882, Private Collection, United States (JH214). The model is Adrianus Jacobus Zuyderland.[Works 22][Letters 40]",
@@ -312,77 +380,6 @@
                 "output": "(c) 21\\sqrt{3}",
                 "dataset_name": "GEOMETRY3K",
                 "task_name": "GEOMETRY3K+geometry_question_answer"
-            }
-
-        ],
-        [
-            {
-                "instance_id": "ImageNet-R+image_domain_classification+painting_20",
-                "img_path": "./imgs/ImageNet-R+image_domain_classification_4_painting_20.jpg",
-                "options": null,
-                "input_text": null,
-                "raw_output": "painting",
-                "instruction": "Your goal is to classify the image based on its domain, which can be 'videogame', 'painting', 'sketch', 'cartoon', 'art', 'toy', 'deviantart', 'graphic', 'sculpture', 'misc', 'embroidery', 'sticker', 'graffiti', 'origami', or 'tattoo'. Your final output should specify the identified domain of the image.",
-                "output": "painting",
-                "dataset_name": "ImageNet-R",
-                "task_name": "ImageNet-R+image_domain_classification"
-            },
-            {
-                "instance_id": "SCUT-CTW1500+text_detection+1181",
-                "img_path": "./imgs/SCUT-CTW1500+text_detection_2_1181.jpg",
-                "options": null,
-                "input_text": null,
-                "raw_output": "CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA",
-                "human_preferred_output": "The texts are: CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA.",
-                "instruction": "Detect the text in the image.",
-                "output": "The texts are: CHESAPEAKE BAY'S FINEST; FREH FISH DAILY; CAPTAIN; WHITE; FA; MP & LOBSTER JUMBO CRABS CO; CRA.",
-                "dataset_name": "SCUT-CTW1500",
-                "task_name": "SCUT-CTW1500+text_detection"
-            },
-            {
-                "instance_id": "Yoga-82+yoga_pose_recognition+3996955946_6bdcf63414_z",
-                "img_path": "./imgs/Yoga-82+yoga_pose_recognition_5_3996955946_6bdcf63414_z.jpg",
-                "options": null,
-                "input_text": null,
-                "raw_output": "Camel Pose or Ustrasana",
-                "human_preferred_output": "The yoga pose is Camel Pose or Ustrasana.",
-                "instruction": "What is the name of the yoga pose?",
-                "output": "The yoga pose is Camel Pose or Ustrasana.",
-                "dataset_name": "Yoga-82",
-                "task_name": "Yoga-82+yoga_pose_recognition"
-            },
-            {
-                "instance_id": "MemeCap+meme_captioning+zcbupg_1",
-                "img_path": "./imgs/MemeCap+meme_captioning_3_memes_zcbupg.png",
-                "input_text": "Title: Oh, guess it causes a nuclear meltdown",
-                "options": null,
-                "raw_output": "Though someone advises the meme poster not to touch anything that is new to her, eventually she tries to do that first.",
-                "instruction": "Generate a caption for the given meme.\n\nTitle: Oh, guess it causes a nuclear meltdown",
-                "output": "Though someone advises the meme poster not to touch anything that is new to her, eventually she tries to do that first.",
-                "dataset_name": "MemeCap",
-                "task_name": "MemeCap+meme_captioning"
-            },
-            {
-                "instance_id": "PlotQA+visual_question_answering+2387+S2",
-                "img_path": "./imgs/PlotQA+visual_question_answering_9_2387.png",
-                "input_text": "Where does the legend appear in the graph ?",
-                "options": null,
-                "raw_output": "bottom right",
-                "instruction": "You are provided with a chart image and a question related to the chart. Answer the question based on the information given in the chart.\n\nWhere does the legend appear in the graph ?",
-                "output": "bottom right",
-                "dataset_name": "PlotQA",
-                "task_name": "PlotQA+visual_question_answering"
-            },
-            {
-                "instance_id": "SentiCap+image_sentiment_captioning+COCO_val2014_000000327367.jpg_2",
-                "img_path": "./imgs/SentiCap+image_sentiment_captioning_1_COCO_val2014_000000327367.jpg",
-                "input_text": "Write a caption with a negative sentiment for the given image.",
-                "options": null,
-                "raw_output": "a white clock with red numbers on a damaged building",
-                "instruction": "You are provided with a picture, write a caption with a specific sentiment (positive or negative) related to the picture. Note that the sentiment in the caption should match the requested sentiment.\n\nWrite a caption with a negative sentiment for the given image.",
-                "output": "a white clock with red numbers on a damaged building",
-                "dataset_name": "SentiCap",
-                "task_name": "SentiCap+image_sentiment_captioning"
             },
             {
                 "instance_id": "spot-the-diff+image_diff_identification+984",
@@ -420,6 +417,7 @@
                 "dataset_name": "CHART2TEXT",
                 "task_name": "CHART2TEXT+chart_caption"
             }
+
         ]
     ]
 }

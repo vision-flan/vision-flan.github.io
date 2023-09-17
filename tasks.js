@@ -1,4 +1,4 @@
-readTextFile("./bibtex.json", function(text){
+readTextFile("./tasks.json", function(text){
     var data = JSON.parse(text);
     console.log(data);
     //for (var x in data)
@@ -9,7 +9,7 @@ readTextFile("./bibtex.json", function(text){
     for (x in data.data) {
         var child = document.createElement('tr');
         // child.innerHTML = "<td><p>" + data.data[x].name + "</p></td> <td><a href=\"" + data.data[x].url + "\">Link</a></td> <td><p style=\"font-size:10px;\">" + data.data[x].bibtex + "</p></td>";
-        child.innerHTML = "<td><p>" + data.data[x].name + "</p></td> <td><a href=\"" + data.data[x].url + "\">Link</a></td> <td style=\"overflow-x:scroll; max-width:700px;\"><pre><code>" + data.data[x].bibtex + "</code></pre></td>";
+        child.innerHTML = "<td><p>" + data.data[x].task_name + "</p></td> <td><p>" + data.data[x].prompt + "</p></td> <td><p>" + data.data[x].target + "</p></td> <td><img src=\"" + data.data[x].img_path + "\" style=\"width:250px;\"></td>";
 
         table.appendChild(child);
         console.log("added");

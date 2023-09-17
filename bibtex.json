@@ -1,312 +1,314 @@
-[
-    {
-        "name": "300w",
-        "url": "https://ibug.doc.ic.ac.uk/resources/300-W/",
-        "bibtex": "@article{sagonas2016300,\n  title={300 faces in-the-wild challenge: Database and results},\n  author={Sagonas, Christos and Antonakos, Epameinondas and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},\n  journal={Image and vision computing},\n  volume={47},\n  pages={3--18},\n  year={2016},\n  publisher={Elsevier}\n}\n@inproceedings{sagonas2013300,\n  title={300 faces in-the-wild challenge: The first facial landmark localization challenge},\n  author={Sagonas, Christos and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},\n  booktitle={Proceedings of the IEEE international conference on computer vision workshops},\n  pages={397--403},\n  year={2013}\n}\n@inproceedings{sagonas2013semi,\n  title={A semi-automatic methodology for facial landmark annotation},\n  author={Sagonas, Christos and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition workshops},\n  pages={896--903},\n  year={2013}\n}"
-    },
-    {
-        "name": "ayahoo_test_images",
-        "url": "https://vision.cs.uiuc.edu/attributes/",
-        "bibtex": "@inproceedings{farhadi2009describing,\n  title={Describing objects by their attributes},\n  author={Farhadi, Ali and Endres, Ian and Hoiem, Derek and Forsyth, David},\n  booktitle={2009 IEEE conference on computer vision and pattern recognition},\n  pages={1778--1785},\n  year={2009},\n  organization={IEEE}\n}"
-    },
-    {
-        "name": "LFW",
-        "url": "http://vis-www.cs.umass.edu/lfw/",
-        "bibtex": "@TechReport{LFWTech,\n  author =       {Gary B. Huang and Manu Ramesh and Tamara Berg and \n                  Erik Learned-Miller},\n  title =        {Labeled Faces in the Wild: A Database for Studying \n                  Face Recognition in Unconstrained Environments},\n  institution =  {University of Massachusetts, Amherst},\n  year =         2007,\n  number =       {07-49},\n  month =        {October}}"
-    },
-    {
-        "name": "model-vs-human",
-        "url": "https://github.com/rgeirhos/Stylized-ImageNet",
-        "bibtex": "@inproceedings{\ngeirhos2018,\ntitle={ImageNet-trained {CNN}s are biased towards texture; increasing shape bias improves accuracy and robustness.},\nauthor={Robert Geirhos and Patricia Rubisch and Claudio Michaelis and Matthias Bethge and Felix A Wichmann and Wieland Brendel},\nbooktitle={International Conference on Learning Representations},\nyear={2019},\nurl={https://openreview.net/forum?id=Bygh9j09KX},\n}"
-    },
-    {
-        "name": "Office-Home",
-        "url": "https://www.hemanthdv.org/officeHomeDataset.html",
-        "bibtex": "@inproceedings{venkateswara2017deep,\n  title={Deep hashing network for unsupervised domain adaptation},\n  author={Venkateswara, Hemanth and Eusebio, Jose and Chakraborty, Shayok and Panchanathan, Sethuraman},\n  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},\n  pages={5018--5027},\n  year={2017}\n}"
-    },
-    {
-        "name": "CAT2000",
-        "url": "http://saliency.mit.edu/results_cat2000.html",
-        "bibtex": "@misc{mit-saliency-benchmark,\n   author       = {Zoya Bylinskii and Tilke Judd and Ali Borji and Laurent Itti and Fr{\\'e}do Durand and Aude Oliva and Antonio Torralba},\n   title        = {MIT Saliency Benchmark},\n   howpublished = {http://saliency.mit.edu/}\n}\n@article{CAT2000,\n   title     = {CAT2000: A Large Scale Fixation Dataset for Boosting Saliency Research},\n   author    = {Borji, Ali and Itti, Laurent},\n   journal   = {CVPR 2015 workshop on \"Future of Datasets\"},\n   year      = {2015},\n   note      = {arXiv preprint arXiv:1505.03581}\n}\n@article{salMetrics_Bylinskii,\n    title    = {What do different evaluation metrics tell us about saliency models?},\n    author   = {Zoya Bylinskii and Tilke Judd and Aude Oliva and Antonio Torralba and Fr{\\'e}do Durand},\n    journal  = {arXiv preprint arXiv:1604.03605},\n    year     = {2016}\n}"
-    },
-    {
-        "name": "Caltech101",
-        "url": "https://data.caltech.edu/records/mzrjq-6wc02",
-        "bibtex": "@article{FeiFei2004LearningGV,\n  title={Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories},\n  author={Li Fei-Fei and Rob Fergus and Pietro Perona},\n  journal={Computer Vision and Pattern Recognition Workshop},\n  year={2004},\n}"
-    },
-    {
-        "name": "Cars",
-        "url": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html (invalid)",
-        "bibtex": "@inproceedings{krause20133d,\n  title={3d object representations for fine-grained categorization},\n  author={Krause, Jonathan and Stark, Michael and Deng, Jia and Fei-Fei, Li},\n  booktitle={Proceedings of the IEEE international conference on computer vision workshops},\n  pages={554--561},\n  year={2013}\n}"
-    },
-    {
-        "name": "Core50",
-        "url": "https://vlomonaco.github.io/core50/",
-        "bibtex": "@inproceedings{lomonaco2017core50,\n  title={Core50: a new dataset and benchmark for continuous object recognition},\n  author={Lomonaco, Vincenzo and Maltoni, Davide},\n  booktitle={Conference on robot learning},\n  pages={17--26},\n  year={2017},\n  organization={PMLR}\n}\n@inproceedings{lomonaco2020rehearsal,\n  title={Rehearsal-Free Continual Learning over Small Non-IID Batches.},\n  author={Lomonaco, Vincenzo and Maltoni, Davide and Pellegrini, Lorenzo and others},\n  booktitle={CVPR Workshops},\n  volume={1},\n  number={2},\n  pages={3},\n  year={2020}\n}"
-    },
-    {
-        "name": "NUS-WIDE",
-        "url": "https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html",
-        "bibtex": "@inproceedings{nus-wide-civr09,\n  author={Tat-Seng Chua and Jinhui Tang and Richang Hong and Haojie Li and Zhiping Luo and Yan-Tao Zheng},\n  booktitle={Proc. of ACM Conf. on Image and Video Retrieval (CIVR'09)},\n  posted-at={July 8-10, 2009},\n  title={NUS-WIDE: A Real-World Web Image Database from National University of Singapore},\n  address={Santorini, Greece. },\n  year={July 8-10, 2009}\n}"
-    },
-    {
-        "name": "ObjectNet",
-        "url": "https://mitibmwatsonailab.mit.edu/research/blog/objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models/",
-        "bibtex": "@incollection{NIPS2019_9142,\ntitle = {ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models},\nauthor = {Barbu, Andrei and Mayo, David and Alverio, Julian and Luo, William and Wang, Christopher and Gutfreund, Dan and Tenenbaum, Josh and Katz, Boris},\nbooktitle = {Advances in Neural Information Processing Systems 32},\neditor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett},\npages = {9448--9458},\nyear = {2019},\npublisher = {Curran Associates, Inc.},\nurl = {http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models.pdf}\n}"
-    },
-    {
-        "name": "Places205",
-        "url": "http://places.csail.mit.edu/index.html",
-        "bibtex": "@article{zhou2014learning,\n  title={Learning deep features for scene recognition using places database},\n  author={Zhou, Bolei and Lapedriza, Agata and Xiao, Jianxiong and Torralba, Antonio and Oliva, Aude},\n  journal={Advances in neural information processing systems},\n  volume={27},\n  year={2014}\n}"
-    },
-    {
-        "name": "A-OKVQA",
-        "url": "https://allenai.org/project/a-okvqa/home",
-        "bibtex": "@article{AOKVQA,\n  title={A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge},\n  author={Dustin Schwenk and Apoorv Khandelwal and Christopher Clark and Kenneth Marino and Roozbeh Mottaghi},\n  journal={arXiv},\n  year={2022},\n}"
-    },
-    {
-        "name": "AI2D",
-        "url": "https://github.com/allenai/dqa-net",
-        "bibtex": "@inproceedings{kembhavi2016diagram,\n  title={A diagram is worth a dozen images},\n  author={Kembhavi, Aniruddha and Salvato, Mike and Kolve, Eric and Seo, Minjoon and Hajishirzi, Hannaneh and Farhadi, Ali},\n  booktitle={Computer Vision--ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11--14, 2016, Proceedings, Part IV 14},\n  pages={235--251},\n  year={2016},\n  organization={Springer}\n}"
-    },
-    {
-        "name": "AID",
-        "url": "https://captain-whu.github.io/AID/",
-        "bibtex": "@article{xia2017aid,\n  title={AID: A benchmark data set for performance evaluation of aerial scene classification},\n  author={Xia, Gui-Song and Hu, Jingwen and Hu, Fan and Shi, Baoguang and Bai, Xiang and Zhong, Yanfei and Zhang, Liangpei and Lu, Xiaoqiang},\n  journal={IEEE Transactions on Geoscience and Remote Sensing},\n  volume={55},\n  number={7},\n  pages={3965--3981},\n  year={2017},\n  publisher={IEEE}\n}"
-    },
-    {
-        "name": "Caltech-256",
-        "url": "",
-        "bibtex": "@article{griffin2007caltech,\n  title={Caltech-256 object category dataset},\n  author={Griffin, Gregory and Holub, Alex and Perona, Pietro},\n  year={2007},\n  publisher={California Institute of Technology}\n}"
-    },
-    {
-        "name": "CoVA",
-        "url": "https://github.com/kevalmorabia97/CoVA-Web-Object-Detection/blob/master/README.md",
-        "bibtex": "@inproceedings{kumar-etal-2022-cova,\n    title = \"{C}o{VA}: Context-aware Visual Attention for Webpage Information Extraction\",\n    author = \"Kumar, Anurendra  and\n      Morabia, Keval  and\n      Wang, William  and\n      Chang, Kevin  and\n      Schwing, Alex\",\n    booktitle = \"Proceedings of The Fifth Workshop on e-Commerce and NLP (ECNLP 5)\",\n    month = may,\n    year = \"2022\",\n    address = \"Dublin, Ireland\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.ecnlp-1.11\",\n    pages = \"80--90\",\n    abstract = \"Webpage information extraction (WIE) is an important step to create knowledge bases. For this, classical WIE methods leverage the Document Object Model (DOM) tree of a website. However, use of the DOM tree poses significant challenges as context and appearance are encoded in an abstract manner. To address this challenge we propose to reformulate WIE as a context-aware Webpage Object Detection task. Specifically, we develop a Context-aware Visual Attention-based (CoVA) detection pipeline which combines appearance features with syntactical structure from the DOM tree. To study the approach we collect a new large-scale datase of e-commerce websites for which we manually annotate every web element with four labels: product price, product title, product image and others. On this dataset we show that the proposed CoVA approach is a new challenging baseline which improves upon prior state-of-the-art methods.\",\n}"
-    },
-    {
-        "name": "CrisisMMD",
-        "url": "https://crisisnlp.qcri.org/crisismmd.html",
-        "bibtex": ""
-    },
-    {
-        "name": "Dark-Zurich",
-        "url": "https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/",
-        "bibtex": ""
-    },
-    {
-        "name": "DeepWeeds",
-        "url": "https://github.com/AlexOlsen/DeepWeeds",
-        "bibtex": "@article{DeepWeeds2019,\n  author = {Alex Olsen and\n    Dmitry A. Konovalov and\n    Bronson Philippa and\n    Peter Ridd and\n    Jake C. Wood and\n    Jamie Johns and\n    Wesley Banks and\n    Benjamin Girgenti and\n    Owen Kenny and \n    James Whinney and\n    Brendan Calvert and\n    Mostafa {Rahimi Azghadi} and\n    Ronald D. White},\n  title = {{DeepWeeds: A Multiclass Weed Species Image Dataset for Deep Learning}},\n  journal = {Scientific Reports},\n  year = 2019,\n  number = 2058,\n  month = 2,\n  volume = 9,\n  issue = 1,\n  day = 14,\n  url = \"https://doi.org/10.1038/s41598-018-38343-3\",\n  doi = \"10.1038/s41598-018-38343-3\"\n}"
-    },
-    {
-        "name": "ExDark",
-        "url": "https://github.com/cs-chan/Exclusively-Dark-Image-Dataset",
-        "bibtex": "@article{Exdark,\n  title = {Getting to Know Low-light Images with The Exclusively Dark Dataset},\n  author = {Loh, Yuen Peng and Chan, Chee Seng},\n  journal = {Computer Vision and Image Understanding},\n  volume = {178},\n  pages = {30-42},\n  year = {2019},\n  doi = {https://doi.org/10.1016/j.cviu.2018.10.010}\n}"
-    },
-    {
-        "name": "FFHQ-Text",
-        "url": "https://github.com/Yutong-Zhou-cv/FFHQ-Text_Dataset",
-        "bibtex": "@inproceedings{zhou2021generative,\n  title={Generative Adversarial Network for Text-to-Face Synthesis and Manipulation with Pretrained BERT Model},\n  author={Zhou, Yutong and Shimada, Nobutaka},\n  booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)},\n  pages={01--08},\n  year={2021}\n}\n\n@inproceedings{zhou2021generative,\n  title={Generative Adversarial Network for Text-to-Face Synthesis and Manipulation},\n  author={Zhou, Yutong},\n  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},\n  pages={2940--2944},\n  year={2021}\n}\n\n@inproceedings{karras2019style,\n  title={A style-based generator architecture for generative adversarial networks},\n  author={Karras, Tero and Laine, Samuli and Aila, Timo},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={4401--4410},\n  year={2019}\n}"
-    },
-    {
-        "name": "FlickrLogos-32",
-        "url": "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/mmc/research/datensatze/flickrlogos/",
-        "bibtex": "@inproceedings{romberg2011scalable,\n  title={Scalable logo recognition in real-world images},\n  author={Romberg, Stefan and Pueyo, Lluis Garcia and Lienhart, Rainer and Van Zwol, Roelof},\n  booktitle={Proceedings of the 1st ACM international conference on multimedia retrieval},\n  pages={1--8},\n  year={2011}\n}"
-    },
-    {
-        "name": "Flickr Logos 27",
-        "url": "http://image.ntua.gr/iva/datasets/flickr_logos/",
-        "bibtex": "@inproceedings{kalantidis2011scalable,\n  title={Scalable triangulation-based logo recognition},\n  author={Kalantidis, Yannis and Pueyo, Lluis Garcia and Trevisiol, Michele and van Zwol, Roelof and Avrithis, Yannis},\n  booktitle={Proceedings of the 1st ACM international conference on multimedia retrieval},\n  pages={1--7},\n  year={2011}\n}"
-    },
-    {
-        "name": "ImageNet-R",
-        "url": "https://github.com/hendrycks/imagenet-r",
-        "bibtex": "@article{hendrycks2021many,\n  title={The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization},\n  author={Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and Dawn Song and Jacob Steinhardt and Justin Gilmer},\n  journal={ICCV},\n  year={2021}\n}"
-    },
-    {
-        "name": "ImageNet-Sketch",
-        "url": "https://github.com/HaohanWang/ImageNet-Sketch",
-        "bibtex": "@inproceedings{wang2019learning,\n        title={Learning Robust Global Representations by Penalizing Local Predictive Power},\n        author={Wang, Haohan and Ge, Songwei and Lipton, Zachary and Xing, Eric P},\n        booktitle={Advances in Neural Information Processing Systems},\n        pages={10506--10518},\n        year={2019}\n}"
-    },
-    {
-        "name": "JHU-CROWD",
-        "url": "http://www.crowd-counting.com/",
-        "bibtex": "@inproceedings{sindagi2019pushing,\ntitle={Pushing the frontiers of unconstrained crowd counting: New dataset and benchmark method},\nauthor={Sindagi, Vishwanath A and Yasarla, Rajeev and Patel, Vishal M},\nbooktitle={Proceedings of the IEEE International Conference on Computer Vision},\npages={1221--1231},\nyear={2019}\n}\n@article{sindagi2020jhu-crowd++,\ntitle={JHU-CROWD++: Large-Scale Crowd Counting Dataset and A Benchmark Method},\nauthor={Sindagi, Vishwanath A and Yasarla, Rajeev and Patel, Vishal M},\njournal={Technical Report},\nyear={2020}\n}"
-    },
-    {
-        "name": "MNIST-M",
-        "url": "https://www.kaggle.com/datasets/aquibiqbal/mnistm",
-        "bibtex": "@article{ganin2016domain,\n  title={Domain-adversarial training of neural networks},\n  author={Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, Fran{\\c{c}}ois and Marchand, Mario and Lempitsky, Victor},\n  journal={The journal of machine learning research},\n  volume={17},\n  number={1},\n  pages={2096--2030},\n  year={2016},\n  publisher={JMLR. org}\n}"
-    },
-    {
-        "name": "MVTecAD",
-        "url": "https://www.mvtec.com/company/research/datasets/mvtec-ad/",
-        "bibtex": "@inproceedings{bergmann2019mvtec,\n  title={MVTec AD--A comprehensive real-world dataset for unsupervised anomaly detection},\n  author={Bergmann, Paul and Fauser, Michael and Sattlegger, David and Steger, Carsten},\n  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},\n  pages={9592--9600},\n  year={2019}\n}"
-    },
-    {
-        "name": "NABirds",
-        "url": "https://dl.allaboutbirds.org/nabirds",
-        "bibtex": "@inproceedings{van2015building,\n  title={Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine-grained dataset collection},\n  author={Van Horn, Grant and Branson, Steve and Farrell, Ryan and Haber, Scott and Barry, Jessie and Ipeirotis, Panos and Perona, Pietro and Belongie, Serge},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={595--604},\n  year={2015}\n}"
-    },
-    {
-        "name": "Road Anomaly",
-        "url": "https://www.epfl.ch/labs/cvlab/data/road-anomaly/",
-        "bibtex": "@inproceedings{lis2019detecting,\n  title={Detecting the unexpected via image resynthesis},\n  author={Lis, Krzysztof and Nakka, Krishna and Fua, Pascal and Salzmann, Mathieu},\n  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},\n  pages={2152--2161},\n  year={2019}\n}"
-    },
-    {
-        "name": "SCUT-CTW1500",
-        "url": "https://github.com/Yuliang-Liu/Curve-Text-Detector",
-        "bibtex": "@article{yuliang2017detecting,\n  title={Detecting curve text in the wild: New dataset and new solution},\n  author={Yuliang, Liu and Lianwen, Jin and Shuaitao, Zhang and Sheng, Zhang},\n  journal={arXiv preprint arXiv:1712.02170},\n  year={2017}\n}"
-    },
-    {
-        "name": "Total-Text",
-        "url": "https://github.com/cs-chan/Total-Text-Dataset",
-        "bibtex": "@article{CK2019,\n  author    = {Chee Kheng Ch\u2019ng and\n               Chee Seng Chan and\n               Chenglin Liu},\n  title     = {Total-Text: Towards Orientation Robustness in Scene Text Detection},\n  journal   = {International Journal on Document Analysis and Recognition (IJDAR)},\n  volume    = {23},\n  pages     = {31-52},\n  year      = {2020},\n  doi       = {10.1007/s10032-019-00334-z},\n}"
-    },
-    {
-        "name": "VisDA-2017",
-        "url": "http://ai.bu.edu/visda-2017/",
-        "bibtex": "@article{peng2017visda,\n  title={Visda: The visual domain adaptation challenge},\n  author={Peng, Xingchao and Usman, Ben and Kaushik, Neela and Hoffman, Judy and Wang, Dequan and Saenko, Kate},\n  journal={arXiv preprint arXiv:1710.06924},\n  year={2017}\n}"
-    },
-    {
-        "name": "Yoga-82",
-        "url": "https://sites.google.com/view/yoga-82/home",
-        "bibtex": "@inproceedings{verma2020yoga,\n  title={Yoga-82: A New Dataset for Fine-grained Classification of Human Poses},\n  author={Verma, Manisha and Kumawat, Sudhakar and Nakashima, Yuta and Raman, Shanmuganathan},\n  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n  pages={4472-4479},\n  year={2020}\n}"
-    },
-    {
-        "name": "CINIC-10",
-        "url": "https://github.com/BayesWatch/cinic-10",
-        "bibtex": "@article{darlow2018cinic,\n  title={Cinic-10 is not imagenet or cifar-10},\n  author={Darlow, Luke N and Crowley, Elliot J and Antoniou, Antreas and Storkey, Amos J},\n  journal={arXiv preprint arXiv:1810.03505},\n  year={2018}\n}"
-    },
-    {
-        "name": "COCO",
-        "url": "https://cocodataset.org/#home",
-        "bibtex": "@inproceedings{lin2014microsoft,\n  title={Microsoft coco: Common objects in context},\n  author={Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence},\n  booktitle={Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13},\n  pages={740--755},\n  year={2014},\n  organization={Springer}\n}"
-    },
-    {
-        "name": "CrowdHuman",
-        "url": "http://www.crowdhuman.org/",
-        "bibtex": "  @article{shao2018crowdhuman,\n    title={CrowdHuman: A Benchmark for Detecting Human in a Crowd},\n    author={Shao, Shuai and Zhao, Zijian and Li, Boxun and Xiao, Tete and Yu, Gang and Zhang, Xiangyu and Sun, Jian},\n    journal={arXiv preprint arXiv:1805.00123},\n    year={2018}\n  }\n          "
-    },
-    {
-        "name": "EuroSAT",
-        "url": "https://github.com/phelber/eurosat",
-        "bibtex": "@inproceedings{helber2018introducing,\n  title={Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification},\n  author={Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian},\n  booktitle={IGARSS 2018-2018 IEEE International Geoscience and Remote Sensing Symposium},\n  pages={204--207},\n  year={2018},\n  organization={IEEE}\n}\n\n@article{helber2019eurosat,\n  title={Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification},\n  author={Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2019},\n  publisher={IEEE}\n}"
-    },
-    {
-        "name": "ExpW",
-        "url": "http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html",
-        "bibtex": "@inproceedings{SOCIALRELATION_ICCV2015,\n author = {Zhanpeng Zhang, Ping Luo, Chen Change Loy, and Xiaoou Tang},\n title = {Learning Social Relation Traits from Face Images},\n booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},\n month = December,\n year = {2015}\n} \n\n@inproceedings{SOCIALRELATION_2017,\n author = {Zhanpeng Zhang, Ping Luo, Chen Change Loy, and Xiaoou Tang},\n title = {From Facial Expression Recognition to Interpersonal Relation Prediction},\n booktitle = {arXiv:1609.06426v2},\n month = September,\n year = {2016}\n} \n\t\n"
-    },
-    {
-        "name": "FairFace",
-        "url": "https://github.com/joojs/fairface",
-        "bibtex": "    @inproceedings{karkkainenfairface,\n      title={FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation},\n      author={Karkkainen, Kimmo and Joo, Jungseock},\n      booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},\n      year={2021},\n      pages={1548--1558}\n    }"
-    },
-    {
-        "name": "IconQA",
-        "url": "https://iconqa.github.io/",
-        "bibtex": "@inproceedings{lu2021iconqa,\n    title = {IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning},\n    author = {Lu, Pan and Qiu, Liang and Chen, Jiaqi and Xia, Tony and Zhao, Yizhou and Zhang, Wei and Yu, Zhou and Liang, Xiaodan and Zhu, Song-Chun},\n    booktitle = {The 35th Conference on Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks},\n    year = {2021}\n}"
-    },
-    {
-        "name": "ImageNet-A",
-        "url": "https://github.com/hendrycks/natural-adv-examples",
-        "bibtex": "@article{hendrycks2021nae,\n  title={Natural Adversarial Examples},\n  author={Dan Hendrycks and Kevin Zhao and Steven Basart and Jacob Steinhardt and Dawn Song},\n  journal={CVPR},\n  year={2021}\n}"
-    },
-    {
-        "name": "ImageNet-C",
-        "url": "https://zenodo.org/record/2235448",
-        "bibtex": "@article{hendrycks2019benchmarking,\n  title={Benchmarking neural network robustness to common corruptions and perturbations},\n  author={Hendrycks, Dan and Dietterich, Thomas},\n  journal={arXiv preprint arXiv:1903.12261},\n  year={2019}\n}"
-    },
-    {
-        "name": "InfographicVQA",
-        "url": "https://rrc.cvc.uab.es/?ch=17&com=tasks",
-        "bibtex": "@inproceedings{mathew2022infographicvqa,\n  title={Infographicvqa},\n  author={Mathew, Minesh and Bagal, Viraj and Tito, Rub{\\`e}n and Karatzas, Dimosthenis and Valveny, Ernest and Jawahar, CV},\n  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},\n  pages={1697--1706},\n  year={2022}\n}"
-    },
-    {
-        "name": "RecipeQA",
-        "url": "https://hucvl.github.io/recipeqa/",
-        "bibtex": "@article{yagcioglu2018recipeqa,\n  title={Recipeqa: A challenge dataset for multimodal comprehension of cooking recipes},\n  author={Yagcioglu, Semih and Erdem, Aykut and Erdem, Erkut and Ikizler-Cinbis, Nazli},\n  journal={arXiv preprint arXiv:1809.00812},\n  year={2018}\n}"
-    },
-    {
-        "name": "SemArt",
-        "url": "https://github.com/noagarcia/SemArt",
-        "bibtex": "@inproceedings{garcia2018read,\n  title={How to read paintings: semantic art understanding with multi-modal retrieval},\n  author={Garcia, Noa and Vogiatzis, George},\n  booktitle={Proceedings of the European Conference on Computer Vision (ECCV) Workshops},\n  pages={0--0},\n  year={2018}\n}"
-    },
-    {
-        "name": "Set5\n",
-        "url": "Low-Complexity Single-Image Super-Resolution based on Nonnegative Neighbor Embedding",
-        "bibtex": "@article{bevilacqua2012low,\n  title={Low-complexity single-image super-resolution based on nonnegative neighbor embedding},\n  author={Bevilacqua, Marco and Roumy, Aline and Guillemot, Christine and Alberi-Morel, Marie Line},\n  year={2012},\n  publisher={BMVA press}\n}"
-    },
-    {
-        "name": "TextCaps",
-        "url": "https://textvqa.org/textcaps/",
-        "bibtex": "@inproceedings{sidorov2019textcaps,\n    title={TextCaps: a Dataset for Image Captioningwith Reading Comprehension},\n    author={Sidorov, Oleksii and Hu, Ronghang and Rohrbach, Marcus and Singh, Amanpreet},\n    journal={European Conference on Computer Vision},\n    year={2020}\n}"
-    },
-    {
-        "name": "VisDial",
-        "url": "https://visualdialog.org/",
-        "bibtex": "@inproceedings{das2017visual,\n  title={Visual dialog},\n  author={Das, Abhishek and Kottur, Satwik and Gupta, Khushi and Singh, Avi and Yadav, Deshraj and Moura, Jos{\\'e} MF and Parikh, Devi and Batra, Dhruv},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={326--335},\n  year={2017}\n}"
-    },
-    {
-        "name": "VizWiz",
-        "url": "https://vizwiz.org/tasks-and-datasets/vqa/",
-        "bibtex": "@inproceedings{gurari2018vizwiz,\n  title={Vizwiz grand challenge: Answering visual questions from blind people},\n  author={Gurari, Danna and Li, Qing and Stangl, Abigale J and Guo, Anhong and Lin, Chi and Grauman, Kristen and Luo, Jiebo and Bigham, Jeffrey P},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={3608--3617},\n  year={2018}\n}"
-    },
-    {
-        "name": "Winoground",
-        "url": "https://huggingface.co/datasets/facebook/winoground",
-        "bibtex": "@inproceedings{thrush_and_ross2022winoground,\n  author = {Tristan Thrush and Ryan Jiang and Max Bartolo and Amanpreet Singh and Adina Williams and Douwe Kiela and Candace Ross},\n  title = {Winoground: Probing vision and language models for visio-linguistic compositionality},\n  booktitle = {CVPR},\n  year = 2022,\n}"
-    },
-    {
-        "name": "ConceptualCaptions",
-        "url": "https://github.com/google-research-datasets/conceptual-captions",
-        "bibtex": "@inproceedings{sharma2018conceptual,\n  title = {Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning},\n  author = {Sharma, Piyush and Ding, Nan and Goodman, Sebastian and Soricut, Radu},\n  booktitle = {Proceedings of ACL},\n  year = {2018},\n}\n"
-    },
-    {
-        "name": "GTSRB",
-        "url": "https://benchmark.ini.rub.de/",
-        "bibtex": "@article{Stallkamp2012,\ntitle = \"Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition\",\njournal = \"Neural Networks\",\nvolume = \"\",\nnumber = \"0\",\npages = \" - \",\nyear = \"2012\",\nnote = \"\",\nissn = \"0893-6080\",\ndoi = \"10.1016/j.neunet.2012.02.016\",\nurl = \"http://www.sciencedirect.com/science/article/pii/S0893608012000457\",\nauthor = \"J. Stallkamp and M. Schlipsing and J. Salmen and C. Igel\",\nkeywords = \"Traffic sign recognition\",\nkeywords = \"Machine learning\",\nkeywords = \"Convolutional neural networks\",\nkeywords = \"Benchmarking\"\n}\n"
-    },
-    {
-        "name": "KVQA",
-        "url": "https://malllabiisc.github.io/resources/kvqa/",
-        "bibtex": "@InProceedings{shahMYP19,\n  author    = \"Sanket Shah, Anand Mishra, Naganand Yadati and Partha Pratim Talukdar\",\n  title     = \"KVQA: Knowledge-Aware Visual Question Answering\",\n  booktitle = \"AAAI\",\n  year      = \"2019\",\n}"
-    },
-    {
-        "name": "MemeCap",
-        "url": "https://arxiv.org/pdf/2305.13703.pdf",
-        "bibtex": "@misc{hwang2023memecap,\n      title={MemeCap: A Dataset for Captioning and Interpreting Memes}, \n      author={EunJeong Hwang and Vered Shwartz},\n      year={2023},\n      eprint={2305.13703},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
-    },
-    {
-        "name": "PlotQA",
-        "url": "https://github.com/NiteshMethani/PlotQA",
-        "bibtex": "@InProceedings{Methani_2020_WACV,\nauthor = {Methani, Nitesh and Ganguly, Pritha and Khapra, Mitesh M. and Kumar, Pratyush},\ntitle = {PlotQA: Reasoning over Scientific Plots},\nbooktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV)},\nmonth = {March},\nyear = {2020}\n} "
-    },
-    {
-        "name": "SentiCap",
-        "url": "http://users.cecs.anu.edu.au/~u4534172/senticap.html",
-        "bibtex": "@inproceedings{mathews2016senticap,\n  title={Senticap: Generating image descriptions with sentiments},\n  author={Mathews, Alexander and Xie, Lexing and He, Xuming},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={30},\n  number={1},\n  year={2016}\n}"
-    },
-    {
-        "name": "spot-the-diff",
-        "url": "https://github.com/harsh19/spot-the-diff",
-        "bibtex": "@inproceedings{jhamtani2018learning,\n  title={Learning to Describe Differences Between Pairs of Similar Images},\n  author={Jhamtani, Harsh and Berg-Kirkpatrick, Taylor},\n  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)},\n  year={2018}\n}"
-    },
-    {
-        "name": "VisDA-2017",
-        "url": "http://ai.bu.edu/visda-2017/",
-        "bibtex": "@misc{visda2017,\n    Author = {Xingchao Peng and Ben Usman and Neela Kaushik and Judy Hoffman and Dequan Wang and Kate Saenko},\n    Title = {VisDA: The Visual Domain Adaptation Challenge},\n    Year = {2017},\n    Eprint = {arXiv:1710.06924},\n}"
-    },
-    {
-        "name": "VQA-E",
-        "url": "https://github.com/liqing-ustc/VQA-E",
-        "bibtex": "\"@article{li2018vqae,\n  title={VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},\n  author={Li, Qing and Tao, Qingyi and Joty, Shafiq and Cai, Jianfei and Luo, Jiebo},\n  journal={ECCV},\n  year={2018}\n}\""
-    },
-    {
-        "name": "VQG",
-        "url": "https://www.microsoft.com/en-us/download/details.aspx?id=53670",
-        "bibtex": "@article{mostafazadeh2016generating,\n  title={Generating natural questions about an image},\n  author={Mostafazadeh, Nasrin and Misra, Ishan and Devlin, Jacob and Mitchell, Margaret and He, Xiaodong and Vanderwende, Lucy},\n  journal={arXiv preprint arXiv:1603.06059},\n  year={2016}\n}"
-    }
-]
+{
+    "data": [
+        {
+            "name": "300w",
+            "url": "https://ibug.doc.ic.ac.uk/resources/300-W/",
+            "bibtex": "@article{sagonas2016300,\n  title={300 faces in-the-wild challenge: Database and results},\n  author={Sagonas, Christos and Antonakos, Epameinondas and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},\n  journal={Image and vision computing},\n  volume={47},\n  pages={3--18},\n  year={2016},\n  publisher={Elsevier}\n}\n@inproceedings{sagonas2013300,\n  title={300 faces in-the-wild challenge: The first facial landmark localization challenge},\n  author={Sagonas, Christos and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},\n  booktitle={Proceedings of the IEEE international conference on computer vision workshops},\n  pages={397--403},\n  year={2013}\n}\n@inproceedings{sagonas2013semi,\n  title={A semi-automatic methodology for facial landmark annotation},\n  author={Sagonas, Christos and Tzimiropoulos, Georgios and Zafeiriou, Stefanos and Pantic, Maja},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition workshops},\n  pages={896--903},\n  year={2013}\n}"
+        },
+        {
+            "name": "ayahoo_test_images",
+            "url": "https://vision.cs.uiuc.edu/attributes/",
+            "bibtex": "@inproceedings{farhadi2009describing,\n  title={Describing objects by their attributes},\n  author={Farhadi, Ali and Endres, Ian and Hoiem, Derek and Forsyth, David},\n  booktitle={2009 IEEE conference on computer vision and pattern recognition},\n  pages={1778--1785},\n  year={2009},\n  organization={IEEE}\n}"
+        },
+        {
+            "name": "LFW",
+            "url": "http://vis-www.cs.umass.edu/lfw/",
+            "bibtex": "@TechReport{LFWTech,\n  author={Gary B. Huang and Manu Ramesh and Tamara Berg and Erik Learned-Miller},\n  title={Labeled Faces in the Wild: A Database for Studying \n  Face Recognition in Unconstrained Environments},\n  institution={University of Massachusetts, Amherst},\n  year=2007,\n  number={07-49},\n  month={October}\n}"
+        },
+        {
+            "name": "model-vs-human",
+            "url": "https://github.com/rgeirhos/Stylized-ImageNet",
+            "bibtex": "@inproceedings{geirhos2018,\n  title={ImageNet-trained {CNN}s are biased towards texture; increasing shape bias improves accuracy and robustness.},\n  author={Robert Geirhos and Patricia Rubisch and Claudio Michaelis and Matthias Bethge and Felix A Wichmann and Wieland Brendel},\n  booktitle={International Conference on Learning Representations},\n  year={2019},\n  url={https://openreview.net/forum?id=Bygh9j09KX},\n}"
+        },
+        {
+            "name": "Office-Home",
+            "url": "https://www.hemanthdv.org/officeHomeDataset.html",
+            "bibtex": "@inproceedings{venkateswara2017deep,\n  title={Deep hashing network for unsupervised domain adaptation},\n  author={Venkateswara, Hemanth and Eusebio, Jose and Chakraborty, Shayok and Panchanathan, Sethuraman},\n  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},\n  pages={5018--5027},\n  year={2017}\n}"
+        },
+        {
+            "name": "CAT2000",
+            "url": "http://saliency.mit.edu/results_cat2000.html",
+            "bibtex": "@misc{mit-saliency-benchmark,\n  author={Zoya Bylinskii and Tilke Judd and Ali Borji and Laurent Itti and Fr{\\'e}do Durand and Aude Oliva and Antonio Torralba},\n  title={MIT Saliency Benchmark},\n  howpublished={http://saliency.mit.edu/}\n}\n@article{CAT2000,\n  title={CAT2000: A Large Scale Fixation Dataset for Boosting Saliency Research},\n  author={Borji, Ali and Itti, Laurent},\n  journal={CVPR 2015 workshop on \"Future of Datasets\"},\n  year={2015},\n  note={arXiv preprint arXiv:1505.03581}\n}\n@article{salMetrics_Bylinskii,\n  title={What do different evaluation metrics tell us about saliency models?},\n  author={Zoya Bylinskii and Tilke Judd and Aude Oliva and Antonio Torralba and Fr{\\'e}do Durand},\n  journal={arXiv preprint arXiv:1604.03605},\n  year={2016}\n}"
+        },
+        {
+            "name": "Caltech101",
+            "url": "https://data.caltech.edu/records/mzrjq-6wc02",
+            "bibtex": "@article{FeiFei2004LearningGV,\n  title={Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories},\n  author={Li Fei-Fei and Rob Fergus and Pietro Perona},\n  journal={Computer Vision and Pattern Recognition Workshop},\n  year={2004},\n}"
+        },
+        {
+            "name": "Cars",
+            "url": "https://ai.stanford.edu/~jkrause/cars/car_dataset.html (invalid)",
+            "bibtex": "@inproceedings{krause20133d,\n  title={3d object representations for fine-grained categorization},\n  author={Krause, Jonathan and Stark, Michael and Deng, Jia and Fei-Fei, Li},\n  booktitle={Proceedings of the IEEE international conference on computer vision workshops},\n  pages={554--561},\n  year={2013}\n}"
+        },
+        {
+            "name": "Core50",
+            "url": "https://vlomonaco.github.io/core50/",
+            "bibtex": "@inproceedings{lomonaco2017core50,\n  title={Core50: a new dataset and benchmark for continuous object recognition},\n  author={Lomonaco, Vincenzo and Maltoni, Davide},\n  booktitle={Conference on robot learning},\n  pages={17--26},\n  year={2017},\n  organization={PMLR}\n}\n@inproceedings{lomonaco2020rehearsal,\n  title={Rehearsal-Free Continual Learning over Small Non-IID Batches.},\n  author={Lomonaco, Vincenzo and Maltoni, Davide and Pellegrini, Lorenzo and others},\n  booktitle={CVPR Workshops},\n  volume={1},\n  number={2},\n  pages={3},\n  year={2020}\n}"
+        },
+        {
+            "name": "NUS-WIDE",
+            "url": "https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html",
+            "bibtex": "@inproceedings{nus-wide-civr09,\n  author={Tat-Seng Chua and Jinhui Tang and Richang Hong and Haojie Li and Zhiping Luo and Yan-Tao Zheng},\n  booktitle={Proc. of ACM Conf. on Image and Video Retrieval (CIVR'09)},\n  posted-at={July 8-10, 2009},\n  title={NUS-WIDE: A Real-World Web Image Database from National University of Singapore},\n  address={Santorini, Greece. },\n  year={July 8-10, 2009}\n}"
+        },
+        {
+            "name": "ObjectNet",
+            "url": "https://mitibmwatsonailab.mit.edu/research/blog/objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models/",
+            "bibtex": "@incollection{NIPS2019_9142,\n  title={ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models},\n  author={Barbu, Andrei and Mayo, David and Alverio, Julian and Luo, William and Wang, Christopher and Gutfreund, Dan and Tenenbaum, Josh and Katz, Boris},\n  booktitle={Advances in Neural Information Processing Systems 32},\n  editor={H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett},\n  pages={9448--9458},\n  year={2019},\n  publisher={Curran Associates, Inc.},\n  url = {http://papers.nips.cc/paper/9142-objectnet-a-large-scale-bias-controlled-dataset-for-pushing-the-limits-of-object-recognition-models.pdf}\n}"
+        },
+        {
+            "name": "Places205",
+            "url": "http://places.csail.mit.edu/index.html",
+            "bibtex": "@article{zhou2014learning,\n  title={Learning deep features for scene recognition using places database},\n  author={Zhou, Bolei and Lapedriza, Agata and Xiao, Jianxiong and Torralba, Antonio and Oliva, Aude},\n  journal={Advances in neural information processing systems},\n  volume={27},\n  year={2014}\n}"
+        },
+        {
+            "name": "A-OKVQA",
+            "url": "https://allenai.org/project/a-okvqa/home",
+            "bibtex": "@article{AOKVQA,\n  title={A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge},\n  author={Dustin Schwenk and Apoorv Khandelwal and Christopher Clark and Kenneth Marino and Roozbeh Mottaghi},\n  journal={arXiv},\n  year={2022},\n}"
+        },
+        {
+            "name": "AI2D",
+            "url": "https://github.com/allenai/dqa-net",
+            "bibtex": "@inproceedings{kembhavi2016diagram,\n  title={A diagram is worth a dozen images},\n  author={Kembhavi, Aniruddha and Salvato, Mike and Kolve, Eric and Seo, Minjoon and Hajishirzi, Hannaneh and Farhadi, Ali},\n  booktitle={Computer Vision--ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11--14, 2016, Proceedings, Part IV 14},\n  pages={235--251},\n  year={2016},\n  organization={Springer}\n}"
+        },
+        {
+            "name": "AID",
+            "url": "https://captain-whu.github.io/AID/",
+            "bibtex": "@article{xia2017aid,\n  title={AID: A benchmark data set for performance evaluation of aerial scene classification},\n  author={Xia, Gui-Song and Hu, Jingwen and Hu, Fan and Shi, Baoguang and Bai, Xiang and Zhong, Yanfei and Zhang, Liangpei and Lu, Xiaoqiang},\n  journal={IEEE Transactions on Geoscience and Remote Sensing},\n  volume={55},\n  number={7},\n  pages={3965--3981},\n  year={2017},\n  publisher={IEEE}\n}"
+        },
+        {
+            "name": "Caltech-256",
+            "url": "",
+            "bibtex": "@article{griffin2007caltech,\n  title={Caltech-256 object category dataset},\n  author={Griffin, Gregory and Holub, Alex and Perona, Pietro},\n  year={2007},\n  publisher={California Institute of Technology}\n}"
+        },
+        {
+            "name": "CoVA",
+            "url": "https://github.com/kevalmorabia97/CoVA-Web-Object-Detection/blob/master/README.md",
+            "bibtex": "@inproceedings{kumar-etal-2022-cova,\n    title = \"{C}o{VA}: Context-aware Visual Attention for Webpage Information Extraction\",\n    author = \"Kumar, Anurendra  and\n      Morabia, Keval  and\n      Wang, William  and\n      Chang, Kevin  and\n      Schwing, Alex\",\n    booktitle = \"Proceedings of The Fifth Workshop on e-Commerce and NLP (ECNLP 5)\",\n    month = may,\n    year = \"2022\",\n    address = \"Dublin, Ireland\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.ecnlp-1.11\",\n    pages = \"80--90\",\n    abstract = \"Webpage information extraction (WIE) is an important step to create knowledge bases. For this, classical WIE methods leverage the Document Object Model (DOM) tree of a website. However, use of the DOM tree poses significant challenges as context and appearance are encoded in an abstract manner. To address this challenge we propose to reformulate WIE as a context-aware Webpage Object Detection task. Specifically, we develop a Context-aware Visual Attention-based (CoVA) detection pipeline which combines appearance features with syntactical structure from the DOM tree. To study the approach we collect a new large-scale datase of e-commerce websites for which we manually annotate every web element with four labels: product price, product title, product image and others. On this dataset we show that the proposed CoVA approach is a new challenging baseline which improves upon prior state-of-the-art methods.\",\n}"
+        },
+        {
+            "name": "CrisisMMD",
+            "url": "https://crisisnlp.qcri.org/crisismmd.html",
+            "bibtex": ""
+        },
+        {
+            "name": "Dark-Zurich",
+            "url": "https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/",
+            "bibtex": ""
+        },
+        {
+            "name": "DeepWeeds",
+            "url": "https://github.com/AlexOlsen/DeepWeeds",
+            "bibtex": "@article{DeepWeeds2019,\n  author = {Alex Olsen and\n    Dmitry A. Konovalov and\n    Bronson Philippa and\n    Peter Ridd and\n    Jake C. Wood and\n    Jamie Johns and\n    Wesley Banks and\n    Benjamin Girgenti and\n    Owen Kenny and \n    James Whinney and\n    Brendan Calvert and\n    Mostafa {Rahimi Azghadi} and\n    Ronald D. White},\n  title = {{DeepWeeds: A Multiclass Weed Species Image Dataset for Deep Learning}},\n  journal = {Scientific Reports},\n  year = 2019,\n  number = 2058,\n  month = 2,\n  volume = 9,\n  issue = 1,\n  day = 14,\n  url = \"https://doi.org/10.1038/s41598-018-38343-3\",\n  doi = \"10.1038/s41598-018-38343-3\"\n}"
+        },
+        {
+            "name": "ExDark",
+            "url": "https://github.com/cs-chan/Exclusively-Dark-Image-Dataset",
+            "bibtex": "@article{Exdark,\n  title = {Getting to Know Low-light Images with The Exclusively Dark Dataset},\n  author = {Loh, Yuen Peng and Chan, Chee Seng},\n  journal = {Computer Vision and Image Understanding},\n  volume = {178},\n  pages = {30-42},\n  year = {2019},\n  doi = {https://doi.org/10.1016/j.cviu.2018.10.010}\n}"
+        },
+        {
+            "name": "FFHQ-Text",
+            "url": "https://github.com/Yutong-Zhou-cv/FFHQ-Text_Dataset",
+            "bibtex": "@inproceedings{zhou2021generative,\n  title={Generative Adversarial Network for Text-to-Face Synthesis and Manipulation with Pretrained BERT Model},\n  author={Zhou, Yutong and Shimada, Nobutaka},\n  booktitle={2021 16th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2021)},\n  pages={01--08},\n  year={2021}\n}\n\n@inproceedings{zhou2021generative,\n  title={Generative Adversarial Network for Text-to-Face Synthesis and Manipulation},\n  author={Zhou, Yutong},\n  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},\n  pages={2940--2944},\n  year={2021}\n}\n\n@inproceedings{karras2019style,\n  title={A style-based generator architecture for generative adversarial networks},\n  author={Karras, Tero and Laine, Samuli and Aila, Timo},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={4401--4410},\n  year={2019}\n}"
+        },
+        {
+            "name": "FlickrLogos-32",
+            "url": "https://www.uni-augsburg.de/en/fakultaet/fai/informatik/prof/mmc/research/datensatze/flickrlogos/",
+            "bibtex": "@inproceedings{romberg2011scalable,\n  title={Scalable logo recognition in real-world images},\n  author={Romberg, Stefan and Pueyo, Lluis Garcia and Lienhart, Rainer and Van Zwol, Roelof},\n  booktitle={Proceedings of the 1st ACM international conference on multimedia retrieval},\n  pages={1--8},\n  year={2011}\n}"
+        },
+        {
+            "name": "Flickr Logos 27",
+            "url": "http://image.ntua.gr/iva/datasets/flickr_logos/",
+            "bibtex": "@inproceedings{kalantidis2011scalable,\n  title={Scalable triangulation-based logo recognition},\n  author={Kalantidis, Yannis and Pueyo, Lluis Garcia and Trevisiol, Michele and van Zwol, Roelof and Avrithis, Yannis},\n  booktitle={Proceedings of the 1st ACM international conference on multimedia retrieval},\n  pages={1--7},\n  year={2011}\n}"
+        },
+        {
+            "name": "ImageNet-R",
+            "url": "https://github.com/hendrycks/imagenet-r",
+            "bibtex": "@article{hendrycks2021many,\n  title={The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization},\n  author={Dan Hendrycks and Steven Basart and Norman Mu and Saurav Kadavath and Frank Wang and Evan Dorundo and Rahul Desai and Tyler Zhu and Samyak Parajuli and Mike Guo and Dawn Song and Jacob Steinhardt and Justin Gilmer},\n  journal={ICCV},\n  year={2021}\n}"
+        },
+        {
+            "name": "ImageNet-Sketch",
+            "url": "https://github.com/HaohanWang/ImageNet-Sketch",
+            "bibtex": "@inproceedings{wang2019learning,\n        title={Learning Robust Global Representations by Penalizing Local Predictive Power},\n        author={Wang, Haohan and Ge, Songwei and Lipton, Zachary and Xing, Eric P},\n        booktitle={Advances in Neural Information Processing Systems},\n        pages={10506--10518},\n        year={2019}\n}"
+        },
+        {
+            "name": "JHU-CROWD",
+            "url": "http://www.crowd-counting.com/",
+            "bibtex": "@inproceedings{sindagi2019pushing,\ntitle={Pushing the frontiers of unconstrained crowd counting: New dataset and benchmark method},\nauthor={Sindagi, Vishwanath A and Yasarla, Rajeev and Patel, Vishal M},\nbooktitle={Proceedings of the IEEE International Conference on Computer Vision},\npages={1221--1231},\nyear={2019}\n}\n@article{sindagi2020jhu-crowd++,\ntitle={JHU-CROWD++: Large-Scale Crowd Counting Dataset and A Benchmark Method},\nauthor={Sindagi, Vishwanath A and Yasarla, Rajeev and Patel, Vishal M},\njournal={Technical Report},\nyear={2020}\n}"
+        },
+        {
+            "name": "MNIST-M",
+            "url": "https://www.kaggle.com/datasets/aquibiqbal/mnistm",
+            "bibtex": "@article{ganin2016domain,\n  title={Domain-adversarial training of neural networks},\n  author={Ganin, Yaroslav and Ustinova, Evgeniya and Ajakan, Hana and Germain, Pascal and Larochelle, Hugo and Laviolette, Fran{\\c{c}}ois and Marchand, Mario and Lempitsky, Victor},\n  journal={The journal of machine learning research},\n  volume={17},\n  number={1},\n  pages={2096--2030},\n  year={2016},\n  publisher={JMLR. org}\n}"
+        },
+        {
+            "name": "MVTecAD",
+            "url": "https://www.mvtec.com/company/research/datasets/mvtec-ad/",
+            "bibtex": "@inproceedings{bergmann2019mvtec,\n  title={MVTec AD--A comprehensive real-world dataset for unsupervised anomaly detection},\n  author={Bergmann, Paul and Fauser, Michael and Sattlegger, David and Steger, Carsten},\n  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},\n  pages={9592--9600},\n  year={2019}\n}"
+        },
+        {
+            "name": "NABirds",
+            "url": "https://dl.allaboutbirds.org/nabirds",
+            "bibtex": "@inproceedings{van2015building,\n  title={Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine-grained dataset collection},\n  author={Van Horn, Grant and Branson, Steve and Farrell, Ryan and Haber, Scott and Barry, Jessie and Ipeirotis, Panos and Perona, Pietro and Belongie, Serge},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={595--604},\n  year={2015}\n}"
+        },
+        {
+            "name": "Road Anomaly",
+            "url": "https://www.epfl.ch/labs/cvlab/data/road-anomaly/",
+            "bibtex": "@inproceedings{lis2019detecting,\n  title={Detecting the unexpected via image resynthesis},\n  author={Lis, Krzysztof and Nakka, Krishna and Fua, Pascal and Salzmann, Mathieu},\n  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},\n  pages={2152--2161},\n  year={2019}\n}"
+        },
+        {
+            "name": "SCUT-CTW1500",
+            "url": "https://github.com/Yuliang-Liu/Curve-Text-Detector",
+            "bibtex": "@article{yuliang2017detecting,\n  title={Detecting curve text in the wild: New dataset and new solution},\n  author={Yuliang, Liu and Lianwen, Jin and Shuaitao, Zhang and Sheng, Zhang},\n  journal={arXiv preprint arXiv:1712.02170},\n  year={2017}\n}"
+        },
+        {
+            "name": "Total-Text",
+            "url": "https://github.com/cs-chan/Total-Text-Dataset",
+            "bibtex": "@article{CK2019,\n  author    = {Chee Kheng Ch\u2019ng and\n               Chee Seng Chan and\n               Chenglin Liu},\n  title     = {Total-Text: Towards Orientation Robustness in Scene Text Detection},\n  journal   = {International Journal on Document Analysis and Recognition (IJDAR)},\n  volume    = {23},\n  pages     = {31-52},\n  year      = {2020},\n  doi       = {10.1007/s10032-019-00334-z},\n}"
+        },
+        {
+            "name": "VisDA-2017",
+            "url": "http://ai.bu.edu/visda-2017/",
+            "bibtex": "@article{peng2017visda,\n  title={Visda: The visual domain adaptation challenge},\n  author={Peng, Xingchao and Usman, Ben and Kaushik, Neela and Hoffman, Judy and Wang, Dequan and Saenko, Kate},\n  journal={arXiv preprint arXiv:1710.06924},\n  year={2017}\n}"
+        },
+        {
+            "name": "Yoga-82",
+            "url": "https://sites.google.com/view/yoga-82/home",
+            "bibtex": "@inproceedings{verma2020yoga,\n  title={Yoga-82: A New Dataset for Fine-grained Classification of Human Poses},\n  author={Verma, Manisha and Kumawat, Sudhakar and Nakashima, Yuta and Raman, Shanmuganathan},\n  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},\n  pages={4472-4479},\n  year={2020}\n}"
+        },
+        {
+            "name": "CINIC-10",
+            "url": "https://github.com/BayesWatch/cinic-10",
+            "bibtex": "@article{darlow2018cinic,\n  title={Cinic-10 is not imagenet or cifar-10},\n  author={Darlow, Luke N and Crowley, Elliot J and Antoniou, Antreas and Storkey, Amos J},\n  journal={arXiv preprint arXiv:1810.03505},\n  year={2018}\n}"
+        },
+        {
+            "name": "COCO",
+            "url": "https://cocodataset.org/#home",
+            "bibtex": "@inproceedings{lin2014microsoft,\n  title={Microsoft coco: Common objects in context},\n  author={Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\\'a}r, Piotr and Zitnick, C Lawrence},\n  booktitle={Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13},\n  pages={740--755},\n  year={2014},\n  organization={Springer}\n}"
+        },
+        {
+            "name": "CrowdHuman",
+            "url": "http://www.crowdhuman.org/",
+            "bibtex": "  @article{shao2018crowdhuman,\n    title={CrowdHuman: A Benchmark for Detecting Human in a Crowd},\n    author={Shao, Shuai and Zhao, Zijian and Li, Boxun and Xiao, Tete and Yu, Gang and Zhang, Xiangyu and Sun, Jian},\n    journal={arXiv preprint arXiv:1805.00123},\n    year={2018}\n  }\n          "
+        },
+        {
+            "name": "EuroSAT",
+            "url": "https://github.com/phelber/eurosat",
+            "bibtex": "@inproceedings{helber2018introducing,\n  title={Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification},\n  author={Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian},\n  booktitle={IGARSS 2018-2018 IEEE International Geoscience and Remote Sensing Symposium},\n  pages={204--207},\n  year={2018},\n  organization={IEEE}\n}\n\n@article{helber2019eurosat,\n  title={Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification},\n  author={Helber, Patrick and Bischke, Benjamin and Dengel, Andreas and Borth, Damian},\n  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},\n  year={2019},\n  publisher={IEEE}\n}"
+        },
+        {
+            "name": "ExpW",
+            "url": "http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html",
+            "bibtex": "@inproceedings{SOCIALRELATION_ICCV2015,\n author = {Zhanpeng Zhang, Ping Luo, Chen Change Loy, and Xiaoou Tang},\n title = {Learning Social Relation Traits from Face Images},\n booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},\n month = December,\n year = {2015}\n} \n\n@inproceedings{SOCIALRELATION_2017,\n author = {Zhanpeng Zhang, Ping Luo, Chen Change Loy, and Xiaoou Tang},\n title = {From Facial Expression Recognition to Interpersonal Relation Prediction},\n booktitle = {arXiv:1609.06426v2},\n month = September,\n year = {2016}\n} \n\t\n"
+        },
+        {
+            "name": "FairFace",
+            "url": "https://github.com/joojs/fairface",
+            "bibtex": "    @inproceedings{karkkainenfairface,\n      title={FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation},\n      author={Karkkainen, Kimmo and Joo, Jungseock},\n      booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},\n      year={2021},\n      pages={1548--1558}\n    }"
+        },
+        {
+            "name": "IconQA",
+            "url": "https://iconqa.github.io/",
+            "bibtex": "@inproceedings{lu2021iconqa,\n    title = {IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning},\n    author = {Lu, Pan and Qiu, Liang and Chen, Jiaqi and Xia, Tony and Zhao, Yizhou and Zhang, Wei and Yu, Zhou and Liang, Xiaodan and Zhu, Song-Chun},\n    booktitle = {The 35th Conference on Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks},\n    year = {2021}\n}"
+        },
+        {
+            "name": "ImageNet-A",
+            "url": "https://github.com/hendrycks/natural-adv-examples",
+            "bibtex": "@article{hendrycks2021nae,\n  title={Natural Adversarial Examples},\n  author={Dan Hendrycks and Kevin Zhao and Steven Basart and Jacob Steinhardt and Dawn Song},\n  journal={CVPR},\n  year={2021}\n}"
+        },
+        {
+            "name": "ImageNet-C",
+            "url": "https://zenodo.org/record/2235448",
+            "bibtex": "@article{hendrycks2019benchmarking,\n  title={Benchmarking neural network robustness to common corruptions and perturbations},\n  author={Hendrycks, Dan and Dietterich, Thomas},\n  journal={arXiv preprint arXiv:1903.12261},\n  year={2019}\n}"
+        },
+        {
+            "name": "InfographicVQA",
+            "url": "https://rrc.cvc.uab.es/?ch=17&com=tasks",
+            "bibtex": "@inproceedings{mathew2022infographicvqa,\n  title={Infographicvqa},\n  author={Mathew, Minesh and Bagal, Viraj and Tito, Rub{\\`e}n and Karatzas, Dimosthenis and Valveny, Ernest and Jawahar, CV},\n  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},\n  pages={1697--1706},\n  year={2022}\n}"
+        },
+        {
+            "name": "RecipeQA",
+            "url": "https://hucvl.github.io/recipeqa/",
+            "bibtex": "@article{yagcioglu2018recipeqa,\n  title={Recipeqa: A challenge dataset for multimodal comprehension of cooking recipes},\n  author={Yagcioglu, Semih and Erdem, Aykut and Erdem, Erkut and Ikizler-Cinbis, Nazli},\n  journal={arXiv preprint arXiv:1809.00812},\n  year={2018}\n}"
+        },
+        {
+            "name": "SemArt",
+            "url": "https://github.com/noagarcia/SemArt",
+            "bibtex": "@inproceedings{garcia2018read,\n  title={How to read paintings: semantic art understanding with multi-modal retrieval},\n  author={Garcia, Noa and Vogiatzis, George},\n  booktitle={Proceedings of the European Conference on Computer Vision (ECCV) Workshops},\n  pages={0--0},\n  year={2018}\n}"
+        },
+        {
+            "name": "Set5\n",
+            "url": "Low-Complexity Single-Image Super-Resolution based on Nonnegative Neighbor Embedding",
+            "bibtex": "@article{bevilacqua2012low,\n  title={Low-complexity single-image super-resolution based on nonnegative neighbor embedding},\n  author={Bevilacqua, Marco and Roumy, Aline and Guillemot, Christine and Alberi-Morel, Marie Line},\n  year={2012},\n  publisher={BMVA press}\n}"
+        },
+        {
+            "name": "TextCaps",
+            "url": "https://textvqa.org/textcaps/",
+            "bibtex": "@inproceedings{sidorov2019textcaps,\n    title={TextCaps: a Dataset for Image Captioningwith Reading Comprehension},\n    author={Sidorov, Oleksii and Hu, Ronghang and Rohrbach, Marcus and Singh, Amanpreet},\n    journal={European Conference on Computer Vision},\n    year={2020}\n}"
+        },
+        {
+            "name": "VisDial",
+            "url": "https://visualdialog.org/",
+            "bibtex": "@inproceedings{das2017visual,\n  title={Visual dialog},\n  author={Das, Abhishek and Kottur, Satwik and Gupta, Khushi and Singh, Avi and Yadav, Deshraj and Moura, Jos{\\'e} MF and Parikh, Devi and Batra, Dhruv},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={326--335},\n  year={2017}\n}"
+        },
+        {
+            "name": "VizWiz",
+            "url": "https://vizwiz.org/tasks-and-datasets/vqa/",
+            "bibtex": "@inproceedings{gurari2018vizwiz,\n  title={Vizwiz grand challenge: Answering visual questions from blind people},\n  author={Gurari, Danna and Li, Qing and Stangl, Abigale J and Guo, Anhong and Lin, Chi and Grauman, Kristen and Luo, Jiebo and Bigham, Jeffrey P},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={3608--3617},\n  year={2018}\n}"
+        },
+        {
+            "name": "Winoground",
+            "url": "https://huggingface.co/datasets/facebook/winoground",
+            "bibtex": "@inproceedings{thrush_and_ross2022winoground,\n  author = {Tristan Thrush and Ryan Jiang and Max Bartolo and Amanpreet Singh and Adina Williams and Douwe Kiela and Candace Ross},\n  title = {Winoground: Probing vision and language models for visio-linguistic compositionality},\n  booktitle = {CVPR},\n  year = 2022,\n}"
+        },
+        {
+            "name": "ConceptualCaptions",
+            "url": "https://github.com/google-research-datasets/conceptual-captions",
+            "bibtex": "@inproceedings{sharma2018conceptual,\n  title = {Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning},\n  author = {Sharma, Piyush and Ding, Nan and Goodman, Sebastian and Soricut, Radu},\n  booktitle = {Proceedings of ACL},\n  year = {2018},\n}\n"
+        },
+        {
+            "name": "GTSRB",
+            "url": "https://benchmark.ini.rub.de/",
+            "bibtex": "@article{Stallkamp2012,\ntitle = \"Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition\",\njournal = \"Neural Networks\",\nvolume = \"\",\nnumber = \"0\",\npages = \" - \",\nyear = \"2012\",\nnote = \"\",\nissn = \"0893-6080\",\ndoi = \"10.1016/j.neunet.2012.02.016\",\nurl = \"http://www.sciencedirect.com/science/article/pii/S0893608012000457\",\nauthor = \"J. Stallkamp and M. Schlipsing and J. Salmen and C. Igel\",\nkeywords = \"Traffic sign recognition\",\nkeywords = \"Machine learning\",\nkeywords = \"Convolutional neural networks\",\nkeywords = \"Benchmarking\"\n}\n"
+        },
+        {
+            "name": "KVQA",
+            "url": "https://malllabiisc.github.io/resources/kvqa/",
+            "bibtex": "@InProceedings{shahMYP19,\n  author    = \"Sanket Shah, Anand Mishra, Naganand Yadati and Partha Pratim Talukdar\",\n  title     = \"KVQA: Knowledge-Aware Visual Question Answering\",\n  booktitle = \"AAAI\",\n  year      = \"2019\",\n}"
+        },
+        {
+            "name": "MemeCap",
+            "url": "https://arxiv.org/pdf/2305.13703.pdf",
+            "bibtex": "@misc{hwang2023memecap,\n      title={MemeCap: A Dataset for Captioning and Interpreting Memes}, \n      author={EunJeong Hwang and Vered Shwartz},\n      year={2023},\n      eprint={2305.13703},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}"
+        },
+        {
+            "name": "PlotQA",
+            "url": "https://github.com/NiteshMethani/PlotQA",
+            "bibtex": "@InProceedings{Methani_2020_WACV,\nauthor = {Methani, Nitesh and Ganguly, Pritha and Khapra, Mitesh M. and Kumar, Pratyush},\ntitle = {PlotQA: Reasoning over Scientific Plots},\nbooktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV)},\nmonth = {March},\nyear = {2020}\n} "
+        },
+        {
+            "name": "SentiCap",
+            "url": "http://users.cecs.anu.edu.au/~u4534172/senticap.html",
+            "bibtex": "@inproceedings{mathews2016senticap,\n  title={Senticap: Generating image descriptions with sentiments},\n  author={Mathews, Alexander and Xie, Lexing and He, Xuming},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={30},\n  number={1},\n  year={2016}\n}"
+        },
+        {
+            "name": "spot-the-diff",
+            "url": "https://github.com/harsh19/spot-the-diff",
+            "bibtex": "@inproceedings{jhamtani2018learning,\n  title={Learning to Describe Differences Between Pairs of Similar Images},\n  author={Jhamtani, Harsh and Berg-Kirkpatrick, Taylor},\n  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP)},\n  year={2018}\n}"
+        },
+        {
+            "name": "VisDA-2017",
+            "url": "http://ai.bu.edu/visda-2017/",
+            "bibtex": "@misc{visda2017,\n    Author = {Xingchao Peng and Ben Usman and Neela Kaushik and Judy Hoffman and Dequan Wang and Kate Saenko},\n    Title = {VisDA: The Visual Domain Adaptation Challenge},\n    Year = {2017},\n    Eprint = {arXiv:1710.06924},\n}"
+        },
+        {
+            "name": "VQA-E",
+            "url": "https://github.com/liqing-ustc/VQA-E",
+            "bibtex": "\"@article{li2018vqae,\n  title={VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions},\n  author={Li, Qing and Tao, Qingyi and Joty, Shafiq and Cai, Jianfei and Luo, Jiebo},\n  journal={ECCV},\n  year={2018}\n}\""
+        },
+        {
+            "name": "VQG",
+            "url": "https://www.microsoft.com/en-us/download/details.aspx?id=53670",
+            "bibtex": "@article{mostafazadeh2016generating,\n  title={Generating natural questions about an image},\n  author={Mostafazadeh, Nasrin and Misra, Ishan and Devlin, Jacob and Mitchell, Margaret and He, Xiaodong and Vanderwende, Lucy},\n  journal={arXiv preprint arXiv:1603.06059},\n  year={2016}\n}"
+        }
+    ]
+}

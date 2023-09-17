@@ -52,7 +52,7 @@ function hide_tab(id) {
 
 let slideIndex = 1;
 let slideIndex2 = 1;
-let slideNumber = 9;
+let slideNumber = 12 // THIS WILL BE THE NUMBER OF SLIDES PER PANEL;
 //showSlides(slideIndex);
 
 // Next/previous controls
@@ -90,7 +90,7 @@ function showSlides(n, si1=true) {
     slides[slideIndex2 % slideNumber].style.display = "block";
     slides[(slideIndex % slideNumber)+slideNumber].style.display = "block";
     slides[(slideIndex2 % slideNumber)+(2*slideNumber)].style.display = "block";
-    slides[(slideIndex % slideNumber)+(3*slideNumber)].style.display = "block";
+    //slides[(slideIndex % slideNumber)+(3*slideNumber)].style.display = "block";
     //slides[(slideIndex2 % slideNumber)+(4*slideNumber)].style.display = "block";
     // dots[slideIndex-1].className += " active";
 }
