@@ -1,0 +1,122 @@
+dataset name,url,bibtex,license
+STL-10,https://cs.stanford.edu/~acoates/stl10/,"@inproceedings{DBLP:journals/jmlr/CoatesNL11,
+  author       = {Adam Coates and
+                  Andrew Y. Ng and
+                  Honglak Lee},
+  editor       = {Geoffrey J. Gordon and
+                  David B. Dunson and
+                  Miroslav Dud{\'{\i}}k},
+  title        = {An Analysis of Single-Layer Networks in Unsupervised Feature Learning},
+  booktitle    = {Proceedings of the Fourteenth International Conference on Artificial
+                  Intelligence and Statistics, {AISTATS} 2011, Fort Lauderdale, USA,
+                  April 11-13, 2011},
+  series       = {{JMLR} Proceedings},
+  volume       = {15},
+  pages        = {215--223},
+  publisher    = {JMLR.org},
+  year         = {2011},
+  url          = {http://proceedings.mlr.press/v15/coates11a/coates11a.pdf},
+  timestamp    = {Mon, 23 Jan 2023 22:09:27 +0100},
+  biburl       = {https://dblp.org/rec/journals/jmlr/CoatesNL11.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}",
+Places365,http://places2.csail.mit.edu/download.html,"@article{zhou2017places,
+title={Places: A 10 million Image Database for Scene Recognition},
+author={Zhou, Bolei and Lapedriza, Agata and Khosla, Aditya and Oliva, Aude and Torralba, Antonio},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+year={2017},
+publisher={IEEE}
+}",
+Office-31,https://faculty.cc.gatech.edu/~judy/domainadapt/,"@inproceedings{DBLP:conf/eccv/SaenkoKFD10,
+  author       = {Kate Saenko and
+                  Brian Kulis and
+                  Mario Fritz and
+                  Trevor Darrell},
+  editor       = {Kostas Daniilidis and
+                  Petros Maragos and
+                  Nikos Paragios},
+  title        = {Adapting Visual Category Models to New Domains},
+  booktitle    = {Computer Vision - {ECCV} 2010, 11th European Conference on Computer
+                  Vision, Heraklion, Crete, Greece, September 5-11, 2010, Proceedings,
+                  Part {IV}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {6314},
+  pages        = {213--226},
+  publisher    = {Springer},
+  year         = {2010},
+  url          = {https://doi.org/10.1007/978-3-642-15561-1\_16},
+  doi          = {10.1007/978-3-642-15561-1\_16},
+  timestamp    = {Thu, 27 Jul 2023 08:17:27 +0200},
+  biburl       = {https://dblp.org/rec/conf/eccv/SaenkoKFD10.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}",
+LSUN,https://github.com/fyu/lsun,"@article{yu15lsun,
+    Author = {Yu, Fisher and Zhang, Yinda and Song, Shuran and Seff, Ari and Xiao, Jianxiong},
+    Title = {LSUN: Construction of a Large-scale Image Dataset using Deep Learning with Humans in the Loop},
+    Journal = {arXiv preprint arXiv:1506.03365},
+    Year = {2015}
+}",
+FGVC-Aircraft,https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/,"@techreport{maji13fine-grained,
+   title         = {Fine-Grained Visual Classification of Aircraft},
+   author        = {S. Maji and J. Kannala and E. Rahtu
+                    and M. Blaschko and A. Vedaldi},
+   year          = {2013},
+   archivePrefix = {arXiv},
+   eprint        = {1306.5151},
+   primaryClass  = ""cs-cv"",
+}","The creation of this dataset started during the Johns Hopkins CLSP Summer Workshop 2012 Towards a Detailed Understanding of Objects and Scenes in Natural Images with, in alphabetical order, Matthew B. Blaschko, Ross B. Girshick, Juho Kannala, Iasonas Kokkinos, Siddharth Mahendran, Subhransu Maji, Sammy Mohamed, Esa Rahtu, Naomi Saphra, Karen Simonyan, Ben Taskar, Andrea Vedaldi, and David Weiss.
+
+The CLSP workshop was supported by the National Science Foundation via Grant No 1005411, the Office of the Director of National Intelligence via the JHU Human Language Technology Center of Excellence; and Google Inc.
+
+A special thanks goes to Pekka Rantalankila for helping with the creation of the airplane hieararchy.
+
+Many thanks to the photographers that kindly made available their images for research purposes. Each photographer is listed below, along with a link to his/her airlners.net page:
+
+Mick Bajcar
+Aldo Bidini
+Wim Callaert
+Tommy Desmet
+Thomas Posch
+James Richard Covington
+Gerry Stegmeier
+Ben Wang
+Darren Wilson
+Konstantin von Wedelstaedt
+Please note that the images are made available exclusively for non-commercial research purposes. The original authors retain the copyright on the respective pictures and should be contacted for any other usage of them."
+DeepFashion,https://liuziwei7.github.io/projects/DeepFashion.html,"@inproceedings{liu2016deepfashion,
+ author = {Liu, Ziwei and Luo, Ping and Qiu, Shi and Wang, Xiaogang and Tang, Xiaoou},
+ title = {DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations},
+ booktitle = {Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+ month = June,
+ year = {2016} 
+}",
+CUB-200-2011,http://www.vision.caltech.edu/datasets/cub_200_2011/,"@techreport{WahCUB_200_2011,
+	Title = ,
+	Author = {Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.},
+	Year = {2011}
+	Institution = {California Institute of Technology},
+	Number = {CNS-TR-2011-001}
+}",We do not own the copyrights to these images. Their use is restricted to non-commercial research and educational purposes.
+CLEVR,https://cs.stanford.edu/people/jcjohns/clevr/,"@inproceedings{DBLP:conf/cvpr/JohnsonHMFZG17,
+  author       = {Justin Johnson and
+                  Bharath Hariharan and
+                  Laurens van der Maaten and
+                  Li Fei{-}Fei and
+                  C. Lawrence Zitnick and
+                  Ross B. Girshick},
+  title        = {{CLEVR:} {A} Diagnostic Dataset for Compositional Language and Elementary
+                  Visual Reasoning},
+  booktitle    = {2017 {IEEE} Conference on Computer Vision and Pattern Recognition,
+                  {CVPR} 2017, Honolulu, HI, USA, July 21-26, 2017},
+  pages        = {1988--1997},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2017},
+  url          = {https://doi.org/10.1109/CVPR.2017.215},
+  doi          = {10.1109/CVPR.2017.215},
+  timestamp    = {Fri, 24 Mar 2023 00:02:52 +0100},
+  biburl       = {https://dblp.org/rec/conf/cvpr/JohnsonHMFZG17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}","All data is released under the Creative Commons CC BY 4.0 license. You are free to:
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material
+for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms."

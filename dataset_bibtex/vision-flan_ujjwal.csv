@@ -1,0 +1,417 @@
+dataset name,url,bibtex,license
+WIT,https://github.com/google-research-datasets/wit,"@inproceedings{10.1145/3404835.3463257,
+author = {Srinivasan, Krishna and Raman, Karthik and Chen, Jiecao and Bendersky, Michael and Najork, Marc},
+title = {WIT: Wikipedia-Based Image Text Dataset for Multimodal Multilingual Machine Learning},
+year = {2021},
+isbn = {9781450380379},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3404835.3463257},
+doi = {10.1145/3404835.3463257},
+booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {2443–2449},
+numpages = {7},
+keywords = {dataset, multimodal, machine learning, wikipedia, multilingual, image-text retrieval, neural networks},
+location = {Virtual Event, Canada},
+series = {SIGIR '21}
+}",This data is available under the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+WikiArt,https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md,"@article{artgan2018,
+  title={Improved ArtGAN for Conditional Synthesis of Natural Image and Artwork},
+  author={Tan, Wei Ren and Chan, Chee Seng and Aguirre, Hernan and Tanaka, Kiyoshi},
+  journal={IEEE Transactions on Image Processing},
+  volume    = {28},
+  number    = {1},
+  pages     = {394--409},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/TIP.2018.2866698},
+  doi       = {10.1109/TIP.2018.2866698}
+}","The WikiArt dataset can be used only for non-commercial research purpose.
+The images in the WikiArt dataset were obtained from WikiArt.org. The authors are neither responsible for the content nor the meaning of these images.
+By using the WikiArt dataset, you agree to obey the terms and conditions of WikiArt.org."
+VQA-RAD,https://osf.io/89kps/,"  @misc{Lau_Gayen_Demner_Ben Abacha_2019,
+  title={Visual Question Answering in Radiology (VQA-RAD)},
+  url={osf.io/89kps},
+  DOI={10.17605/OSF.IO/89KPS},
+  publisher={OSF},
+  author={Lau, Jason J and Gayen, Soumya and Demner, Dina and Ben Abacha, Asma},
+  year={2019},
+  month={Feb}
+}",License: CC0 1.0 Universal 
+VOC2007,http://host.robots.ox.ac.uk/pascal/VOC/voc2007/,"@misc{pascal-voc-2007,
+	author = ""Everingham, M. and Van~Gool, L. and Williams, C. K. I. and Winn, J. and Zisserman, A."",
+	title = ""The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2007 {(VOC2007)} {R}esults"",
+	howpublished = ""http://www.pascal-network.org/challenges/VOC/voc2007/workshop/index.html""}	","Database Rights
+The VOC2007 data includes some images provided by ""flickr"". Use of these images must respect the corresponding terms of use:
+
+""flickr"" terms of use
+For the purposes of the challenge, the identity of the images in the database, e.g. source and name of owner, has been obscured. Details of the contributor of each image can be found in the annotation to be included in the final release of the data, after completion of the challenge. Any queries about the use or ownership of the data should be addressed to the organizers."
+VIZWIZ,https://vizwiz.org/,"@inproceedings{DBLP:conf/eccv/GurariZZB20,
+  author       = {Danna Gurari and
+                  Yinan Zhao and
+                  Meng Zhang and
+                  Nilavra Bhattacharya},
+  editor       = {Andrea Vedaldi and
+                  Horst Bischof and
+                  Thomas Brox and
+                  Jan{-}Michael Frahm},
+  title        = {Captioning Images Taken by People Who Are Blind},
+  booktitle    = {Computer Vision - {ECCV} 2020 - 16th European Conference, Glasgow,
+                  UK, August 23-28, 2020, Proceedings, Part {XVII}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {12362},
+  pages        = {417--434},
+  publisher    = {Springer},
+  year         = {2020},
+  url          = {https://doi.org/10.1007/978-3-030-58520-4\_25},
+  doi          = {10.1007/978-3-030-58520-4\_25},
+  timestamp    = {Mon, 23 Nov 2020 15:09:46 +0100},
+  biburl       = {https://dblp.org/rec/conf/eccv/GurariZZB20.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}",This work is licensed under a Creative Commons Attribution 4.0 International License.
+ViQuAE,https://github.com/PaulLerner/ViQuAE,"@inproceedings{lerner2022viquae,
+   author = {Paul Lerner and Olivier Ferret and Camille Guinaudeau and Le Borgne, Hervé  and Romaric
+   Besançon and Moreno, Jose G  and Lovón Melgarejo, Jesús },
+   year={2022},
+   title={{ViQuAE}, a
+   Dataset for Knowledge-based Visual Question Answering about Named
+   Entities},
+   booktitle = {Proceedings of The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    series = {SIGIR’22},
+   URL = {https://hal.archives-ouvertes.fr/hal-03650618},
+   DOI = {10.1145/3477495.3531753},
+   publisher = {Association for Computing Machinery},
+   address = {New York, NY, USA}
+}","MIT License
+
+Copyright (c) 2020-2023 CNRS
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the ""Software""), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+AUTHORS
+Paul Lerner"
+ST-VQA,https://rrc.cvc.uab.es/?ch=11,"@misc{biten2019scene,
+      title={Scene Text Visual Question Answering}, 
+      author={Ali Furkan Biten and Ruben Tito and Andres Mafla and Lluis Gomez and Marçal Rusiñol and Ernest Valveny and C. V. Jawahar and Dimosthenis Karatzas},
+      year={2019},
+      eprint={1905.13648},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}",
+Stanford Dogs,http://vision.stanford.edu/aditya86/ImageNetDogs/,"@inproceedings{KhoslaYaoJayadevaprakashFeiFei_FGVC2011,
+author = ""Aditya Khosla and Nityananda Jayadevaprakash and Bangpeng Yao and Li Fei-Fei"",
+title = ""Novel Dataset for Fine-Grained Image Categorization"",
+booktitle = ""First Workshop on Fine-Grained Visual Categorization, IEEE Conference on Computer Vision and Pattern Recognition"",
+year = ""2011"",
+month = ""June"",
+address = ""Colorado Springs, CO"",
+}",
+Sketch,http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/,"@article{eitz2012hdhso,
+author={Eitz, Mathias and Hays, James and Alexa, Marc},
+title={How Do Humans Sketch Objects?},
+journal={ACM Trans. Graph. (Proc. SIGGRAPH)},
+year={2012},
+volume={31},
+number={4},
+pages = {44:1--44:10}
+}",The sketch dataset is licensed under a Creative Commons Attribution 4.0 International License.
+RedCaps,https://redcaps.xyz/,"@inproceedings{desai2021redcaps,
+    title={{RedCaps: Web-curated image-text data created by the people, for the people}},
+    author={Karan Desai and Gaurav Kaul and Zubin Aysola and Justin Johnson},
+    booktitle={NeurIPS Datasets and Benchmarks},
+    year={2021}
+}","CC-BY 4.0 license and Reddit API terms of use. Terms of use: Uses of RedCaps are subject to Reddit API terms. Users must comply with Reddit User Agreeement, Content Policy, and Privacy Policy.
+
+Usage Restrictions: RedCaps should only be used for non-commercial research. RedCaps should not be used for any tasks that involve identifying features related to people (facial recognition, gender, age, ethnicity identification, etc.) or make decisions that impact people (mortgages, job applications, criminal sentences; or moderation decisions about user-uploaded data that could result in bans from a website). Any commercial and for-profit uses of RedCaps are restricted – it should not be used to train models that will be deployed in production systems as part of a product offered by businesses or government agencies
+
+Refer to the datasheet in the paper more details."
+RAVEN,http://wellyzhang.github.io/project/raven.html,"@inproceedings{zhang2019raven,
+ title={RAVEN: A Dataset for Relational and Analogical Visual rEasoNing},
+ author={Zhang, Chi and Gao, Feng and Jia, Baoxiong and Zhu, Yixin and Zhu, Song-Chun},
+ booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+ year={2019}
+}","GNU General Public License v3.0
+Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
+Permissions
+Commercial use
+Modification
+Distribution
+Patent use
+Private use
+Limitations
+Liability
+Warranty
+Conditions
+License and copyright notice
+State changes
+Disclose source
+Same license"
+RAF_DB,http://www.whdeng.cn/raf/model1.html,"@inproceedings{li2017reliable,
+  title={Reliable Crowdsourcing and Deep Locality-Preserving Learning for Expression Recognition in the Wild},
+  author={Li, Shan and Deng, Weihong and Du, JunPing},
+  booktitle={2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={2584--2593},
+  year={2017},
+  organization={IEEE}
+}     @article{li2019reliable,
+  title={Reliable Crowdsourcing and Deep Locality-Preserving Learning for Unconstrained Facial Expression Recognition},
+  author={Li, Shan and Deng, Weihong},
+  journal={IEEE Transactions on Image Processing},
+  volume={28},
+  number={1},
+  pages={356--370},
+  year={2019},
+  publisher={IEEE}
+}","The RAF database is available for non-commercial research purposes only.
+
+All images of the RAF database are obtained from the Internet which are not property of PRIS, Beijing University of Posts and Telecommunications. The PRIS is not responsible for the content nor the meaning of these images.
+
+You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
+
+You agree not to further copy, publish or distribute any portion of the RAF database. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
+
+The PRIS reserves the right to terminate your access to the RAF database at any time."
+PICKAPIC,https://github.com/yuvalkirstain/PickScore,"@inproceedings{Kirstain2023PickaPicAO,
+  title={Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation},
+  author={Yuval Kirstain and Adam Polyak and Uriel Singer and Shahbuland Matiana and Joe Penna and Omer Levy},
+  year={2023}
+}","LICENSE
+MIT License
+
+Copyright (c) 2021
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ""Software""), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED ""AS IS"", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+PACS,https://domaingeneralization.github.io/#data,"@inproceedings{DBLP:conf/iccv/LiYSH17,
+  author       = {Da Li and
+                  Yongxin Yang and
+                  Yi{-}Zhe Song and
+                  Timothy M. Hospedales},
+  title        = {Deeper, Broader and Artier Domain Generalization},
+  booktitle    = {{IEEE} International Conference on Computer Vision, {ICCV} 2017, Venice,
+                  Italy, October 22-29, 2017},
+  pages        = {5543--5551},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2017},
+  url          = {https://doi.org/10.1109/ICCV.2017.591},
+  doi          = {10.1109/ICCV.2017.591},
+  timestamp    = {Thu, 23 Mar 2023 23:57:44 +0100},
+  biburl       = {https://dblp.org/rec/conf/iccv/LiYSH17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}",
+NOCAPS,https://nocaps.org/,"@inproceedings{agrawal2019nocaps,
+  title={nocaps: novel object captioning at scale},
+  author={Agrawal, Harsh and Desai, Karan and Wang, Yufei and Chen, Xinlei and Jain, Rishabh and Johnson, Mark and Batra, Dhruv and Parikh, Devi and Lee, Stefan and Anderson, Peter},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={8948--8957},
+  year={2019}
+}",
+MEMOTION,https://competitions.codalab.org/competitions/20629,"@inproceedings{chhavi2020memotion,
+title={{SemEval-2020 Task 8: Memotion Analysis-The Visuo-Lingual Metaphor!}},
+author=""Sharma, Chhavi and
+Bhageria, Deepesh  and Paka, Scott, William and
+P Y K L, Srinivas  and
+Das, Amitava and
+Chakraborty, Tanmoy and Pulabaigari, Viswanath and
+Gamb{\""a}ck, Bj{\""o}rn"",
+booktitle = ""Proceedings of the 14th International Workshop on Semantic Evaluation ({S}em{E}val-2020)"",
+year = {2020},
+month = {Sep},
+address = ""Barcelona, Spain"",
+publisher = ""Association for Computational Linguistics""
+} ","By downloading the data or by accessing it any manner, You agree not to redistribute the data except for the purpose of non-commercial and academic-research. The data must not be used for providing surveillance, analyses or research that isolates a group of individuals or any single individual for any unlawful or discriminatory purpose."
+Localized Narratives,https://google.github.io/localized-narratives/,"@inproceedings{PontTuset_eccv2020,
+  author    = {Jordi Pont-Tuset and Jasper Uijlings and Soravit Changpinyo and Radu Soricut and Vittorio Ferrari},
+  title     = {Connecting Vision and Language with Localized Narratives},
+  booktitle = {ECCV},
+  year      = {2020}
+}","All the annotations available through this website are released under a CC BY 4.0 license. You are free to redistribute and modify the annotations, but we ask you to please keep the original attribution to our paper."
+LAD,https://github.com/PatrickZH/A-Large-scale-Attribute-Dataset-for-Zero-shot-Learning,"@inproceedings{zhao2019large,
+  title={A Large-scale Attribute Dataset for Zero-shot Learning},
+  author={Zhao, Bo and Fu, Yanwei and Liang, Rui and Wu, Jiahong and Wang, Yonggang and Wang, Yizhou},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  year={2019}
+}",
+INATURALIST,https://github.com/visipedia/inat_comp/tree/master/2017,"@misc{vanhorn2018inaturalist,
+      title={The iNaturalist Species Classification and Detection Dataset}, 
+      author={Grant Van Horn and Oisin Mac Aodha and Yang Song and Yin Cui and Chen Sun and Alex Shepard and Hartwig Adam and Pietro Perona and Serge Belongie},
+      year={2018},
+      eprint={1707.06642},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}","You will abide by the iNaturalist Terms of Service
+You will use the data only for non-commercial research and educational purposes.
+You will NOT distribute the above images.
+The California Institute of Technology makes no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
+You accept full responsibility for your use of the data and shall defend and indemnify the California Institute of Technology, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data."
+HICO,http://www-personal.umich.edu/~ywchao/hico/,"@INPROCEEDINGS{chao:iccv2015,
+  author = {Yu-Wei Chao and Zhan Wang and Yugeng He and Jiaxuan Wang and Jia Deng},
+  title = {{HICO}: A Benchmark for Recognizing Human-Object Interactions in Images},
+  booktitle = {Proceedings of the IEEE International Conference on Computer Vision},
+  year = {2015},
+}",
+GEOMETRY3K,https://lupantech.github.io/inter-gps/,"@inproceedings{lu2021inter,
+    title = {Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning},
+    author = {Lu, Pan and Gong, Ran and Jiang, Shibiao and Qiu, Liang and Huang, Siyuan and Liang, Xiaodan and Zhu, Song-Chun},
+    booktitle = {The 59th Annual Meeting of the Association for Computational Linguistics (ACL)},
+    year = {2021}
+}",
+FUNSD,https://guillaumejaume.github.io/FUNSD/,"@inproceedings{jaume2019,
+    title = {FUNSD: A Dataset for Form Understanding in Noisy Scanned Documents},
+    author = {Guillaume Jaume, Hazim Kemal Ekenel, Jean-Philippe Thiran},
+    booktitle = {Accepted to ICDAR-OST},
+    year = {2019}
+}","PART 1 - General Terms
+BY DOWNLOADING, COPYING, ACCESSING, YOU, AS “LICENSEE”, AGREE TO THESE TERMS OF USE AND CONFIRM THAT YOU, AS LICENSEE, ARE EIGHTEEN (18) YEARS OR OLDER*. IF YOU ARE ACCEPTING THESE TERMS ON BEHALF OF LICENSEE, YOU REPRESENT AND WARRANT THAT YOU HAVE FULL AUTHORITY TO BIND LICENSEE TO THESE TERMS OF USE. IF YOU DO NOT AGREE TO THESE TERMS, DO NOT DOWNLOAD, INSTALL, COPY, ACCESS OR USE THE WEBSITE.
+
+* ACCESS TO THE FUNSD DATASET IS NOT AVAILABLE TO ANYONE UNDER THE AGE OF EIGHTEEN (18).
+
+PART 2
+1. Definitions
+""EPFL"" means Ecole Polytechnique Federale de Lausanne, a university located in Switzerland.
+
+""LTS5"" means Laboratoire de Traitement des Signaux, a laboratory at EPFL.
+
+“FUNSD Dataset” means the EPFL-LTS5 Form Understanding in Noisy Scanned Documents (“FUNSD”) dataset to be used for non-commercial, research purposes only and in accordance with these Terms of Use.
+
+“Website” means the website hosted on GitHub, at this URL: https://guillaumejaume.github.io/FUNSD/, website where Licensee can download the FUNSD Dataset.
+
+2. Purpose
+Use of the FUNSD Dataset is solely for non-commercial, research and educational purposes.
+
+The FUNSD Dataset include annotations and images of real scanned forms.
+
+Licensee’s use of the images is governed by a copyright. Licensee is solely responsible for determining what additional licenses, clearances, consents and releases, if any, must be obtained for its use of the images. Original images are part of the dataset RVL-CDIP.
+
+3. Charges
+The parties will be responsible for their own costs and expenses related to these Terms of Use.
+
+4. No Warranties
+THE FUNSD DATASET AND THIS WEBSITE ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND AND HAVE NOT BEEN EVALUATED FOR OPERATIONAL RELIABILITY OR ACCURACY OF DATA. WE MAKE NO REPRESENTATION ON THE AVAILABILITY OF THE FUNSD WEBSITE AND THE FUNSD DATASET.
+5. Limitation of Liability
+EPFL-LTS5 is not liable for any claim arising from Licensee’s use of the FUNSD Website and/or the FUNSD Dataset. Licensee assumes all risks associated with the use of the FUNSD Dataset. The risks include, but are not limited to, the risks of errors; intellectual property rights related to publicly available images; and unavailability or interruption of access to the FUNSD Website. EPFL-LTS5 is not responsible for the accuracy, completeness, timeliness, reliability, content or availability of the FUNSD Website and/or the FUNSD Dataset.
+
+6. General
+a) If any provision of these Terms of Use is held to be invalid or unenforceable, the remaining provisions of these Terms of Use remain in full force and effect.
+
+b) Unless otherwise required by applicable law without the possibility of contractual waiver or limitation: 1) neither party will bring a legal action, regardless of form, for any claim arising out of or related to these Terms of Use more than one year after the cause of action arose; and 2) upon the expiration of such time limit, any such claim and all respective rights related to the claim lapse.
+
+c) Neither Licensee nor EPFL-LTS5 are responsible for failure to fulfil any obligations due to causes beyond its control.
+
+d) No right or cause of action for any third party is created by these Terms of Use, nor is EPFL-LTS5 responsible for any third party claims against Licensee.
+
+f) Any terms of these Terms of Use that by their nature extend beyond termination of these Terms of Use remain in effect until fulfilled, and apply to both parties' respective successors and assignees.
+
+g) Both parties agree that all information exchanged is non-confidential.
+
+h) Each party represents and warrants that it has, or will have, in place appropriate agreements with its employees or others whose services the party may require to enable it to comply with all the provisions of these Terms of Use.
+
+7. Modifications to the FUNSD Dataset and to these Terms of Use
+EPFL-LTS5 may make an update or modify the FUNSD Dataset at any time without notice. The FUNSD Dataset may never be made generally available. EPFL-LTS5 may modify or discontinue any of the terms and conditions under which the FUNSD Dataset is offered, at any time without notice."
+FLICKR30K,https://bryanplummer.com/Flickr30kEntities/,"@article{flickrentitiesijcv,
+    title={Flickr30K Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models},
+    author={Bryan A. Plummer and Liwei Wang and Christopher M. Cervantes and Juan C. Caicedo and Julia Hockenmaier and Svetlana Lazebnik},
+    journal={IJCV},
+    volume={123},
+    number={1},
+    pages={74-93},
+    year={2017}
+}",Note that the Flickr30K Dataset includes images obtained from Flickr. Use of the images must abide by the Flickr Terms of Use. We do not own the copyright of the images. They are solely provided for researchers and educators who wish to use the dataset for non-commercial research and/or educational purposes.
+DVQA,https://kushalkafle.com/projects/dvqa.html,"@inproceedings{kafle2018dvqa,
+  title={DVQA: Understanding Data Visualizations via Question Answering},
+  author={Kafle, Kushal and Price, Brian and Cohen, Scott and Kanan, Christopher},
+  booktitle={CVPR},
+  year={2018}
+}",
+DTD,https://www.robots.ox.ac.uk/~vgg/data/dtd/,"@InProceedings{cimpoi14describing,
+	      Author    = {M. Cimpoi and S. Maji and I. Kokkinos and S. Mohamed and and A. Vedaldi},
+	      Title     = {Describing Textures in the Wild},
+	      Booktitle = {Proceedings of the {IEEE} Conf. on Computer Vision and Pattern Recognition ({CVPR})},
+	      Year      = {2014}}",
+DOMAIN_NET,http://ai.bu.edu/M3SDA/,"@inproceedings{peng2019moment,
+  title={Moment matching for multi-source domain adaptation},
+  author={Peng, Xingchao and Bai, Qinxun and Xia, Xide and Huang, Zijun and Saenko, Kate and Wang, Bo},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={1406--1415},
+  year={2019}
+}","This dataset contains some copyrighted material whose use has not been specifically authorized by the copyright owners. In an effort to advance scientific research, we make this material available for academic research. We believe this constitutes a fair use of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit for non-commercial research and educational purposes. For more information on fair use please click here. If you wish to use copyrighted material on this site or in our dataset for purposes of your own that go beyond non-commercial research and academic purposes, you must obtain permission directly from the copyright owner. (adapted from Christopher Thomas)"
+DOCVQA,https://www.docvqa.org/,"@article{DBLP:journals/corr/abs-2007-00398,
+  author       = {Minesh Mathew and
+                  Dimosthenis Karatzas and
+                  R. Manmatha and
+                  C. V. Jawahar},
+  title        = {DocVQA: {A} Dataset for {VQA} on Document Images},
+  journal      = {CoRR},
+  volume       = {abs/2007.00398},
+  year         = {2020},
+  url          = {https://arxiv.org/abs/2007.00398},
+  eprinttype    = {arXiv},
+  eprint       = {2007.00398},
+  timestamp    = {Mon, 06 Jul 2020 15:26:01 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2007-00398.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}",
+DAQUAR,https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/vision-and-language/visual-turing-challenge/,"@INPROCEEDINGS{malinowski2014nips,
+ author = {Malinowski, Mateusz and Fritz, Mario},
+ title = {A Multi-World Approach to Question Answering about Real-World Scenes based on Uncertain Input},
+ booktitle = {Advances in Neural Information Processing Systems 27},
+ editor = {Z. Ghahramani and M. Welling and C. Cortes and N.D. Lawrence and K.Q. Weinberger},
+ pages = {1682--1690},
+ year = {2014},
+ publisher = {Curran Associates, Inc.},
+ url = {http://papers.nips.cc/paper/5411-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input.pdf}
+}",
+CONCADIA,https://github.com/elisakreiss/concadia,"@misc{kreiss2022concadia,
+      title={Concadia: Towards Image-Based Text Generation with a Purpose}, 
+      author={Elisa Kreiss and Fei Fang and Noah D. Goodman and Christopher Potts},
+      year={2022},
+      eprint={2104.08376},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}",
+CLEVR,https://cs.stanford.edu/people/jcjohns/iep/,"@inproceedings{DBLP:conf/iccv/JohnsonHMHFZG17,
+  author       = {Justin Johnson and
+                  Bharath Hariharan and
+                  Laurens van der Maaten and
+                  Judy Hoffman and
+                  Li Fei{-}Fei and
+                  C. Lawrence Zitnick and
+                  Ross B. Girshick},
+  title        = {Inferring and Executing Programs for Visual Reasoning},
+  booktitle    = {{IEEE} International Conference on Computer Vision, {ICCV} 2017, Venice,
+                  Italy, October 22-29, 2017},
+  pages        = {3008--3017},
+  publisher    = {{IEEE} Computer Society},
+  year         = {2017},
+  url          = {https://doi.org/10.1109/ICCV.2017.325},
+  doi          = {10.1109/ICCV.2017.325},
+  timestamp    = {Thu, 23 Mar 2023 23:57:43 +0100},
+  biburl       = {https://dblp.org/rec/conf/iccv/JohnsonHMHFZG17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}",
+CHART2TEXT,https://github.com/JasonObeid/Chart2Text,"@misc{obeid2020charttotext,
+      title={Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model}, 
+      author={Jason Obeid and Enamul Hoque},
+      year={2020},
+      eprint={2010.09142},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}",
