@@ -337,9 +337,9 @@
                 "img_path": "./imgs/CONCADIA+image_caption_context_2_911_82731.jpg",
                 "options": null,
                 "input_text": null,
-                "raw_output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14), October 1882, Private Collection, United States (JH214). The model is Adrianus Jacobus Zuyderland.[Works 22][Letters 40]",
+                "raw_output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14),...",
                 "instruction": "Caption this image. Along with the caption, give me some background knowledge regarding this image.",
-                "output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14), October 1882, Private Collection, United States (JH214). The model is Adrianus Jacobus Zuyderland.[Works 22][Letters 40]",
+                "output": "The State Lottery Office ('The Poor and Money'), watercolor, September 1882, Van Gogh Museum, Amsterdam (F970, JH222).[Works 21][Letters 39].   Orphan Man with Long Overcoat and Umbrella, Seen from the Back, sketch in letter 268 (R14),...",
                 "dataset_name": "CONCADIA",
                 "task_name": "CONCADIA+image_caption_context_2"
             },

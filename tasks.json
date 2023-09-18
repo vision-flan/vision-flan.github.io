@@ -63,7 +63,7 @@
         {
             "img_path": "./imgs/Places205+Image_env_classification_122_gsun_46a2c5a1726626d0952b060428729d77.jpg",
             "prompt": "In this task, you have to identify if the place or scene pictured is indoor or outdoor. In the image is among a total of 205 classes such as Hospital, Bridge, Courtyard, Motel,.... The classes of the images are a diverse set of places or scenes. Pay attention to the details as some of the images may contain an object that relates to a specific place while some images may directly show the place or scenary. So, your answer should be the place or scene shown in the image\nOptions: (a) Outdoor (b) Indoor\n<image>",
-            "target": "(b) Indoor",
+            "target": "(b) Outdoor",
             "task_name": "Places205+Image_env_classification"
         },
         {

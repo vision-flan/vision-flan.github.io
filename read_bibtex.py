@@ -14,6 +14,7 @@ for file_name in glob.glob('dataset_bibtex/*.csv'):
                 "bibtex": line['bibtex']
             }
             outputs.append(output)
+print(len(outputs))
 with open('bibtex.json','w') as fout:
     json.dump(outputs, fout)
         
