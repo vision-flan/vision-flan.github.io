@@ -55,6 +55,13 @@ body {
     padding: 10px;
     width: 90%;
     text-align: left;
+    border-radius: 10px;
+    overflow-x: scroll;
+}
+
+#bibtex_table {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 hr {
@@ -101,17 +108,18 @@ a button:hover {
     /* background-color: red; */
     /* margin-left: 20%; */
     /* background-color: #dddddd; */
-    max-width: 80%;
-    min-width: 1800px;
-    margin: auto;
+
+    /* margin: auto; */
+    margin-left: 0;
     padding-bottom: 60px;
+    overflow-x: scroll;
+    padding: 10px;
 }
 
 .slideshow {
     grid-template-columns: auto auto auto;
     display: grid;
-    margin: auto !important;
-    width: 70%;
+    width: 100%;
 }
 
 * {box-sizing:border-box}
