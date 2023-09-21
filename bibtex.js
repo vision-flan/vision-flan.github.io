@@ -9,7 +9,7 @@ readTextFile("./bibtex.json", function(text){
     for (x in data.data) {
         var child = document.createElement('tr');
         // child.innerHTML = "<td><p>" + data.data[x].name + "</p></td> <td><a href=\"" + data.data[x].url + "\">Link</a></td> <td><p style=\"font-size:10px;\">" + data.data[x].bibtex + "</p></td>";
-        child.innerHTML = "<td><p>" + data.data[x].name + "</p></td> <td><a href=\"" + data.data[x].url + "\">Link</a></td> <td style=\"overflow-x:scroll; max-width:700px;\"><pre><code>" + data.data[x].bibtex + "</code></pre></td>";
+        child.innerHTML = "<td><p>" + data.data[x].name + "</p></td> <td><a href=\"" + data.data[x].url + "\">Link</a></td> <td style=\"overflow-x:auto; max-width:700px;\"><pre><code>" + data.data[x].bibtex + "</code></pre></td>";
 
         table.appendChild(child);
         console.log("added");
