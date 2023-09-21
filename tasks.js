@@ -14,6 +14,7 @@ readTextFile("./tasks.json", function(text){
         table.appendChild(child);
         console.log("added");
     }
+    document.getElementById("num_tasks").textContent = data.data.length;
 });
 
 function readTextFile(file, callback) {

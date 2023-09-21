@@ -104,22 +104,22 @@ a button:hover {
 
 /* ----- slideshow ----- */
 .content-block {
-    width: 100%;
     /* background-color: red; */
     /* margin-left: 20%; */
     /* background-color: #dddddd; */
 
     /* margin: auto; */
-    margin-left: 0;
+    margin: auto;
     padding-bottom: 60px;
     overflow-x: scroll;
     padding: 10px;
 }
 
 .slideshow {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 430px 430px 430px;
+    width: 1290px;
     display: grid;
-    width: 100%;
+    margin: auto;
 }
 
 * {box-sizing:border-box}
@@ -244,7 +244,7 @@ a button:hover {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
