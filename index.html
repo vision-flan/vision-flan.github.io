@@ -82,27 +82,25 @@
                     <th>Sample Size</th>
                 </tr>
                 <tr>
-                    <td><a href="">annotations_1k.json</a></td>
-                    <td>100GB</td>
-                    <td>35k</td>
+                    <td><a href="https://huggingface.co/datasets/Vision-Flan/vision-flan_191-task_1k">annotation_191-task_1k.json</a></td>
+                    <td>108M</td>
+                    <td>186k</td>
                 </tr>
                 <tr>
-                    <td><a href="">images_1k.zip</a></td>
-                    <td>50GB</td>
-                    <td>12k</td>
+                    <td><a href="https://huggingface.co/datasets/Vision-Flan/vision-flan_191-task_1k/tree/main">image_191-task_1k.zip</a></td>
+                    <td>37GB</td>
+                    <td>186k</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                     <td><a href="">instructions.json</a></td>
                     <td>1TB</td>
                     <td>300k</td>
-                </tr>
+                </tr> -->
             </table><br><br>
-            <p class="dataset_description">We provide the download links to the annotations, images and instructions above. In the annotations file, we merged instructions and templates with original tasks' inputs and outputs. To train a model on Vision-Flan, you can simply download the annotations and images. We also provide instructions, in case you hope to extend our dataset. The annotations file consists of xxx tasks and for each task we randomly sampled 1K instances which should be sufficient for the purpose of instruction tuning. By now we can not release all tasks since some datasets are not allowed to be distributed.
+            <p class="dataset_description">We provide the download links to the annotations and images above. In the annotations file, we merged instructions and templates with original tasks' inputs and outputs. To train a model on Vision-Flan, you can simply download the annotations and images. The annotations file consists of 191 tasks and for each task we randomly sampled 1K instances which should be sufficient for the purpose of instruction tuning. By now we can not release all tasks since some datasets are not allowed to be distributed.
             </p>
         </div>
         
-        
-
         <br><br><br><br>
         <div class="section_title" id="models">
             <h1>Models<hr></h1>
@@ -128,15 +126,15 @@
                     <td>Qformer</td>
                 </tr>
             </table><br><br>
-            <p class="dataset_description">To demonstrate the power of Vision-Flan, we train three vision-language models on 205 tasks in Vision-Flan and use 1K randomly sampled for each task. For vision-flan_llava, we merge Vision-Flan with the LLaVa dataset, finetune LLaVa-Vicuna_v1.3_7B for 1 epoch, and only tune the projection laye and Lora layes. For vision-flan_blip2_xl, we finetune BLIP-2 with Flan_T5_xl as the language model for 3 epochs and for vision-flan_blip2_xxl, we finetune BLIP-2 with Flan_T5_xxl as the language model for 3 epoch. We only finetune Qformer for both BLIP-2 models.
+            <p class="dataset_description">To demonstrate the power of Vision-Flan, we train three vision-language models on 205 tasks in Vision-Flan and use 1K randomly sampled for each task. We finetune the pretrained LLaVa-Vicuna_v1.3_7B for 1 epoch on the mixture of Vision-Flan and LLaVa datasets and name the model vision-flan_llava. We finetune BLIP-2 with Flan_T5_xl as the language model for 1 epochs on Vision-Flan dataset and name the model vision-flan_blip2_xl. 
+            We finetune BLIP-2 with Flan_T5_xxl as the language model for 1 epoch on Vision-Flan dataset and name the model vision-flan_blip2_xxl. We provide Huggingface links to the models above.
             </p>
         </div>
         
         <!-- <div class="section_title">
             <h2>Model performance<hr></h2>
-            <center><img src="/imgs/wp1880337.jpg" style="width: 700px;"></center>
-            <p class="dataset_description">To test the abilities of the dataset in action, we trained 3 separate models. In the above picture, the performance can be seen.
-                This figure shows that although vicuna has good performance on 2/5 sections, flan-t5 models perform more consistently across all of the tasks.
+            <center><img src="./plot/performance.png" style="width: 700px;"></center>
+            <p class="dataset_description">To compare the performance of vision-langugae models trained on human labeled datasets and the GPT-4 generated dataset, we train a LLaVa model on the MultiInstruct dataset which was previously the largest human-labled visual-instruct-tuning dataset consisting of 62 diverse tasks. We also train a LLaVa model on our proposed Vision-Flan dataset. We evaluate the zero-shot perform of multiinstruct_llava. vision-flan_llava and the official llava model on three tasks: scienceQA, scienceQA explanation, and VISIT. As one can observe that vision-flan_llava significantly outperform multiinstruct_llava on all three tasks. However, we can still observe the performance gap between vision-langugae model trained GPT-4 geenrated data and human-labeled data. (We use GPT-4 for evaluating the performance. For SciecneQA we ask GPT-4 if the reference is the same as the prediction. For scienceQA explanation and VISIT, we ask GPT-4 to assign a score between 0-5 for a prediction, given the target and the input prompt. We normalize the scores from 0-5 to 0-100.)
             </p>
         </div> -->
         
@@ -148,7 +146,7 @@
             <center><div class="bibtex">
                 <pre><code>
     @misc{visionFlan2023,
-        title = {Vision-Flan:Scaling Visual Instruction Tuning},
+        title = {Vision-Flan: Scaling Visual Instruction Tuning},
         url = {https://vision-flan.github.io/},
         author = {Zhiyang Xu and Trevor Ashby and Chao Feng and Rulin Shao and Ying Shen and Di Jin and Qifan Wang and Lifu Huang},
         month = {Sep},
